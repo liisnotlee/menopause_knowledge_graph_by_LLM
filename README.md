@@ -1,5 +1,13 @@
 # Knowledge Graph Generator
 
+Steps for 盼盼：
+
+创建一个`.env` file，里面放上自己的API key
+创建local env，activate env，然后在terminal 中跑
+`pip install -r requirements.txt`
+
+------
+
 A Streamlit application that extract graph data (entities and relationships) from text input using LangChain and OpenAI's GPT models, and generates interactive graphs.
 
 ## Features
