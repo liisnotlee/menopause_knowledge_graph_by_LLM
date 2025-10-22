@@ -2,9 +2,10 @@
 
 Steps for 盼盼：
 
-创建一个`.env` file，里面放上自己的API key
-创建local env，activate env，然后在terminal 中跑
+1. 创建一个`.env` file，里面放上自己的API key
+2. 创建local env，activate env，然后在terminal 中跑
 `pip install -r requirements.txt`
+3. 用ipynb 文件
 
 ------
 
