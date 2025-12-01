@@ -1,0 +1,143 @@
+---
+title: "Untitled"
+author: "Chunni Ji & Muying Li"
+date: "2025-11-05"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+library(RPostgreSQL)
+library(DBI)
+library(dplyr)
+library(stringr)
+```
+
+```{r}
+drv <- dbDriver("PostgreSQL")
+con <- dbConnect(drv, dbname="aact",host="aact-db.ctti-clinicaltrials.org", port=5432, user="chunniji0909", password="Password")
+```
+
+```{r}
+query_menopause <- "
+  SELECT DISTINCT s.nct_id, s.brief_title, s.study_type, c.name AS condition_name
+  FROM studies s
+  LEFT JOIN conditions c ON s.nct_id = c.nct_id
+  WHERE LOWER(c.name) LIKE ANY(ARRAY[
+      '%menopause%',
+      '%menopausal%',
+      '%postmenopause%',
+      '%perimenopause%',
+      '%climacteric%'
+  ])
+"
+menopause_studies <- dbGetQuery(con, query_menopause)
+```
+
+```{r}
+nct_ids <- unique(menopause_studies$nct_id)
+length(nct_ids)
+```
+
+```{r}
+# Create a comma-separated list of NCT IDs from your menopause_studies
+nct_ids <- unique(menopause_studies$nct_id)
+id_list <- paste0("'", paste(nct_ids, collapse = "','"), "'")
+
+# Query outcome analyses + outcomes for each study
+query_results <- paste0("
+  SELECT
+    oa.nct_id,
+    o.title AS outcome_title,
+    o.time_frame,
+    o.description AS outcome_description,
+    oa.param_type,
+    oa.param_value,
+    oa.p_value,
+    oa.ci_percent,
+    oa.ci_lower_limit,
+    oa.ci_upper_limit,
+    oa.non_inferiority_type
+  FROM outcome_analyses oa
+  LEFT JOIN outcomes o
+    ON oa.nct_id = o.nct_id AND oa.outcome_id = o.id
+  WHERE oa.nct_id IN (", id_list, ")
+")
+
+menopause_results <- dbGetQuery(con, query_results)
+n_total <- nrow(menopause_results)
+menopause_sig <- menopause_results %>%
+  mutate(p_value = as.numeric(p_value)) %>%        # ensure p_value is numeric
+  filter(!is.na(p_value) & p_value < 0.05)
+n_sig <- nrow(menopause_sig)
+
+pct_sig <- round(100 * n_sig / n_total, 2)
+
+cat("Original results:", n_total, "\n",
+    "Significant results:", n_sig, "\n",
+    "Retained:", pct_sig, "%\n")
+```
+
+```{r}
+# Create readable text per study
+menopause_text <- menopause_sig %>%
+  group_by(nct_id, outcome_title, time_frame, outcome_description, non_inferiority_type) %>%
+  summarise(
+    # Combine all parameter results for the same outcome
+    param_summary = paste0(
+      param_type, " = ", param_value,
+      " (p = ", p_value, ", CI ", ci_lower_limit, "-", ci_upper_limit, ")",
+      collapse = "; "
+    ),
+    .groups = "drop"
+  ) %>%
+  mutate(
+    result_sentence = str_glue(
+      "Outcome: {outcome_title}.",
+      "Parameters: {param_summary}. Non-inferiority type: {non_inferiority_type}."
+    )
+  ) %>%
+  group_by(nct_id) %>%
+  summarise(
+    study_text = paste(unique(result_sentence), collapse = " "),
+    .groups = "drop"
+  )
+```
+
+      "Outcome: {outcome_title}. Time frame: {time_frame}. Description: {outcome_description}. ",
+      "Parameters: {param_summary}. Non-inferiority type: {non_inferiority_type}."
+
+```{r}
+menopause_text$study_text[1]
+```
+
+```{r}
+query_conclusions <- paste0("
+  SELECT
+    s.nct_id,
+    s.brief_title,
+    bs.description AS brief_summary,
+    dd.description AS detailed_description
+  FROM studies s
+  LEFT JOIN brief_summaries bs ON s.nct_id = bs.nct_id
+  LEFT JOIN detailed_descriptions dd ON s.nct_id = dd.nct_id
+  WHERE s.nct_id IN (", id_list, ")
+")
+
+study_info <- dbGetQuery(con, query_conclusions)
+
+
+# Merge with your textual summaries
+menopause_for_llm <- menopause_text %>%
+  left_join(study_info, by = "nct_id") %>%
+  mutate(
+    llm_input = str_glue(
+      "Study: {brief_title}\n\nSummary: {brief_summary}\n\nResults: {study_text}"
+    )
+  )
+```
+
+```{r}
+menopause_for_llm$llm_input[1:5]
+```
