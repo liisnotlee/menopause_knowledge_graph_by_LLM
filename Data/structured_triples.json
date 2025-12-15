@@ -1,0 +1,3530 @@
+{
+  "study_0": [
+    {
+      "head": "Bonviva (Ibandronate)",
+      "head_type": "Medication",
+      "relation": "treats",
+      "tail": "Post-Menopausal Osteoporosis",
+      "tail_type": "Condition"
+    },
+    {
+      "head": "Vitamin D",
+      "head_type": "Supplement",
+      "relation": "supplementation_with",
+      "tail": "Post-Menopausal Osteoporosis",
+      "tail_type": "Condition"
+    },
+    {
+      "head": "Calcium",
+      "head_type": "Supplement",
+      "relation": "supplementation_with",
+      "tail": "Post-Menopausal Osteoporosis",
+      "tail_type": "Condition"
+    },
+    {
+      "head": "Bonviva (Ibandronate)",
+      "head_type": "Medication",
+      "relation": "improves",
+      "tail": "Bone Mineral Density",
+      "tail_type": "Biomarker"
+    }
+  ],
+  "study_1": [
+    {
+      "head": "Bonviva (Ibandronate)",
+      "head_type": "Medication",
+      "relation": "treats",
+      "tail": "Post-Menopausal Osteoporosis",
+      "tail_type": "Condition"
+    },
+    {
+      "head": "Intravenous Administration",
+      "head_type": "Intervention",
+      "relation": "compared_to",
+      "tail": "Oral Daily Administration",
+      "tail_type": "Intervention"
+    },
+    {
+      "head": "Vitamin D",
+      "head_type": "Supplement",
+      "relation": "supplementation_with",
+      "tail": "Post-Menopausal Osteoporosis",
+      "tail_type": "Condition"
+    },
+    {
+      "head": "Calcium",
+      "head_type": "Supplement",
+      "relation": "supplementation_with",
+      "tail": "Post-Menopausal Osteoporosis",
+      "tail_type": "Condition"
+    },
+    {
+      "head": "Bonviva (Ibandronate)",
+      "head_type": "Medication",
+      "relation": "affects",
+      "tail": "Bone Mineral Density (BMD) of Lumbar Spine (L2-L4)",
+      "tail_type": "Biomarker"
+    },
+    {
+      "head": "Bone Mineral Density (BMD) of Lumbar Spine (L2-L4)",
+      "head_type": "Biomarker",
+      "relation": "outcome_of",
+      "tail": "Bonviva (Ibandronate) Treatment",
+      "tail_type": "Treatment"
+    }
+  ],
+  "study_2": [
+    {
+      "head": "AMG 162",
+      "head_type": "Treatment",
+      "relation": "prevents",
+      "tail": "Lumbar Spine Bone Loss",
+      "tail_type": "Condition"
+    },
+    {
+      "head": "AMG 162",
+      "head_type": "Treatment",
+      "relation": "affects",
+      "tail": "Lumbar Spine Bone Mineral Density",
+      "tail_type": "Biomarker"
+    },
+    {
+      "head": "Postmenopausal Women with Osteopenia",
+      "head_type": "Population",
+      "relation": "experiences",
+      "tail": "Lumbar Spine Bone Loss",
+      "tail_type": "Condition"
+    },
+    {
+      "head": "Lumbar Spine Bone Mineral Density",
+      "head_type": "Biomarker",
+      "relation": "measured_by",
+      "tail": "Percent Change From Baseline at Month 24",
+      "tail_type": "Outcome"
+    }
+  ],
+  "study_3": [
+    {
+      "head": "Bonviva",
+      "head_type": "Treatment",
+      "relation": "treats",
+      "tail": "Osteopenia",
+      "tail_type": "Condition"
+    },
+    {
+      "head": "Bonviva",
+      "head_type": "Treatment",
+      "relation": "increases",
+      "tail": "Bone Mineral Density of the Lumbar Spine",
+      "tail_type": "Outcome"
+    }
+  ],
+  "study_4": [
+    {
+      "head": "Menatetrenone",
+      "head_type": "Treatment",
+      "relation": "treats",
+      "tail": "Postmenopausal Osteoporosis",
+      "tail_type": "Condition"
+    },
+    {
+      "head": "Menatetrenone",
+      "head_type": "Treatment",
+      "relation": "affects",
+      "tail": "Osteocalcin",
+      "tail_type": "Biomarker"
+    },
+    {
+      "head": "Menatetrenone",
+      "head_type": "Treatment",
+      "relation": "affects",
+      "tail": "Undercarboxylated Osteocalcin",
+      "tail_type": "Biomarker"
+    },
+    {
+      "head": "Menatetrenone",
+      "head_type": "Treatment",
+      "relation": "affects",
+      "tail": "Undercarboxylated Osteocalcin/Osteocalcin Ratio",
+      "tail_type": "Biomarker"
+    },
+    {
+      "head": "Alfacalcidol",
+      "head_type": "Treatment",
+      "relation": "compared_with",
+      "tail": "Menatetrenone",
+      "tail_type": "Treatment"
+    }
+  ],
+  "study_5": [
+    {
+      "head": "Levonorgestrel Intrauterine System (LNG IUS)",
+      "head_type": "Treatment",
+      "relation": "used for",
+      "tail": "Contraception",
+      "tail_type": "Intervention"
+    },
+    {
+      "head": "Levonorgestrel Intrauterine System (LNG IUS)",
+      "head_type": "Treatment",
+      "relation": "used for",
+      "tail": "Endometrial Protection",
+      "tail_type": "Intervention"
+    },
+    {
+      "head": "Hormone Replacement Therapy (HRT)",
+      "head_type": "Treatment",
+      "relation": "includes",
+      "tail": "Levonorgestrel Intrauterine System (LNG IUS)",
+      "tail_type": "Treatment"
+    },
+    {
+      "head": "Menopausal Age",
+      "head_type": "Population",
+      "relation": "associated with",
+      "tail": "Endometrial Protection",
+      "tail_type": "Intervention"
+    },
+    {
+      "head": "Menopausal Age",
+      "head_type": "Population",
+      "relation": "associated with",
+      "tail": "Climacteric Symptoms",
+      "tail_type": "Symptom"
+    },
+    {
+      "head": "Climacteric Symptoms",
+      "head_type": "Symptom",
+      "relation": "includes",
+      "tail": "Hot Flushes",
+      "tail_type": "Symptom"
+    },
+    {
+      "head": "Climacteric Symptoms",
+      "head_type": "Symptom",
+      "relation": "includes",
+      "tail": "Sweating Episodes",
+      "tail_type": "Symptom"
+    },
+    {
+      "head": "Climacteric Symptoms",
+      "head_type": "Symptom",
+      "relation": "includes",
+      "tail": "Vaginal Dryness",
+      "tail_type": "Symptom"
+    },
+    {
+      "head": "Climacteric Symptoms",
+      "head_type": "Symptom",
+      "relation": "includes",
+      "tail": "Sleep Problems",
+      "tail_type": "Symptom"
+    },
+    {
+      "head": "Climacteric Symptoms",
+      "head_type": "Symptom",
+      "relation": "includes",
+      "tail": "Irritability",
+      "tail_type": "Symptom"
+    },
+    {
+      "head": "Progestogenic Symptoms",
+      "head_type": "Symptom",
+      "relation": "includes",
+      "tail": "Headache",
+      "tail_type": "Symptom"
+    },
+    {
+      "head": "Progestogenic Symptoms",
+      "head_type": "Symptom",
+      "relation": "includes",
+      "tail": "Depressive Mood",
+      "tail_type": "Symptom"
+    },
+    {
+      "head": "Progestogenic Symptoms",
+      "head_type": "Symptom",
+      "relation": "includes",
+      "tail": "Acne or Greasy Skin",
+      "tail_type": "Symptom"
+    },
+    {
+      "head": "Progestogenic Symptoms",
+      "head_type": "Symptom",
+      "relation": "includes",
+      "tail": "Nausea",
+      "tail_type": "Symptom"
+    },
+    {
+      "head": "Progestogenic Symptoms",
+      "head_type": "Symptom",
+      "relation": "includes",
+      "tail": "Decreased Libido",
+      "tail_type": "Symptom"
+    },
+    {
+      "head": "Progestogenic Symptoms",
+      "head_type": "Symptom",
+      "relation": "includes",
+      "tail": "Greasy Hair",
+      "tail_type": "Symptom"
+    }
+  ],
+  "study_6": [
+    {
+      "head": "Ibandronate",
+      "head_type": "Medication",
+      "relation": "treats",
+      "tail": "Osteoporosis",
+      "tail_type": "Condition"
+    },
+    {
+      "head": "Ibandronate",
+      "head_type": "Medication",
+      "relation": "suppresses",
+      "tail": "Serum C-terminal Telopeptide of Type 1 Collagen (sCTX)",
+      "tail_type": "Biomarker"
+    },
+    {
+      "head": "Vitamin D",
+      "head_type": "Supplement",
+      "relation": "used_with",
+      "tail": "Ibandronate",
+      "tail_type": "Medication"
+    },
+    {
+      "head": "Calcium",
+      "head_type": "Supplement",
+      "relation": "used_with",
+      "tail": "Ibandronate",
+      "tail_type": "Medication"
+    },
+    {
+      "head": "Serum C-terminal Telopeptide of Type 1 Collagen (sCTX)",
+      "head_type": "Biomarker",
+      "relation": "associated_with",
+      "tail": "Bone Resorption",
+      "tail_type": "Biological Process"
+    }
+  ],
+  "study_7": [
+    {
+      "head": "Post-Menopausal Osteoporosis",
+      "head_type": "Condition",
+      "relation": "treated_with",
+      "tail": "Ibandronate",
+      "tail_type": "Medication"
+    },
+    {
+      "head": "Post-Menopausal Osteoporosis",
+      "head_type": "Condition",
+      "relation": "treated_with",
+      "tail": "Risedronate",
+      "tail_type": "Medication"
+    },
+    {
+      "head": "Ibandronate",
+      "head_type": "Medication",
+      "relation": "preferred_over",
+      "tail": "Risedronate",
+      "tail_type": "Medication"
+    }
+  ],
+  "study_8": [
+    {
+      "head": "Alendronate",
+      "head_type": "Treatment",
+      "relation": "transitioned_to",
+      "tail": "Denosumab",
+      "tail_type": "Treatment"
+    },
+    {
+      "head": "Denosumab",
+      "head_type": "Treatment",
+      "relation": "affects",
+      "tail": "Lumbar Spine Bone Mineral Density",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "Denosumab",
+      "head_type": "Treatment",
+      "relation": "affects",
+      "tail": "Serum C-Telopeptide-I (CTX-I)",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "Denosumab",
+      "head_type": "Treatment",
+      "relation": "affects",
+      "tail": "Total Hip Bone Mineral Density",
+      "tail_type": "Outcome"
+    }
+  ],
+  "study_9": [
+    {
+      "head": "Ibandronate",
+      "head_type": "Medication",
+      "relation": "is_preferred_over",
+      "tail": "Risedronate",
+      "tail_type": "Medication"
+    },
+    {
+      "head": "Ibandronate",
+      "head_type": "Medication",
+      "relation": "has_dosing_frequency",
+      "tail": "Once-monthly",
+      "tail_type": "Treatment"
+    },
+    {
+      "head": "Risedronate",
+      "head_type": "Medication",
+      "relation": "has_dosing_frequency",
+      "tail": "Once-weekly",
+      "tail_type": "Treatment"
+    },
+    {
+      "head": "Korean women with postmenopausal osteoporosis",
+      "head_type": "Population",
+      "relation": "receives",
+      "tail": "Ibandronate",
+      "tail_type": "Medication"
+    },
+    {
+      "head": "Korean women with postmenopausal osteoporosis",
+      "head_type": "Population",
+      "relation": "receives",
+      "tail": "Risedronate",
+      "tail_type": "Medication"
+    }
+  ],
+  "study_10": [
+    {
+      "head": "Estrogen",
+      "head_type": "Biomarker",
+      "relation": "affects",
+      "tail": "Hypothalamus",
+      "tail_type": "Condition"
+    },
+    {
+      "head": "Estrogen",
+      "head_type": "Biomarker",
+      "relation": "affects",
+      "tail": "Pituitary",
+      "tail_type": "Condition"
+    },
+    {
+      "head": "Hypothalamus",
+      "head_type": "Condition",
+      "relation": "secretes",
+      "tail": "Gonadotropin-Releasing Hormone (GnRH)",
+      "tail_type": "Biomarker"
+    },
+    {
+      "head": "Gonadotropin-Releasing Hormone (GnRH)",
+      "head_type": "Biomarker",
+      "relation": "signals",
+      "tail": "Pituitary",
+      "tail_type": "Condition"
+    },
+    {
+      "head": "Pituitary",
+      "head_type": "Condition",
+      "relation": "secretes",
+      "tail": "Luteinizing Hormone (LH)",
+      "tail_type": "Biomarker"
+    },
+    {
+      "head": "Pituitary",
+      "head_type": "Condition",
+      "relation": "secretes",
+      "tail": "Follicle Stimulating Hormone (FSH)",
+      "tail_type": "Biomarker"
+    },
+    {
+      "head": "Luteinizing Hormone (LH)",
+      "head_type": "Biomarker",
+      "relation": "acts_on",
+      "tail": "Ovaries",
+      "tail_type": "Condition"
+    },
+    {
+      "head": "Follicle Stimulating Hormone (FSH)",
+      "head_type": "Biomarker",
+      "relation": "acts_on",
+      "tail": "Ovaries",
+      "tail_type": "Condition"
+    },
+    {
+      "head": "Ovaries",
+      "head_type": "Condition",
+      "relation": "produce",
+      "tail": "Estrogen",
+      "tail_type": "Biomarker"
+    },
+    {
+      "head": "Ovaries",
+      "head_type": "Condition",
+      "relation": "produce",
+      "tail": "Progesterone",
+      "tail_type": "Biomarker"
+    },
+    {
+      "head": "Estrogen",
+      "head_type": "Biomarker",
+      "relation": "modulates",
+      "tail": "Luteinizing Hormone (LH)",
+      "tail_type": "Biomarker"
+    },
+    {
+      "head": "Estrogen",
+      "head_type": "Biomarker",
+      "relation": "modulates",
+      "tail": "Follicle Stimulating Hormone (FSH)",
+      "tail_type": "Biomarker"
+    },
+    {
+      "head": "Aging",
+      "head_type": "Condition",
+      "relation": "affects",
+      "tail": "Estrogen feedback on Luteinizing Hormone (LH)",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "Estrogen",
+      "head_type": "Biomarker",
+      "relation": "influences",
+      "tail": "18 FDG Uptake at the Hypothalamus",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "Estrogen",
+      "head_type": "Biomarker",
+      "relation": "influences",
+      "tail": "18 FDG Uptake at the Pituitary",
+      "tail_type": "Outcome"
+    }
+  ],
+  "study_11": [
+    {
+      "head": "Odanacatib",
+      "head_type": "Medication",
+      "relation": "treats",
+      "tail": "Osteoporosis",
+      "tail_type": "Condition"
+    },
+    {
+      "head": "Odanacatib",
+      "head_type": "Medication",
+      "relation": "reduces_risk_of",
+      "tail": "Fracture",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "Odanacatib",
+      "head_type": "Medication",
+      "relation": "increases",
+      "tail": "Bone Mineral Density (BMD)",
+      "tail_type": "Biomarker"
+    },
+    {
+      "head": "Odanacatib",
+      "head_type": "Medication",
+      "relation": "reduces",
+      "tail": "Bone-Specific Alkaline Phosphatase (BSAP)",
+      "tail_type": "Biomarker"
+    },
+    {
+      "head": "Odanacatib",
+      "head_type": "Medication",
+      "relation": "reduces",
+      "tail": "N-Terminal Propeptide of Type 1 Collagen (P1NP)",
+      "tail_type": "Biomarker"
+    },
+    {
+      "head": "Odanacatib",
+      "head_type": "Medication",
+      "relation": "reduces",
+      "tail": "Serum C-Telopeptides of Type I Collagen (s-CTx)",
+      "tail_type": "Biomarker"
+    },
+    {
+      "head": "Odanacatib",
+      "head_type": "Medication",
+      "relation": "reduces",
+      "tail": "Urinary N-Telopeptides of Type I Collagen/Creatinine (u-NTx/Cr) Ratio",
+      "tail_type": "Biomarker"
+    },
+    {
+      "head": "Postmenopausal Women",
+      "head_type": "Population",
+      "relation": "has_condition",
+      "tail": "Osteoporosis",
+      "tail_type": "Condition"
+    }
+  ],
+  "study_12": [
+    {
+      "head": "Esmirtazapine",
+      "head_type": "Treatment",
+      "relation": "treats",
+      "tail": "Vasomotor Symptoms",
+      "tail_type": "Symptom"
+    },
+    {
+      "head": "Esmirtazapine",
+      "head_type": "Treatment",
+      "relation": "reduces",
+      "tail": "Frequency of Hot Flushes",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "Esmirtazapine",
+      "head_type": "Treatment",
+      "relation": "reduces",
+      "tail": "Severity of Hot Flushes",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "Vasomotor Symptoms",
+      "head_type": "Symptom",
+      "relation": "associated_with",
+      "tail": "Menopause",
+      "tail_type": "Condition"
+    }
+  ],
+  "study_13": [],
+  "study_14": [
+    {
+      "head": "Bonviva",
+      "head_type": "Treatment",
+      "relation": "prevents",
+      "tail": "Glucocorticoid-Induced Osteoporosis",
+      "tail_type": "Condition"
+    },
+    {
+      "head": "Bonviva",
+      "head_type": "Treatment",
+      "relation": "affects",
+      "tail": "Bone Turnover Markers",
+      "tail_type": "Biomarker"
+    },
+    {
+      "head": "Bonviva",
+      "head_type": "Treatment",
+      "relation": "increases",
+      "tail": "Lumbar Spine Bone Mineral Density (BMD)",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "Bonviva",
+      "head_type": "Treatment",
+      "relation": "increases",
+      "tail": "Total Hip Bone Mineral Density (BMD)",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "Vitamin D",
+      "head_type": "Supplement",
+      "relation": "used_with",
+      "tail": "Bonviva",
+      "tail_type": "Treatment"
+    },
+    {
+      "head": "Calcium",
+      "head_type": "Supplement",
+      "relation": "used_with",
+      "tail": "Bonviva",
+      "tail_type": "Treatment"
+    },
+    {
+      "head": "Post-menopausal Women",
+      "head_type": "Population",
+      "relation": "target_of",
+      "tail": "Bonviva",
+      "tail_type": "Treatment"
+    }
+  ],
+  "study_15": [
+    {
+      "head": "Teriparatide",
+      "head_type": "Treatment",
+      "relation": "affects",
+      "tail": "Bone Structure",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "Teriparatide",
+      "head_type": "Treatment",
+      "relation": "affects",
+      "tail": "Areal BMD at the Femoral Neck",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "Teriparatide",
+      "head_type": "Treatment",
+      "relation": "affects",
+      "tail": "Areal BMD at the Lumbar Spine",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "Teriparatide",
+      "head_type": "Treatment",
+      "relation": "affects",
+      "tail": "Areal BMD at \u2153 Distal Radius",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "Teriparatide",
+      "head_type": "Treatment",
+      "relation": "affects",
+      "tail": "Serum Carboxyterminal Cross-Linking Telopeptide of Type I Collagen (CTX)",
+      "tail_type": "Biomarker"
+    },
+    {
+      "head": "Teriparatide",
+      "head_type": "Treatment",
+      "relation": "affects",
+      "tail": "Serum Procollagen Type I N-Terminal Propeptide (PINP)",
+      "tail_type": "Biomarker"
+    },
+    {
+      "head": "Teriparatide",
+      "head_type": "Treatment",
+      "relation": "affects",
+      "tail": "Volumetric Bone Mineral Density (BMD) of Hip",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "Teriparatide",
+      "head_type": "Treatment",
+      "relation": "affects",
+      "tail": "Volumetric Bone Mineral Density (BMD) of Lumbar Spine",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "Teriparatide",
+      "head_type": "Treatment",
+      "relation": "affects",
+      "tail": "Estimate of Bone Strength of Hip",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "Teriparatide",
+      "head_type": "Treatment",
+      "relation": "affects",
+      "tail": "Estimate of Bone Strength of Lumbar Spine",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "Postmenopausal Women",
+      "head_type": "Population",
+      "relation": "has_condition",
+      "tail": "Osteoporosis",
+      "tail_type": "Condition"
+    }
+  ],
+  "study_16": [
+    {
+      "head": "Esmirtazapine",
+      "head_type": "Treatment",
+      "relation": "treats",
+      "tail": "Vasomotor Symptoms",
+      "tail_type": "Symptom"
+    },
+    {
+      "head": "Vasomotor Symptoms",
+      "head_type": "Symptom",
+      "relation": "associated_with",
+      "tail": "Menopause",
+      "tail_type": "Condition"
+    },
+    {
+      "head": "5-HT2A Receptor Antagonist",
+      "head_type": "Treatment",
+      "relation": "may_treat",
+      "tail": "Vasomotor Symptoms",
+      "tail_type": "Symptom"
+    },
+    {
+      "head": "Mirtazapine",
+      "head_type": "Treatment",
+      "relation": "blocks",
+      "tail": "5-HT2A Receptors",
+      "tail_type": "Biomarker"
+    },
+    {
+      "head": "Mirtazapine",
+      "head_type": "Treatment",
+      "relation": "reduces",
+      "tail": "Hot Flushes",
+      "tail_type": "Symptom"
+    },
+    {
+      "head": "Selective Serotonin Reuptake Inhibitors (SSRIs)",
+      "head_type": "Treatment",
+      "relation": "manage",
+      "tail": "Hot Flushes",
+      "tail_type": "Symptom"
+    },
+    {
+      "head": "Esmirtazapine",
+      "head_type": "Treatment",
+      "relation": "shows_superior_efficacy_to",
+      "tail": "Placebo",
+      "tail_type": "Treatment"
+    }
+  ],
+  "study_17": [
+    {
+      "head": "GSK232802",
+      "head_type": "Treatment",
+      "relation": "reduces",
+      "tail": "Frequency of Vasomotor Symptoms",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "GSK232802",
+      "head_type": "Treatment",
+      "relation": "reduces",
+      "tail": "Severity of Vasomotor Symptoms",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "Hot Flashes",
+      "head_type": "Symptom",
+      "relation": "associated_with",
+      "tail": "Menopause",
+      "tail_type": "Condition"
+    }
+  ],
+  "study_18": [
+    {
+      "head": "Odanacatib",
+      "head_type": "Medication",
+      "relation": "increases",
+      "tail": "Lumbar Spine Bone Mineral Density",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "Odanacatib",
+      "head_type": "Medication",
+      "relation": "increases",
+      "tail": "Femoral Neck Bone Mineral Density",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "Odanacatib",
+      "head_type": "Medication",
+      "relation": "increases",
+      "tail": "Total Hip Bone Mineral Density",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "Odanacatib",
+      "head_type": "Medication",
+      "relation": "increases",
+      "tail": "Trochanter Bone Mineral Density",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "Odanacatib",
+      "head_type": "Medication",
+      "relation": "decreases",
+      "tail": "Serum Bone Specific Alkaline Phosphatase Level",
+      "tail_type": "Biomarker"
+    },
+    {
+      "head": "Odanacatib",
+      "head_type": "Medication",
+      "relation": "decreases",
+      "tail": "Serum C-Telopeptides of Type 1 Collagen Level",
+      "tail_type": "Biomarker"
+    },
+    {
+      "head": "Odanacatib",
+      "head_type": "Medication",
+      "relation": "decreases",
+      "tail": "Serum N-Terminal Propeptides of Type 1 Collagen Level",
+      "tail_type": "Biomarker"
+    },
+    {
+      "head": "Odanacatib",
+      "head_type": "Medication",
+      "relation": "decreases",
+      "tail": "Urinary Deoxypyridinoline/Creatinine Ratio",
+      "tail_type": "Biomarker"
+    },
+    {
+      "head": "Odanacatib",
+      "head_type": "Medication",
+      "relation": "decreases",
+      "tail": "Urinary N-telopeptides/Creatinine Ratio",
+      "tail_type": "Biomarker"
+    },
+    {
+      "head": "Vitamin D3",
+      "head_type": "Supplement",
+      "relation": "used_with",
+      "tail": "Odanacatib",
+      "tail_type": "Medication"
+    },
+    {
+      "head": "Calcium Carbonate",
+      "head_type": "Supplement",
+      "relation": "used_with",
+      "tail": "Odanacatib",
+      "tail_type": "Medication"
+    }
+  ],
+  "study_19": [],
+  "study_20": [
+    {
+      "head": "Bazedoxifene/Conjugated Estrogens",
+      "head_type": "Treatment",
+      "relation": "treats",
+      "tail": "Menopausal Symptoms",
+      "tail_type": "Condition"
+    },
+    {
+      "head": "Bazedoxifene/Conjugated Estrogens",
+      "head_type": "Treatment",
+      "relation": "protects",
+      "tail": "Endometrium",
+      "tail_type": "Condition"
+    },
+    {
+      "head": "Bazedoxifene/Conjugated Estrogens",
+      "head_type": "Treatment",
+      "relation": "prevents",
+      "tail": "Postmenopausal Osteoporosis",
+      "tail_type": "Condition"
+    },
+    {
+      "head": "Bazedoxifene/Conjugated Estrogens",
+      "head_type": "Treatment",
+      "relation": "improves",
+      "tail": "Menopause-Specific Quality of Life",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "Bazedoxifene/Conjugated Estrogens",
+      "head_type": "Treatment",
+      "relation": "increases",
+      "tail": "Bone Mineral Density of Lumbar Spine",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "Bazedoxifene/Conjugated Estrogens",
+      "head_type": "Treatment",
+      "relation": "increases",
+      "tail": "Bone Mineral Density of Total Hip",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "Bazedoxifene/Conjugated Estrogens",
+      "head_type": "Treatment",
+      "relation": "affects",
+      "tail": "Bone Turnover Markers",
+      "tail_type": "Biomarker"
+    },
+    {
+      "head": "Bazedoxifene/Conjugated Estrogens",
+      "head_type": "Treatment",
+      "relation": "causes",
+      "tail": "Breast Tenderness",
+      "tail_type": "Symptom"
+    },
+    {
+      "head": "Bazedoxifene/Conjugated Estrogens",
+      "head_type": "Treatment",
+      "relation": "causes",
+      "tail": "Cumulative Amenorrhea",
+      "tail_type": "Symptom"
+    },
+    {
+      "head": "Bazedoxifene/Conjugated Estrogens",
+      "head_type": "Treatment",
+      "relation": "causes",
+      "tail": "Uterine Bleeding",
+      "tail_type": "Symptom"
+    }
+  ],
+  "study_21": [
+    {
+      "head": "Estrogen",
+      "head_type": "Treatment",
+      "relation": "affects",
+      "tail": "Hormone Levels",
+      "tail_type": "Biomarker"
+    },
+    {
+      "head": "Estrogen",
+      "head_type": "Treatment",
+      "relation": "affects",
+      "tail": "Uterine Lining",
+      "tail_type": "Condition"
+    },
+    {
+      "head": "Estrogen",
+      "head_type": "Treatment",
+      "relation": "has_outcome",
+      "tail": "Proliferative Effects",
+      "tail_type": "Outcome"
+    }
+  ],
+  "study_22": [
+    {
+      "head": "Denosumab",
+      "head_type": "Treatment",
+      "relation": "affects",
+      "tail": "Cortical Thickness at the Distal Radius",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "Denosumab",
+      "head_type": "Treatment",
+      "relation": "affects",
+      "tail": "Cortical BMD at the Distal Radius",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "Denosumab",
+      "head_type": "Treatment",
+      "relation": "affects",
+      "tail": "Total BMD at the Distal Tibia",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "Denosumab",
+      "head_type": "Treatment",
+      "relation": "affects",
+      "tail": "Trabecular BMD at the Distal Tibia",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "Denosumab",
+      "head_type": "Treatment",
+      "relation": "affects",
+      "tail": "Distal 1/3 Radius BMD",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "Denosumab",
+      "head_type": "Treatment",
+      "relation": "affects",
+      "tail": "Total Radius BMD",
+      "tail_type": "Outcome"
+    }
+  ],
+  "study_23": [
+    {
+      "head": "Escitalopram",
+      "head_type": "Medication",
+      "relation": "reduces",
+      "tail": "Menopausal Hot Flashes",
+      "tail_type": "Symptom"
+    },
+    {
+      "head": "Escitalopram",
+      "head_type": "Medication",
+      "relation": "reduces",
+      "tail": "Severity of Hot Flashes",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "Escitalopram",
+      "head_type": "Medication",
+      "relation": "reduces",
+      "tail": "Bother of Hot Flashes",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "Serotonin",
+      "head_type": "Biomarker",
+      "relation": "affects",
+      "tail": "Estradiol",
+      "tail_type": "Biomarker"
+    },
+    {
+      "head": "Estradiol",
+      "head_type": "Biomarker",
+      "relation": "related_to",
+      "tail": "Menopausal Hot Flashes",
+      "tail_type": "Symptom"
+    }
+  ],
+  "study_24": [
+    {
+      "head": "Romosozumab",
+      "head_type": "Treatment",
+      "relation": "affects",
+      "tail": "Bone Mineral Density at the Lumbar Spine",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "Postmenopausal Women with Low Bone Density",
+      "head_type": "Population",
+      "relation": "has_outcome",
+      "tail": "Percent Change in Bone Mineral Density at the Lumbar Spine",
+      "tail_type": "Outcome"
+    }
+  ],
+  "study_25": [],
+  "study_26": [
+    {
+      "head": "Teriparatide",
+      "head_type": "Treatment",
+      "relation": "affects",
+      "tail": "Bone in Postmenopausal Osteoporotic Women",
+      "tail_type": "Condition"
+    },
+    {
+      "head": "Zoledronic Acid",
+      "head_type": "Treatment",
+      "relation": "affects",
+      "tail": "Bone in Postmenopausal Osteoporotic Women",
+      "tail_type": "Condition"
+    },
+    {
+      "head": "Teriparatide",
+      "head_type": "Treatment",
+      "relation": "affects",
+      "tail": "Activation Frequency in Cancellous Compartment",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "Zoledronic Acid",
+      "head_type": "Treatment",
+      "relation": "affects",
+      "tail": "Activation Frequency in Cancellous Compartment",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "Teriparatide",
+      "head_type": "Treatment",
+      "relation": "affects",
+      "tail": "Activation Frequency in Endocortical Compartment",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "Zoledronic Acid",
+      "head_type": "Treatment",
+      "relation": "affects",
+      "tail": "Activation Frequency in Endocortical Compartment",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "Teriparatide",
+      "head_type": "Treatment",
+      "relation": "affects",
+      "tail": "Bone Formation Rate in Cancellous Compartment",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "Zoledronic Acid",
+      "head_type": "Treatment",
+      "relation": "affects",
+      "tail": "Bone Formation Rate in Cancellous Compartment",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "Teriparatide",
+      "head_type": "Treatment",
+      "relation": "affects",
+      "tail": "Bone Formation Rate in Endocortical Compartment",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "Zoledronic Acid",
+      "head_type": "Treatment",
+      "relation": "affects",
+      "tail": "Bone Formation Rate in Endocortical Compartment",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "Teriparatide",
+      "head_type": "Treatment",
+      "relation": "affects",
+      "tail": "Change From Baseline in Serum Carboxyterminal Cross-Linking Telopeptide of Type I Collagen",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "Zoledronic Acid",
+      "head_type": "Treatment",
+      "relation": "affects",
+      "tail": "Change From Baseline in Serum Carboxyterminal Cross-Linking Telopeptide of Type I Collagen",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "Teriparatide",
+      "head_type": "Treatment",
+      "relation": "affects",
+      "tail": "Change From Baseline in Serum Osteocalcin",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "Zoledronic Acid",
+      "head_type": "Treatment",
+      "relation": "affects",
+      "tail": "Change From Baseline in Serum Osteocalcin",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "Teriparatide",
+      "head_type": "Treatment",
+      "relation": "affects",
+      "tail": "Change From Baseline in Serum Procollagen Type I N-Terminal Propeptide",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "Zoledronic Acid",
+      "head_type": "Treatment",
+      "relation": "affects",
+      "tail": "Change From Baseline in Serum Procollagen Type I N-Terminal Propeptide",
+      "tail_type": "Outcome"
+    }
+  ],
+  "study_27": [
+    {
+      "head": "Denosumab",
+      "head_type": "Treatment",
+      "relation": "increases",
+      "tail": "Femoral Neck Bone Mineral Density",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "Denosumab",
+      "head_type": "Treatment",
+      "relation": "increases",
+      "tail": "Lumbar Spine Bone Mineral Density",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "Denosumab",
+      "head_type": "Treatment",
+      "relation": "increases",
+      "tail": "Total Hip Bone Mineral Density",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "Denosumab",
+      "head_type": "Treatment",
+      "relation": "affects",
+      "tail": "Serum Type-1 C-Telopeptide",
+      "tail_type": "Biomarker"
+    },
+    {
+      "head": "Ibandronate",
+      "head_type": "Treatment",
+      "relation": "increases",
+      "tail": "Femoral Neck Bone Mineral Density",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "Ibandronate",
+      "head_type": "Treatment",
+      "relation": "increases",
+      "tail": "Lumbar Spine Bone Mineral Density",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "Ibandronate",
+      "head_type": "Treatment",
+      "relation": "increases",
+      "tail": "Total Hip Bone Mineral Density",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "Ibandronate",
+      "head_type": "Treatment",
+      "relation": "affects",
+      "tail": "Serum Type-1 C-Telopeptide",
+      "tail_type": "Biomarker"
+    },
+    {
+      "head": "Postmenopausal Women",
+      "head_type": "Population",
+      "relation": "treated_with",
+      "tail": "Denosumab",
+      "tail_type": "Treatment"
+    },
+    {
+      "head": "Postmenopausal Women",
+      "head_type": "Population",
+      "relation": "treated_with",
+      "tail": "Ibandronate",
+      "tail_type": "Treatment"
+    }
+  ],
+  "study_28": [
+    {
+      "head": "Calcitonin Nasal Spray",
+      "head_type": "Treatment",
+      "relation": "treats",
+      "tail": "Osteoporosis",
+      "tail_type": "Condition"
+    },
+    {
+      "head": "Oral Calcitonin",
+      "head_type": "Treatment",
+      "relation": "treats",
+      "tail": "Osteoporosis",
+      "tail_type": "Condition"
+    },
+    {
+      "head": "Osteoporosis",
+      "head_type": "Condition",
+      "relation": "characterized_by",
+      "tail": "Loss of Bone Density",
+      "tail_type": "Symptom"
+    },
+    {
+      "head": "Salmon Calcitonin",
+      "head_type": "Biomarker",
+      "relation": "contained_in",
+      "tail": "Calcitonin Nasal Spray",
+      "tail_type": "Treatment"
+    },
+    {
+      "head": "Salmon Calcitonin",
+      "head_type": "Biomarker",
+      "relation": "contained_in",
+      "tail": "Oral Calcitonin",
+      "tail_type": "Treatment"
+    },
+    {
+      "head": "Change in Plasma C-terminal Telopeptide of Collagen 1 (CTx-1)",
+      "head_type": "Outcome",
+      "relation": "measured_in",
+      "tail": "Postmenopausal Women with Osteoporosis",
+      "tail_type": "Population"
+    },
+    {
+      "head": "Change in Bone Mineral Density (BMD) of Axial Lumbar Spine",
+      "head_type": "Outcome",
+      "relation": "measured_in",
+      "tail": "Postmenopausal Women with Osteoporosis",
+      "tail_type": "Population"
+    }
+  ],
+  "study_29": [
+    {
+      "head": "S-equol",
+      "head_type": "Treatment",
+      "relation": "treats",
+      "tail": "Hot Flushes",
+      "tail_type": "Symptom"
+    },
+    {
+      "head": "S-equol",
+      "head_type": "Treatment",
+      "relation": "treats",
+      "tail": "Night Sweats",
+      "tail_type": "Symptom"
+    },
+    {
+      "head": "S-equol",
+      "head_type": "Treatment",
+      "relation": "improves",
+      "tail": "Dryness of Vagina",
+      "tail_type": "Symptom"
+    },
+    {
+      "head": "S-equol",
+      "head_type": "Treatment",
+      "relation": "improves",
+      "tail": "Irritability",
+      "tail_type": "Symptom"
+    },
+    {
+      "head": "S-equol",
+      "head_type": "Treatment",
+      "relation": "improves",
+      "tail": "Joint/Muscular Discomfort",
+      "tail_type": "Symptom"
+    }
+  ],
+  "study_30": [
+    {
+      "head": "MK-5442",
+      "head_type": "Treatment",
+      "relation": "increases",
+      "tail": "Lumbar Spine Areal Bone Mineral Density (BMD)",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "MK-5442",
+      "head_type": "Treatment",
+      "relation": "increases",
+      "tail": "Cortical Volumetric BMD of the Hip",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "MK-5442",
+      "head_type": "Treatment",
+      "relation": "increases",
+      "tail": "Femoral Neck Areal BMD",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "MK-5442",
+      "head_type": "Treatment",
+      "relation": "increases",
+      "tail": "Serum Bone-Specific Alkaline Phosphatase (s-BSAP)",
+      "tail_type": "Biomarker"
+    },
+    {
+      "head": "MK-5442",
+      "head_type": "Treatment",
+      "relation": "increases",
+      "tail": "Serum C-Terminal Propeptide of Type 1 Collagen (s-CTx)",
+      "tail_type": "Biomarker"
+    },
+    {
+      "head": "MK-5442",
+      "head_type": "Treatment",
+      "relation": "increases",
+      "tail": "Serum N-Terminal Propeptide (s-P1NP)",
+      "tail_type": "Biomarker"
+    },
+    {
+      "head": "MK-5442",
+      "head_type": "Treatment",
+      "relation": "increases",
+      "tail": "Total Body Areal BMD",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "MK-5442",
+      "head_type": "Treatment",
+      "relation": "increases",
+      "tail": "Total Hip Areal BMD",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "MK-5442",
+      "head_type": "Treatment",
+      "relation": "increases",
+      "tail": "Trochanter Areal BMD",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "MK-5442",
+      "head_type": "Treatment",
+      "relation": "increases",
+      "tail": "Urinary-N Telopeptides of Type 1 Collagen (u-NTx)",
+      "tail_type": "Biomarker"
+    }
+  ],
+  "study_31": [
+    {
+      "head": "Oral Estradiol",
+      "head_type": "Treatment",
+      "relation": "affects",
+      "tail": "Anxiety",
+      "tail_type": "Symptom"
+    },
+    {
+      "head": "Oral Estradiol",
+      "head_type": "Treatment",
+      "relation": "affects",
+      "tail": "Stress Responsivity",
+      "tail_type": "Symptom"
+    },
+    {
+      "head": "Oral Estradiol",
+      "head_type": "Treatment",
+      "relation": "affects",
+      "tail": "Cognition",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "Soy Phytoestrogens",
+      "head_type": "Supplement",
+      "relation": "affects",
+      "tail": "Anxiety",
+      "tail_type": "Symptom"
+    },
+    {
+      "head": "Soy Phytoestrogens",
+      "head_type": "Supplement",
+      "relation": "affects",
+      "tail": "Stress Responsivity",
+      "tail_type": "Symptom"
+    },
+    {
+      "head": "Soy Phytoestrogens",
+      "head_type": "Supplement",
+      "relation": "affects",
+      "tail": "Cognition",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "Perimenopausal Women",
+      "head_type": "Population",
+      "relation": "experiences",
+      "tail": "Anxiety",
+      "tail_type": "Symptom"
+    },
+    {
+      "head": "Perimenopausal Women",
+      "head_type": "Population",
+      "relation": "experiences",
+      "tail": "Stress Responsivity",
+      "tail_type": "Symptom"
+    },
+    {
+      "head": "Perimenopausal Women",
+      "head_type": "Population",
+      "relation": "experiences",
+      "tail": "Cognition",
+      "tail_type": "Outcome"
+    }
+  ],
+  "study_32": [
+    {
+      "head": "MK-6913",
+      "head_type": "Treatment",
+      "relation": "treats",
+      "tail": "Vasomotor Symptoms",
+      "tail_type": "Symptom"
+    },
+    {
+      "head": "MK-6913",
+      "head_type": "Treatment",
+      "relation": "reduces",
+      "tail": "Hot Flashes",
+      "tail_type": "Symptom"
+    },
+    {
+      "head": "MK-6913",
+      "head_type": "Treatment",
+      "relation": "reduces",
+      "tail": "Hot Flushes",
+      "tail_type": "Symptom"
+    },
+    {
+      "head": "Change From Baseline in Follicle-stimulating Hormone (FSH) Level",
+      "head_type": "Outcome",
+      "relation": "measured_at",
+      "tail": "Week 4",
+      "tail_type": "Timepoint"
+    }
+  ],
+  "study_33": [
+    {
+      "head": "Hot Flashes",
+      "head_type": "Symptom",
+      "relation": "affects",
+      "tail": "Sleep Disruption",
+      "tail_type": "Symptom"
+    },
+    {
+      "head": "Hot Flashes",
+      "head_type": "Symptom",
+      "relation": "affects",
+      "tail": "Mood Changes",
+      "tail_type": "Symptom"
+    },
+    {
+      "head": "Gonadotropin-Releasing Hormone Agonist (GnRHa)",
+      "head_type": "Intervention",
+      "relation": "induces",
+      "tail": "Hot Flashes",
+      "tail_type": "Symptom"
+    },
+    {
+      "head": "Leuprolide",
+      "head_type": "Medication",
+      "relation": "is_a_type_of",
+      "tail": "Gonadotropin-Releasing Hormone Agonist (GnRHa)",
+      "tail_type": "Intervention"
+    },
+    {
+      "head": "Change in Montgomery-Asperg Depression Rating Scale (MADRS)",
+      "head_type": "Outcome",
+      "relation": "assesses",
+      "tail": "Mood Changes",
+      "tail_type": "Symptom"
+    },
+    {
+      "head": "Percent Change in Wake After Sleep Onset (WASO)",
+      "head_type": "Outcome",
+      "relation": "assesses",
+      "tail": "Sleep Disruption",
+      "tail_type": "Symptom"
+    }
+  ],
+  "study_34": [
+    {
+      "head": "Patient Decision Aid",
+      "head_type": "Intervention",
+      "relation": "increases",
+      "tail": "Menopause Knowledge",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "Menopause",
+      "head_type": "Condition",
+      "relation": "manages",
+      "tail": "Menopausal Symptoms",
+      "tail_type": "Symptom"
+    }
+  ],
+  "study_35": [
+    {
+      "head": "Bonviva/Boniva (Ibandronate)",
+      "head_type": "Treatment",
+      "relation": "treats",
+      "tail": "Post-Menopausal Osteoporosis",
+      "tail_type": "Condition"
+    },
+    {
+      "head": "Bonviva/Boniva (Ibandronate)",
+      "head_type": "Treatment",
+      "relation": "affects",
+      "tail": "Lumbar Spine T-score",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "Bonviva/Boniva (Ibandronate)",
+      "head_type": "Treatment",
+      "relation": "affects",
+      "tail": "Mean Hip Bone BMD",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "Bonviva/Boniva (Ibandronate)",
+      "head_type": "Treatment",
+      "relation": "affects",
+      "tail": "Mean Lumbar Spine BMD",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "Bonviva/Boniva (Ibandronate)",
+      "head_type": "Treatment",
+      "relation": "affects",
+      "tail": "Total Hip T-score",
+      "tail_type": "Outcome"
+    }
+  ],
+  "study_36": [
+    {
+      "head": "BA058 (Abaloparatide)",
+      "head_type": "Treatment",
+      "relation": "prevents",
+      "tail": "Fractures",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "BA058 (Abaloparatide)",
+      "head_type": "Treatment",
+      "relation": "increases",
+      "tail": "Bone Mineral Density (BMD) of Femoral Neck",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "BA058 (Abaloparatide)",
+      "head_type": "Treatment",
+      "relation": "increases",
+      "tail": "Bone Mineral Density (BMD) of Lumbar Spine",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "BA058 (Abaloparatide)",
+      "head_type": "Treatment",
+      "relation": "increases",
+      "tail": "Bone Mineral Density (BMD) of Total Hip",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "Postmenopausal Women",
+      "head_type": "Population",
+      "relation": "at risk of",
+      "tail": "Fractures",
+      "tail_type": "Condition"
+    },
+    {
+      "head": "Severe Osteoporosis",
+      "head_type": "Condition",
+      "relation": "increases risk of",
+      "tail": "Fractures",
+      "tail_type": "Outcome"
+    }
+  ],
+  "study_37": [
+    {
+      "head": "Alendronate/Vitamin D3 Combination Tablet",
+      "head_type": "Treatment",
+      "relation": "increases",
+      "tail": "Lumbar Spine Bone Mineral Density",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "Calcitriol",
+      "head_type": "Treatment",
+      "relation": "increases",
+      "tail": "Lumbar Spine Bone Mineral Density",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "Alendronate/Vitamin D3 Combination Tablet",
+      "head_type": "Treatment",
+      "relation": "decreases",
+      "tail": "Serum C-Telopeptides of Type 1 Collagen",
+      "tail_type": "Biomarker"
+    },
+    {
+      "head": "Alendronate/Vitamin D3 Combination Tablet",
+      "head_type": "Treatment",
+      "relation": "decreases",
+      "tail": "Serum Procollagen Type 1 N-Terminal Propeptide",
+      "tail_type": "Biomarker"
+    },
+    {
+      "head": "Alendronate/Vitamin D3 Combination Tablet",
+      "head_type": "Treatment",
+      "relation": "decreases",
+      "tail": "Serum 25-Hydroxyvitamin D <20 ng/mL",
+      "tail_type": "Outcome"
+    }
+  ],
+  "study_38": [
+    {
+      "head": "Brisdelle",
+      "head_type": "Treatment",
+      "relation": "treats",
+      "tail": "Vasomotor Symptoms",
+      "tail_type": "Symptom"
+    },
+    {
+      "head": "Brisdelle",
+      "head_type": "Treatment",
+      "relation": "associated_with",
+      "tail": "Menopause",
+      "tail_type": "Condition"
+    },
+    {
+      "head": "Brisdelle",
+      "head_type": "Treatment",
+      "relation": "improves",
+      "tail": "Hot Flash Severity",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "Brisdelle",
+      "head_type": "Treatment",
+      "relation": "reduces",
+      "tail": "Frequency of Moderate to Severe Vasomotor Symptoms",
+      "tail_type": "Outcome"
+    }
+  ],
+  "study_39": [
+    {
+      "head": "Bazedoxifene",
+      "head_type": "Treatment",
+      "relation": "prescribed_for",
+      "tail": "Osteoporosis",
+      "tail_type": "Condition"
+    },
+    {
+      "head": "Raloxifene",
+      "head_type": "Treatment",
+      "relation": "prescribed_for",
+      "tail": "Osteoporosis",
+      "tail_type": "Condition"
+    },
+    {
+      "head": "Bisphosphonate",
+      "head_type": "Treatment",
+      "relation": "prescribed_for",
+      "tail": "Osteoporosis",
+      "tail_type": "Condition"
+    },
+    {
+      "head": "Bazedoxifene",
+      "head_type": "Treatment",
+      "relation": "affects",
+      "tail": "Cumulative Incidence of All Malignancies",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "Bazedoxifene",
+      "head_type": "Treatment",
+      "relation": "affects",
+      "tail": "Cumulative Incidence of Biliary Events",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "Bazedoxifene",
+      "head_type": "Treatment",
+      "relation": "affects",
+      "tail": "Cumulative Incidence of Cardiac Disorders",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "Bazedoxifene",
+      "head_type": "Treatment",
+      "relation": "affects",
+      "tail": "Cumulative Incidence of Clinical Fractures",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "Bazedoxifene",
+      "head_type": "Treatment",
+      "relation": "affects",
+      "tail": "Cumulative Incidence of Hypertriglyceridemia",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "Bazedoxifene",
+      "head_type": "Treatment",
+      "relation": "affects",
+      "tail": "Cumulative Incidence of Ischemic Stroke",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "Bazedoxifene",
+      "head_type": "Treatment",
+      "relation": "affects",
+      "tail": "Cumulative Incidence of Renal Failure",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "Bazedoxifene",
+      "head_type": "Treatment",
+      "relation": "affects",
+      "tail": "Cumulative Incidence of Selected Ocular Events",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "Bazedoxifene",
+      "head_type": "Treatment",
+      "relation": "affects",
+      "tail": "Cumulative Incidence of Thyroid Disorders- Goitre",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "Bazedoxifene",
+      "head_type": "Treatment",
+      "relation": "affects",
+      "tail": "Cumulative Incidence of Venous Thromboembolism (VTE)",
+      "tail_type": "Outcome"
+    }
+  ],
+  "study_40": [
+    {
+      "head": "Low-Dose 17-\u00df-Estradiol",
+      "head_type": "Treatment",
+      "relation": "reduces",
+      "tail": "Hot Flashes",
+      "tail_type": "Symptom"
+    },
+    {
+      "head": "Venlafaxine XR",
+      "head_type": "Treatment",
+      "relation": "reduces",
+      "tail": "Hot Flashes",
+      "tail_type": "Symptom"
+    },
+    {
+      "head": "Low-Dose 17-\u00df-Estradiol",
+      "head_type": "Treatment",
+      "relation": "compared_to",
+      "tail": "Venlafaxine XR",
+      "tail_type": "Treatment"
+    },
+    {
+      "head": "Low-Dose 17-\u00df-Estradiol",
+      "head_type": "Treatment",
+      "relation": "compared_to",
+      "tail": "Placebo",
+      "tail_type": "Treatment"
+    },
+    {
+      "head": "Venlafaxine XR",
+      "head_type": "Treatment",
+      "relation": "compared_to",
+      "tail": "Placebo",
+      "tail_type": "Treatment"
+    },
+    {
+      "head": "Low-Dose 17-\u00df-Estradiol",
+      "head_type": "Treatment",
+      "relation": "reduces",
+      "tail": "Bothersomeness of Hot Flashes",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "Venlafaxine XR",
+      "head_type": "Treatment",
+      "relation": "reduces",
+      "tail": "Bothersomeness of Hot Flashes",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "Low-Dose 17-\u00df-Estradiol",
+      "head_type": "Treatment",
+      "relation": "reduces",
+      "tail": "Frequency of Hot Flashes",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "Venlafaxine XR",
+      "head_type": "Treatment",
+      "relation": "reduces",
+      "tail": "Frequency of Hot Flashes",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "Low-Dose 17-\u00df-Estradiol",
+      "head_type": "Treatment",
+      "relation": "reduces",
+      "tail": "Perceived Hot Flash Interference",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "Venlafaxine XR",
+      "head_type": "Treatment",
+      "relation": "reduces",
+      "tail": "Perceived Hot Flash Interference",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "Low-Dose 17-\u00df-Estradiol",
+      "head_type": "Treatment",
+      "relation": "reduces",
+      "tail": "Severity of Hot Flashes",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "Venlafaxine XR",
+      "head_type": "Treatment",
+      "relation": "reduces",
+      "tail": "Severity of Hot Flashes",
+      "tail_type": "Outcome"
+    }
+  ],
+  "study_41": [
+    {
+      "head": "Denosumab",
+      "head_type": "Treatment",
+      "relation": "increases",
+      "tail": "Bone Mineral Density at Lumbar Spine",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "Korean Postmenopausal Women with Osteoporosis",
+      "head_type": "Population",
+      "relation": "has_condition",
+      "tail": "Osteoporosis",
+      "tail_type": "Condition"
+    }
+  ],
+  "study_42": [
+    {
+      "head": "Denosumab",
+      "head_type": "Treatment",
+      "relation": "increases",
+      "tail": "Bone Mineral Density at the Lumbar Spine",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "Indian Postmenopausal Women with Osteoporosis",
+      "head_type": "Population",
+      "relation": "has",
+      "tail": "Osteoporosis",
+      "tail_type": "Condition"
+    }
+  ],
+  "study_43": [
+    {
+      "head": "Lidocaine Liquid",
+      "head_type": "Treatment",
+      "relation": "treats",
+      "tail": "Pain with Sexual Intercourse",
+      "tail_type": "Symptom"
+    },
+    {
+      "head": "Lidocaine Liquid",
+      "head_type": "Treatment",
+      "relation": "improves",
+      "tail": "Quality of Sexual Life",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "Lidocaine Liquid",
+      "head_type": "Treatment",
+      "relation": "prevents",
+      "tail": "Entry Dyspareunia",
+      "tail_type": "Symptom"
+    },
+    {
+      "head": "Pain with Sexual Intercourse",
+      "head_type": "Symptom",
+      "relation": "is_a_symptom_of",
+      "tail": "Postmenopausal Dyspareunia",
+      "tail_type": "Condition"
+    },
+    {
+      "head": "Menopausal Breast Cancer Survivors",
+      "head_type": "Population",
+      "relation": "experiences",
+      "tail": "Pain with Sexual Intercourse",
+      "tail_type": "Symptom"
+    }
+  ],
+  "study_44": [
+    {
+      "head": "Romosozumab",
+      "head_type": "Treatment",
+      "relation": "treats",
+      "tail": "Postmenopausal Osteoporosis",
+      "tail_type": "Condition"
+    },
+    {
+      "head": "Romosozumab",
+      "head_type": "Treatment",
+      "relation": "increases",
+      "tail": "Bone Mineral Density at the Lumbar Spine",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "Romosozumab",
+      "head_type": "Treatment",
+      "relation": "increases",
+      "tail": "Bone Mineral Density of the Femoral Neck",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "Romosozumab",
+      "head_type": "Treatment",
+      "relation": "increases",
+      "tail": "Bone Mineral Density of the Total Hip",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "Romosozumab",
+      "head_type": "Treatment",
+      "relation": "reduces",
+      "tail": "New Vertebral Fracture",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "Romosozumab",
+      "head_type": "Treatment",
+      "relation": "reduces",
+      "tail": "Multiple New or Worsening Vertebral Fractures",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "Romosozumab",
+      "head_type": "Treatment",
+      "relation": "reduces",
+      "tail": "Clinical Fracture",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "Romosozumab",
+      "head_type": "Treatment",
+      "relation": "reduces",
+      "tail": "Major Osteoporotic Fracture",
+      "tail_type": "Outcome"
+    }
+  ],
+  "study_45": [
+    {
+      "head": "Romosozumab",
+      "head_type": "Treatment",
+      "relation": "treats",
+      "tail": "Postmenopausal Osteoporosis",
+      "tail_type": "Condition"
+    },
+    {
+      "head": "Romosozumab",
+      "head_type": "Treatment",
+      "relation": "increases",
+      "tail": "Bone Mineral Density at the Femoral Neck",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "Romosozumab",
+      "head_type": "Treatment",
+      "relation": "increases",
+      "tail": "Bone Mineral Density at the Lumbar Spine",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "Romosozumab",
+      "head_type": "Treatment",
+      "relation": "increases",
+      "tail": "Bone Mineral Density at the Total Hip",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "Romosozumab",
+      "head_type": "Treatment",
+      "relation": "reduces",
+      "tail": "Fractures",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "Romosozumab",
+      "head_type": "Treatment",
+      "relation": "reduces",
+      "tail": "Vertebral Fractures",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "Romosozumab",
+      "head_type": "Treatment",
+      "relation": "reduces",
+      "tail": "Clinical Fractures",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "Romosozumab",
+      "head_type": "Treatment",
+      "relation": "reduces",
+      "tail": "Hip Fractures",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "Romosozumab",
+      "head_type": "Treatment",
+      "relation": "reduces",
+      "tail": "Major Nonvertebral Fractures",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "Romosozumab",
+      "head_type": "Treatment",
+      "relation": "reduces",
+      "tail": "Nonvertebral Fractures",
+      "tail_type": "Outcome"
+    }
+  ],
+  "study_46": [
+    {
+      "head": "Individualized Homeopathic Treatment",
+      "head_type": "Treatment",
+      "relation": "treats",
+      "tail": "Depression",
+      "tail_type": "Condition"
+    },
+    {
+      "head": "Fluoxetine",
+      "head_type": "Medication",
+      "relation": "treats",
+      "tail": "Depression",
+      "tail_type": "Condition"
+    },
+    {
+      "head": "Depression",
+      "head_type": "Condition",
+      "relation": "affects",
+      "tail": "Peri- and Postmenopausal Women",
+      "tail_type": "Population"
+    },
+    {
+      "head": "Change From Baseline in Greene's Scale",
+      "head_type": "Outcome",
+      "relation": "measures",
+      "tail": "Depression",
+      "tail_type": "Condition"
+    }
+  ],
+  "study_47": [
+    {
+      "head": "Abaloparatide Transdermal",
+      "head_type": "Treatment",
+      "relation": "increases",
+      "tail": "Bone Mineral Density of Total Hip",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "Abaloparatide Transdermal",
+      "head_type": "Treatment",
+      "relation": "increases",
+      "tail": "Bone Mineral Density of Lumbar Spine",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "Abaloparatide Injection",
+      "head_type": "Treatment",
+      "relation": "increases",
+      "tail": "Bone Mineral Density of Total Hip",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "Abaloparatide Injection",
+      "head_type": "Treatment",
+      "relation": "increases",
+      "tail": "Bone Mineral Density of Lumbar Spine",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "Postmenopausal Women with Osteoporosis",
+      "head_type": "Population",
+      "relation": "receives",
+      "tail": "Abaloparatide Transdermal",
+      "tail_type": "Treatment"
+    },
+    {
+      "head": "Postmenopausal Women with Osteoporosis",
+      "head_type": "Population",
+      "relation": "receives",
+      "tail": "Abaloparatide Injection",
+      "tail_type": "Treatment"
+    }
+  ],
+  "study_48": [
+    {
+      "head": "Teriparatide",
+      "head_type": "Treatment",
+      "relation": "is_superior_to",
+      "tail": "Risedronate",
+      "tail_type": "Treatment"
+    },
+    {
+      "head": "Teriparatide",
+      "head_type": "Treatment",
+      "relation": "reduces_risk_of",
+      "tail": "New Vertebral Fractures",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "Teriparatide",
+      "head_type": "Treatment",
+      "relation": "reduces_risk_of",
+      "tail": "New Moderate and/or Severe Vertebral Fractures",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "Teriparatide",
+      "head_type": "Treatment",
+      "relation": "reduces_risk_of",
+      "tail": "New Multiple Vertebral Fractures",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "Teriparatide",
+      "head_type": "Treatment",
+      "relation": "reduces_risk_of",
+      "tail": "Pooled Clinical Vertebral and Non-Vertebral Fragility Fractures",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "Teriparatide",
+      "head_type": "Treatment",
+      "relation": "reduces_risk_of",
+      "tail": "Pooled New and Worsening Vertebral Fractures",
+      "tail_type": "Outcome"
+    }
+  ],
+  "study_49": [
+    {
+      "head": "Denosumab",
+      "head_type": "Treatment",
+      "relation": "compared_with",
+      "tail": "Zoledronic Acid",
+      "tail_type": "Treatment"
+    },
+    {
+      "head": "Denosumab",
+      "head_type": "Treatment",
+      "relation": "affects",
+      "tail": "Bone Mineral Density",
+      "tail_type": "Biomarker"
+    },
+    {
+      "head": "Zoledronic Acid",
+      "head_type": "Treatment",
+      "relation": "affects",
+      "tail": "Bone Mineral Density",
+      "tail_type": "Biomarker"
+    },
+    {
+      "head": "Postmenopausal Women",
+      "head_type": "Population",
+      "relation": "has_condition",
+      "tail": "Osteoporosis",
+      "tail_type": "Condition"
+    },
+    {
+      "head": "Denosumab",
+      "head_type": "Treatment",
+      "relation": "improves",
+      "tail": "Lumbar Spine Bone Mineral Density",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "Zoledronic Acid",
+      "head_type": "Treatment",
+      "relation": "improves",
+      "tail": "Lumbar Spine Bone Mineral Density",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "Denosumab",
+      "head_type": "Treatment",
+      "relation": "improves",
+      "tail": "Total Hip Bone Mineral Density",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "Zoledronic Acid",
+      "head_type": "Treatment",
+      "relation": "improves",
+      "tail": "Total Hip Bone Mineral Density",
+      "tail_type": "Outcome"
+    }
+  ],
+  "study_50": [
+    {
+      "head": "Vaginal Estrogen Cream",
+      "head_type": "Treatment",
+      "relation": "affects",
+      "tail": "Elastic Fiber Assembly",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "Vaginal Estrogen Cream",
+      "head_type": "Treatment",
+      "relation": "affects",
+      "tail": "Vaginal Muscularis Thickness",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "Vaginal Estrogen Cream",
+      "head_type": "Treatment",
+      "relation": "affects",
+      "tail": "Elastic Fiber Number and Morphology",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "Vaginal Estrogen Cream",
+      "head_type": "Treatment",
+      "relation": "affects",
+      "tail": "Elastic Fiber Synthesis or Degradation",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "Postmenopausal Women",
+      "head_type": "Population",
+      "relation": "has_condition",
+      "tail": "Pelvic Organ Prolapse",
+      "tail_type": "Condition"
+    },
+    {
+      "head": "Pelvic Reconstructive Surgery",
+      "head_type": "Intervention",
+      "relation": "targets",
+      "tail": "Pelvic Organ Prolapse",
+      "tail_type": "Condition"
+    },
+    {
+      "head": "Vaginal Wall Composition",
+      "head_type": "Outcome",
+      "relation": "measured_by",
+      "tail": "Epithelium",
+      "tail_type": "Biomarker"
+    },
+    {
+      "head": "Vaginal Wall Degradative Activity",
+      "head_type": "Outcome",
+      "relation": "measured_by",
+      "tail": "MMP-9",
+      "tail_type": "Biomarker"
+    },
+    {
+      "head": "hCOL1A1",
+      "head_type": "Biomarker",
+      "relation": "measured_in",
+      "tail": "Vaginal Wall",
+      "tail_type": "Outcome"
+    }
+  ],
+  "study_51": [
+    {
+      "head": "Romosozumab",
+      "head_type": "Treatment",
+      "relation": "increases",
+      "tail": "Total Hip Bone Mineral Density",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "Teriparatide",
+      "head_type": "Treatment",
+      "relation": "increases",
+      "tail": "Total Hip Bone Mineral Density",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "Romosozumab",
+      "head_type": "Treatment",
+      "relation": "increases",
+      "tail": "Cortical Bone Mineral Density",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "Teriparatide",
+      "head_type": "Treatment",
+      "relation": "increases",
+      "tail": "Cortical Bone Mineral Density",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "Romosozumab",
+      "head_type": "Treatment",
+      "relation": "increases",
+      "tail": "Estimated Strength at the Total Hip",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "Teriparatide",
+      "head_type": "Treatment",
+      "relation": "increases",
+      "tail": "Estimated Strength at the Total Hip",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "Romosozumab",
+      "head_type": "Treatment",
+      "relation": "increases",
+      "tail": "Femoral Neck Bone Mineral Density",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "Teriparatide",
+      "head_type": "Treatment",
+      "relation": "increases",
+      "tail": "Femoral Neck Bone Mineral Density",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "Romosozumab",
+      "head_type": "Treatment",
+      "relation": "increases",
+      "tail": "Integral Bone Mineral Density",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "Teriparatide",
+      "head_type": "Treatment",
+      "relation": "increases",
+      "tail": "Integral Bone Mineral Density",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "Romosozumab",
+      "head_type": "Treatment",
+      "relation": "increases",
+      "tail": "Lumbar Spine Bone Mineral Density",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "Teriparatide",
+      "head_type": "Treatment",
+      "relation": "increases",
+      "tail": "Lumbar Spine Bone Mineral Density",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "Romosozumab",
+      "head_type": "Treatment",
+      "relation": "increases",
+      "tail": "Total Hip Integral Bone Mineral Content",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "Teriparatide",
+      "head_type": "Treatment",
+      "relation": "increases",
+      "tail": "Total Hip Integral Bone Mineral Content",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "Postmenopausal Women with Osteoporosis",
+      "head_type": "Population",
+      "relation": "treated_with",
+      "tail": "Romosozumab",
+      "tail_type": "Treatment"
+    },
+    {
+      "head": "Postmenopausal Women with Osteoporosis",
+      "head_type": "Population",
+      "relation": "treated_with",
+      "tail": "Teriparatide",
+      "tail_type": "Treatment"
+    }
+  ],
+  "study_52": [
+    {
+      "head": "Estradiol and Progesterone",
+      "head_type": "Treatment",
+      "relation": "treats",
+      "tail": "Vasomotor Symptoms",
+      "tail_type": "Symptom"
+    },
+    {
+      "head": "Estradiol and Progesterone",
+      "head_type": "Treatment",
+      "relation": "improves",
+      "tail": "Menopause-specific Quality of Life",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "Estradiol and Progesterone",
+      "head_type": "Treatment",
+      "relation": "improves",
+      "tail": "Sleep Adequacy",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "Estradiol and Progesterone",
+      "head_type": "Treatment",
+      "relation": "reduces",
+      "tail": "Sleep Disturbance",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "Estradiol and Progesterone",
+      "head_type": "Treatment",
+      "relation": "reduces",
+      "tail": "Sleep Problems Index I",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "Estradiol and Progesterone",
+      "head_type": "Treatment",
+      "relation": "reduces",
+      "tail": "Sleep Problems Index II",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "Estradiol and Progesterone",
+      "head_type": "Treatment",
+      "relation": "reduces",
+      "tail": "Sleep Somnolence",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "Estradiol and Progesterone",
+      "head_type": "Treatment",
+      "relation": "reduces",
+      "tail": "Snoring",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "Estradiol and Progesterone",
+      "head_type": "Treatment",
+      "relation": "reduces",
+      "tail": "Total Sleep Score",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "Estradiol and Progesterone",
+      "head_type": "Treatment",
+      "relation": "reduces",
+      "tail": "Vasomotor Domain Score",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "Estradiol and Progesterone",
+      "head_type": "Treatment",
+      "relation": "increases",
+      "tail": "Cumulative Amenorrhea",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "Estradiol and Progesterone",
+      "head_type": "Treatment",
+      "relation": "reduces",
+      "tail": "Bleeding",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "Estradiol and Progesterone",
+      "head_type": "Treatment",
+      "relation": "reduces",
+      "tail": "Spotting",
+      "tail_type": "Outcome"
+    }
+  ],
+  "study_53": [
+    {
+      "head": "Romosozumab",
+      "head_type": "Treatment",
+      "relation": "increases",
+      "tail": "Bone Mineral Density at the Lumbar Spine",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "Romosozumab",
+      "head_type": "Treatment",
+      "relation": "increases",
+      "tail": "Bone Mineral Density at the Total Hip",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "Romosozumab",
+      "head_type": "Treatment",
+      "relation": "increases",
+      "tail": "Bone Mineral Density at the Femoral Neck",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "Romosozumab",
+      "head_type": "Treatment",
+      "relation": "increases",
+      "tail": "Bone Mineral Density",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "Japanese Women with Postmenopausal Osteoporosis",
+      "head_type": "Population",
+      "relation": "receives",
+      "tail": "Romosozumab",
+      "tail_type": "Treatment"
+    }
+  ],
+  "study_54": [
+    {
+      "head": "Denosumab",
+      "head_type": "Treatment",
+      "relation": "treats",
+      "tail": "Osteoporosis",
+      "tail_type": "Condition"
+    },
+    {
+      "head": "Denosumab",
+      "head_type": "Treatment",
+      "relation": "increases",
+      "tail": "Bone Mineral Density at Femoral Neck",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "Denosumab",
+      "head_type": "Treatment",
+      "relation": "increases",
+      "tail": "Bone Mineral Density at Lumbar Spine",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "Denosumab",
+      "head_type": "Treatment",
+      "relation": "increases",
+      "tail": "Bone Mineral Density at Total Hip",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "Denosumab",
+      "head_type": "Treatment",
+      "relation": "increases",
+      "tail": "Bone Mineral Density at Trochanter",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "Denosumab",
+      "head_type": "Treatment",
+      "relation": "decreases",
+      "tail": "Serum Carboxy-terminal Cross-linking Telopeptide of Type I Collagen",
+      "tail_type": "Biomarker"
+    },
+    {
+      "head": "Denosumab",
+      "head_type": "Treatment",
+      "relation": "decreases",
+      "tail": "Serum Procollagen Type I N Propeptideserum",
+      "tail_type": "Biomarker"
+    },
+    {
+      "head": "Postmenopausal Women",
+      "head_type": "Population",
+      "relation": "has_condition",
+      "tail": "Osteoporosis",
+      "tail_type": "Condition"
+    }
+  ],
+  "study_55": [
+    {
+      "head": "Denosumab",
+      "head_type": "Treatment",
+      "relation": "affects",
+      "tail": "Bone Mineral Density at Lumbar Spine",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "Postmenopausal Women",
+      "head_type": "Population",
+      "relation": "has_condition",
+      "tail": "Osteoporosis",
+      "tail_type": "Condition"
+    }
+  ],
+  "study_56": [
+    {
+      "head": "Estradiol Vaginal Softgel Capsules",
+      "head_type": "Treatment",
+      "relation": "treats",
+      "tail": "Vulvar and Vaginal Atrophy",
+      "tail_type": "Condition"
+    },
+    {
+      "head": "Estradiol Vaginal Softgel Capsules",
+      "head_type": "Treatment",
+      "relation": "improves",
+      "tail": "Dyspareunia",
+      "tail_type": "Symptom"
+    },
+    {
+      "head": "Estradiol Vaginal Softgel Capsules",
+      "head_type": "Treatment",
+      "relation": "improves",
+      "tail": "Vaginal Parabasal Cells",
+      "tail_type": "Biomarker"
+    },
+    {
+      "head": "Estradiol Vaginal Softgel Capsules",
+      "head_type": "Treatment",
+      "relation": "improves",
+      "tail": "Vaginal Superficial Cells",
+      "tail_type": "Biomarker"
+    },
+    {
+      "head": "Estradiol Vaginal Softgel Capsules",
+      "head_type": "Treatment",
+      "relation": "improves",
+      "tail": "Vaginal pH",
+      "tail_type": "Biomarker"
+    },
+    {
+      "head": "Estradiol Vaginal Softgel Capsules",
+      "head_type": "Treatment",
+      "relation": "improves",
+      "tail": "Female Sexual Function Index (FSFI) - Total Score",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "Estradiol Vaginal Softgel Capsules",
+      "head_type": "Treatment",
+      "relation": "improves",
+      "tail": "Female Sexual Function Index (FSFI) Domain Score - Arousal",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "Estradiol Vaginal Softgel Capsules",
+      "head_type": "Treatment",
+      "relation": "improves",
+      "tail": "Female Sexual Function Index (FSFI) Domain Score - Lubrication",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "Estradiol Vaginal Softgel Capsules",
+      "head_type": "Treatment",
+      "relation": "improves",
+      "tail": "Female Sexual Function Index (FSFI) Domain Score - Pain",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "Estradiol Vaginal Softgel Capsules",
+      "head_type": "Treatment",
+      "relation": "improves",
+      "tail": "Female Sexual Function Index (FSFI) Domain Score - Satisfaction",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "Estradiol Vaginal Softgel Capsules",
+      "head_type": "Treatment",
+      "relation": "improves",
+      "tail": "Vulvar and/or Vaginal Itching or Irritation",
+      "tail_type": "Symptom"
+    },
+    {
+      "head": "Estradiol Vaginal Softgel Capsules",
+      "head_type": "Treatment",
+      "relation": "improves",
+      "tail": "Vaginal Dryness",
+      "tail_type": "Symptom"
+    },
+    {
+      "head": "Estradiol Vaginal Softgel Capsules",
+      "head_type": "Treatment",
+      "relation": "improves",
+      "tail": "Vaginal Mucosa Assessment (Vaginal Color)",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "Estradiol Vaginal Softgel Capsules",
+      "head_type": "Treatment",
+      "relation": "improves",
+      "tail": "Vaginal Mucosa Assessment (Vaginal Epithelial Integrity)",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "Estradiol Vaginal Softgel Capsules",
+      "head_type": "Treatment",
+      "relation": "improves",
+      "tail": "Vaginal Mucosa Assessment (Vaginal Epithelial Surface Thickness)",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "Estradiol Vaginal Softgel Capsules",
+      "head_type": "Treatment",
+      "relation": "improves",
+      "tail": "Vaginal Secretions",
+      "tail_type": "Outcome"
+    }
+  ],
+  "study_57": [
+    {
+      "head": "Estradiol",
+      "head_type": "Treatment",
+      "relation": "affects",
+      "tail": "Mood",
+      "tail_type": "Symptom"
+    },
+    {
+      "head": "Estradiol",
+      "head_type": "Treatment",
+      "relation": "affects",
+      "tail": "Brain Function",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "Estradiol",
+      "head_type": "Treatment",
+      "relation": "affects",
+      "tail": "Putamen Signal Intensity",
+      "tail_type": "Biomarker"
+    },
+    {
+      "head": "Putamen Signal Intensity",
+      "head_type": "Biomarker",
+      "relation": "in_response_to",
+      "tail": "Reward",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "Estradiol",
+      "head_type": "Treatment",
+      "relation": "affects",
+      "tail": "Inventory of Depression and Anxiety Symptoms (IDAS) Dysphoria Scores",
+      "tail_type": "Outcome"
+    }
+  ],
+  "study_58": [
+    {
+      "head": "TX-12-004-HR",
+      "head_type": "Treatment",
+      "relation": "treats",
+      "tail": "Vaginal Atrophy",
+      "tail_type": "Condition"
+    },
+    {
+      "head": "TX-12-004-HR",
+      "head_type": "Treatment",
+      "relation": "affects",
+      "tail": "Vaginal Mucosa",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "TX-12-004-HR",
+      "head_type": "Treatment",
+      "relation": "affects",
+      "tail": "Vaginal Secretions",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "TX-12-004-HR",
+      "head_type": "Treatment",
+      "relation": "affects",
+      "tail": "Maturation Index of Vaginal Cell Type (Intermediate Cells)",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "TX-12-004-HR",
+      "head_type": "Treatment",
+      "relation": "affects",
+      "tail": "Maturation Index of Vaginal Cell Type (Parabasal Cells)",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "TX-12-004-HR",
+      "head_type": "Treatment",
+      "relation": "affects",
+      "tail": "Maturation Index of Vaginal Cell Type (Superficial Cells)",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "TX-12-004-HR",
+      "head_type": "Treatment",
+      "relation": "affects",
+      "tail": "Vaginal pH",
+      "tail_type": "Outcome"
+    }
+  ],
+  "study_59": [
+    {
+      "head": "Vaginal hormone tablet",
+      "head_type": "Treatment",
+      "relation": "treats",
+      "tail": "Bothersome vaginal symptoms",
+      "tail_type": "Symptom"
+    },
+    {
+      "head": "Over-the-counter gel",
+      "head_type": "Treatment",
+      "relation": "treats",
+      "tail": "Bothersome vaginal symptoms",
+      "tail_type": "Symptom"
+    },
+    {
+      "head": "Vaginal hormone tablet",
+      "head_type": "Treatment",
+      "relation": "affects",
+      "tail": "Sexual function",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "Over-the-counter gel",
+      "head_type": "Treatment",
+      "relation": "affects",
+      "tail": "Sexual function",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "Vaginal hormone tablet",
+      "head_type": "Treatment",
+      "relation": "affects",
+      "tail": "Vaginal Maturation Index",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "Over-the-counter gel",
+      "head_type": "Treatment",
+      "relation": "affects",
+      "tail": "Vaginal Maturation Index",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "Vaginal hormone tablet",
+      "head_type": "Treatment",
+      "relation": "affects",
+      "tail": "pH",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "Over-the-counter gel",
+      "head_type": "Treatment",
+      "relation": "affects",
+      "tail": "pH",
+      "tail_type": "Outcome"
+    }
+  ],
+  "study_60": [
+    {
+      "head": "Ibandronate",
+      "head_type": "Medication",
+      "relation": "treats",
+      "tail": "Postmenopausal Osteoporosis",
+      "tail_type": "Condition"
+    },
+    {
+      "head": "Ibandronate",
+      "head_type": "Medication",
+      "relation": "affects",
+      "tail": "Bone Turnover Markers",
+      "tail_type": "Biomarker"
+    },
+    {
+      "head": "Outcome",
+      "head_type": "Outcome",
+      "relation": "measured_by",
+      "tail": "Boniva Confidence Scale (BCS)",
+      "tail_type": "Outcome"
+    }
+  ],
+  "study_61": [
+    {
+      "head": "Neuropeptide Treatment",
+      "head_type": "Treatment",
+      "relation": "reduces",
+      "tail": "Hot Flushes",
+      "tail_type": "Symptom"
+    },
+    {
+      "head": "Outcome",
+      "head_type": "Outcome",
+      "relation": "measures",
+      "tail": "Total Number of Hot Flushes",
+      "tail_type": "Symptom"
+    }
+  ],
+  "study_62": [
+    {
+      "head": "Denosumab",
+      "head_type": "Treatment",
+      "relation": "treats",
+      "tail": "Osteoporosis",
+      "tail_type": "Condition"
+    },
+    {
+      "head": "Denosumab",
+      "head_type": "Treatment",
+      "relation": "prevents",
+      "tail": "Bone Loss",
+      "tail_type": "Condition"
+    },
+    {
+      "head": "Denosumab",
+      "head_type": "Treatment",
+      "relation": "improves",
+      "tail": "Bone Density of the Spine",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "Denosumab",
+      "head_type": "Treatment",
+      "relation": "improves",
+      "tail": "Bone Density of the Total Hip",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "Denosumab",
+      "head_type": "Treatment",
+      "relation": "reduces",
+      "tail": "CTX",
+      "tail_type": "Biomarker"
+    },
+    {
+      "head": "Denosumab",
+      "head_type": "Treatment",
+      "relation": "reduces",
+      "tail": "P1NP",
+      "tail_type": "Biomarker"
+    }
+  ],
+  "study_63": [
+    {
+      "head": "Romosozumab",
+      "head_type": "Treatment",
+      "relation": "affects",
+      "tail": "Bone Mineral Density at the Lumbar Spine",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "Romosozumab",
+      "head_type": "Treatment",
+      "relation": "affects",
+      "tail": "Bone Mineral Density at the Femoral Neck",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "Romosozumab",
+      "head_type": "Treatment",
+      "relation": "affects",
+      "tail": "Bone Mineral Density at the Total Hip",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "Postmenopausal Women with Osteoporosis",
+      "head_type": "Population",
+      "relation": "receives",
+      "tail": "Romosozumab",
+      "tail_type": "Treatment"
+    }
+  ],
+  "study_64": [],
+  "study_65": [
+    {
+      "head": "NT-814",
+      "head_type": "Treatment",
+      "relation": "investigated_in",
+      "tail": "Post-Menopausal Women",
+      "tail_type": "Population"
+    },
+    {
+      "head": "NT-814",
+      "head_type": "Treatment",
+      "relation": "affects",
+      "tail": "Luteinizing Hormone",
+      "tail_type": "Biomarker"
+    },
+    {
+      "head": "NT-814",
+      "head_type": "Treatment",
+      "relation": "reduces",
+      "tail": "Average Daily Hot Flushes Severity Score",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "NT-814",
+      "head_type": "Treatment",
+      "relation": "reduces",
+      "tail": "Average Daily Severity of Hot Flushes",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "NT-814",
+      "head_type": "Treatment",
+      "relation": "reduces",
+      "tail": "Night-time Awakenings Secondary to Hot Flushes",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "NT-814",
+      "head_type": "Treatment",
+      "relation": "reduces",
+      "tail": "Frequency of Hot Flushes",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "Vasomotor Symptoms",
+      "head_type": "Condition",
+      "relation": "is_a_symptom_of",
+      "tail": "Post-Menopausal Women",
+      "tail_type": "Population"
+    }
+  ],
+  "study_66": [
+    {
+      "head": "Brown Adipose Tissue Activity",
+      "head_type": "Outcome",
+      "relation": "is_modulated_by",
+      "tail": "Estradiol (E2)",
+      "tail_type": "Biomarker"
+    },
+    {
+      "head": "Suppression of Ovarian Hormones",
+      "head_type": "Intervention",
+      "relation": "impairs",
+      "tail": "Brown Adipose Tissue Activity",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "Estradiol (E2)",
+      "head_type": "Biomarker",
+      "relation": "prevents_reduction_in",
+      "tail": "Resting Energy Expenditure (REE)",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "Cold Exposure",
+      "head_type": "Intervention",
+      "relation": "assesses",
+      "tail": "Thermogenic Response of Brown Adipose Tissue",
+      "tail_type": "Outcome"
+    }
+  ],
+  "study_67": [
+    {
+      "head": "Menopause-related Sleep Fragmentation",
+      "head_type": "Condition",
+      "relation": "affects",
+      "tail": "Metabolic Biomarkers of Body Fat Gain",
+      "tail_type": "Biomarker"
+    },
+    {
+      "head": "Experimental Sleep Fragmentation",
+      "head_type": "Intervention",
+      "relation": "results_in",
+      "tail": "Adverse Leptin Response",
+      "tail_type": "Biomarker"
+    },
+    {
+      "head": "Adverse Leptin Response",
+      "head_type": "Biomarker",
+      "relation": "is_a_biomarker_for",
+      "tail": "Body Fat Gain",
+      "tail_type": "Outcome"
+    }
+  ],
+  "study_68": [
+    {
+      "head": "ESN364",
+      "head_type": "Treatment",
+      "relation": "reduces",
+      "tail": "frequency of hot flashes",
+      "tail_type": "Symptom"
+    },
+    {
+      "head": "ESN364",
+      "head_type": "Treatment",
+      "relation": "reduces",
+      "tail": "severity of hot flashes",
+      "tail_type": "Symptom"
+    },
+    {
+      "head": "ESN364",
+      "head_type": "Treatment",
+      "relation": "improves",
+      "tail": "Greene Climacteric Scale (GCS)",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "ESN364",
+      "head_type": "Treatment",
+      "relation": "improves",
+      "tail": "Hot Flash-Related Daily Interference Scale (HFRDIS)",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "ESN364",
+      "head_type": "Treatment",
+      "relation": "improves",
+      "tail": "Menopause-Specific Quality of Life (MENQoL)",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "ESN364",
+      "head_type": "Treatment",
+      "relation": "reduces",
+      "tail": "Hot Flash Score of Mild, Moderate, and Severe VMS",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "ESN364",
+      "head_type": "Treatment",
+      "relation": "reduces",
+      "tail": "Mean Frequency of Mild, Moderate, and Severe VMS",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "ESN364",
+      "head_type": "Treatment",
+      "relation": "reduces",
+      "tail": "Mean Severity of Mild, Moderate, and Severe VMS",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "ESN364",
+      "head_type": "Treatment",
+      "relation": "improves",
+      "tail": "Leeds Sleep Evaluation Questionnaire (LSEQ) Domain Scores",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "ESN364",
+      "head_type": "Treatment",
+      "relation": "reduces",
+      "tail": "Mean Frequency of Moderate and Severe VMS",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "ESN364",
+      "head_type": "Treatment",
+      "relation": "reduces",
+      "tail": "Mean Severity of Moderate and Severe VMS",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "ESN364",
+      "head_type": "Treatment",
+      "relation": "reduces",
+      "tail": "Mean Percent Reduction of Mild, Moderate, and Severe VMS",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "ESN364",
+      "head_type": "Treatment",
+      "relation": "reduces",
+      "tail": "Mean Percent Reduction of Moderate and Severe VMS",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "ESN364",
+      "head_type": "Treatment",
+      "relation": "reduces",
+      "tail": "Number of Participants With Absolute Reduction of 2 in Mean Number of Mild, Moderate and Severe VMS Per Day",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "ESN364",
+      "head_type": "Treatment",
+      "relation": "reduces",
+      "tail": "Number of Participants With Absolute Reduction of 2 in Mean Number of Moderate and Severe VMS Per Day",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "ESN364",
+      "head_type": "Treatment",
+      "relation": "reduces",
+      "tail": "Number of Participants With Absolute Reduction of 3 in Mean Number of Mild, Moderate and Severe VMS Per Day",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "ESN364",
+      "head_type": "Treatment",
+      "relation": "reduces",
+      "tail": "Number of Participants With Absolute Reduction of 3 in Mean Number of Moderate and Severe VMS Per Day",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "ESN364",
+      "head_type": "Treatment",
+      "relation": "reduces",
+      "tail": "Number of Participants With Absolute Reduction of 4 in Mean Number of Mild, Moderate and Severe VMS Per Day",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "ESN364",
+      "head_type": "Treatment",
+      "relation": "reduces",
+      "tail": "Number of Participants With Absolute Reduction of 4 in Mean Number of Moderate and Severe VMS Per Day",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "ESN364",
+      "head_type": "Treatment",
+      "relation": "reduces",
+      "tail": "Number of Participants With Absolute Reduction of 5 in Mean Number of Mild, Moderate and Severe VMS Per Day",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "ESN364",
+      "head_type": "Treatment",
+      "relation": "reduces",
+      "tail": "Number of Participants With Absolute Reduction of 5 in Mean Number of Moderate and Severe VMS Per Day",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "ESN364",
+      "head_type": "Treatment",
+      "relation": "reduces",
+      "tail": "Number of Participants With Mean Percent Reduction of 100% in The Mean Frequency of Mild, Moderate, and Severe VMS",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "ESN364",
+      "head_type": "Treatment",
+      "relation": "reduces",
+      "tail": "Number of Participants With Mean Percent Reduction of 100% in The Mean Frequency of Moderate and Severe VMS",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "ESN364",
+      "head_type": "Treatment",
+      "relation": "reduces",
+      "tail": "Number of Participants With Mean Percent Reduction of 50% in The Mean Frequency of Mild, Moderate, and Severe VMS",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "ESN364",
+      "head_type": "Treatment",
+      "relation": "reduces",
+      "tail": "Number of Participants With Mean Percent Reduction of 50% in The Mean Frequency of Moderate and Severe VMS",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "ESN364",
+      "head_type": "Treatment",
+      "relation": "reduces",
+      "tail": "Number of Participants With Mean Percent Reduction of 70% in The Mean Frequency of Mild, Moderate, and Severe VMS",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "ESN364",
+      "head_type": "Treatment",
+      "relation": "reduces",
+      "tail": "Number of Participants With Mean Percent Reduction of 70% in The Mean Frequency of Moderate and Severe VMS",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "ESN364",
+      "head_type": "Treatment",
+      "relation": "reduces",
+      "tail": "Number of Participants With Mean Percent Reduction of 90% in The Mean Frequency of Mild, Moderate, and Severe VMS",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "ESN364",
+      "head_type": "Treatment",
+      "relation": "reduces",
+      "tail": "Number of Participants With Mean Percent Reduction of 90% in The Mean Frequency of Moderate and Severe VMS",
+      "tail_type": "Outcome"
+    }
+  ],
+  "study_69": [
+    {
+      "head": "BAY3427080 (NT-814)",
+      "head_type": "Treatment",
+      "relation": "treats",
+      "tail": "Post-menopausal Vasomotor Symptoms",
+      "tail_type": "Condition"
+    },
+    {
+      "head": "BAY3427080 (NT-814)",
+      "head_type": "Treatment",
+      "relation": "reduces",
+      "tail": "Frequency of Moderate and Severe Hot Flushes",
+      "tail_type": "Symptom"
+    },
+    {
+      "head": "BAY3427080 (NT-814)",
+      "head_type": "Treatment",
+      "relation": "reduces",
+      "tail": "Severity of Moderate and Severe Hot Flushes",
+      "tail_type": "Symptom"
+    }
+  ],
+  "study_70": [
+    {
+      "head": "G-CSF",
+      "head_type": "Treatment",
+      "relation": "treats",
+      "tail": "Hot Flashes",
+      "tail_type": "Symptom"
+    },
+    {
+      "head": "G-CSF",
+      "head_type": "Treatment",
+      "relation": "treats",
+      "tail": "Vasomotor Symptoms",
+      "tail_type": "Symptom"
+    },
+    {
+      "head": "G-CSF",
+      "head_type": "Treatment",
+      "relation": "affects",
+      "tail": "White Blood Cell Counts",
+      "tail_type": "Biomarker"
+    },
+    {
+      "head": "G-CSF",
+      "head_type": "Treatment",
+      "relation": "improves",
+      "tail": "Mean Composite Daily Severity of Hot Flashes",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "G-CSF",
+      "head_type": "Treatment",
+      "relation": "improves",
+      "tail": "Mean Daily Severity of Hot Flashes",
+      "tail_type": "Outcome"
+    }
+  ],
+  "study_71": [],
+  "study_72": [
+    {
+      "head": "Tissue Selective Estrogen Complex (TSEC)",
+      "head_type": "Treatment",
+      "relation": "affects",
+      "tail": "Depressive Symptoms",
+      "tail_type": "Symptom"
+    },
+    {
+      "head": "Tissue Selective Estrogen Complex (TSEC)",
+      "head_type": "Treatment",
+      "relation": "affects",
+      "tail": "Neural Reward System",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "Estrogen",
+      "head_type": "Biomarker",
+      "relation": "affects",
+      "tail": "Mood",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "Estrogen",
+      "head_type": "Biomarker",
+      "relation": "affects",
+      "tail": "Brain Function",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "Perimenopausal Women",
+      "head_type": "Population",
+      "relation": "experiences",
+      "tail": "Depressive Symptoms",
+      "tail_type": "Symptom"
+    }
+  ],
+  "study_73": [
+    {
+      "head": "Memory Loss",
+      "head_type": "Symptom",
+      "relation": "is_a_symptom_of",
+      "tail": "Menopause",
+      "tail_type": "Condition"
+    },
+    {
+      "head": "Estrogen Replacement Therapy",
+      "head_type": "Treatment",
+      "relation": "may_improve",
+      "tail": "Memory Loss",
+      "tail_type": "Symptom"
+    },
+    {
+      "head": "Cogmax",
+      "head_type": "Supplement",
+      "relation": "may_mitigate",
+      "tail": "Memory Loss",
+      "tail_type": "Symptom"
+    },
+    {
+      "head": "Multivitamin and Mineral Supplement",
+      "head_type": "Supplement",
+      "relation": "may_mitigate",
+      "tail": "Memory Loss",
+      "tail_type": "Symptom"
+    },
+    {
+      "head": "Multivitamin and Mineral Supplement",
+      "head_type": "Supplement",
+      "relation": "affects",
+      "tail": "Cognitive Function",
+      "tail_type": "Outcome"
+    }
+  ],
+  "study_74": [],
+  "study_75": [
+    {
+      "head": "Postmenopausal Osteoporosis",
+      "head_type": "Condition",
+      "relation": "associated_with",
+      "tail": "Increased Serum SOST Level",
+      "tail_type": "Biomarker"
+    },
+    {
+      "head": "Bisphosphonates",
+      "head_type": "Treatment",
+      "relation": "used_for",
+      "tail": "Postmenopausal Osteoporosis",
+      "tail_type": "Condition"
+    },
+    {
+      "head": "Bisphosphonates",
+      "head_type": "Treatment",
+      "relation": "decreases",
+      "tail": "DKK-1 Level",
+      "tail_type": "Biomarker"
+    },
+    {
+      "head": "Bisphosphonates",
+      "head_type": "Treatment",
+      "relation": "increases",
+      "tail": "SOST Level",
+      "tail_type": "Biomarker"
+    },
+    {
+      "head": "SOST",
+      "head_type": "Biomarker",
+      "relation": "affects",
+      "tail": "Bone Mass Changes",
+      "tail_type": "Outcome"
+    },
+    {
+      "head": "DKK-1",
+      "head_type": "Biomarker",
+      "relation": "affects",
+      "tail": "Bone Mass Changes",
+      "tail_type": "Outcome"
+    }
+  ],
+  "study_76": []
+}
