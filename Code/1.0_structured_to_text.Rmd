@@ -66,10 +66,16 @@ query_results <- paste0("
 ")
 
 menopause_results <- dbGetQuery(con, query_results)
+cat("# of studies with results: ", length(unique(menopause_results$nct_id)), "\n")
+
+
 n_total <- nrow(menopause_results)
 menopause_sig <- menopause_results %>%
   mutate(p_value = as.numeric(p_value)) %>%        # ensure p_value is numeric
   filter(!is.na(p_value) & p_value < 0.05)
+
+cat("# of studies with significant results: ", length(unique(menopause_sig$nct_id)), "\n")
+
 n_sig <- nrow(menopause_sig)
 
 pct_sig <- round(100 * n_sig / n_total, 2)
