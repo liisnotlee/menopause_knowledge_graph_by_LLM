@@ -1,0 +1,5875 @@
+[
+  {
+    "head": "Premature Menopause",
+    "head_type": "Condition",
+    "relation": "is_a_type_of",
+    "tail": "Primary Ovarian Insufficiency (POI)",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Premature Menopause",
+    "head_type": "Condition",
+    "relation": "occurs_before_age",
+    "tail": "40",
+    "tail_type": "Population"
+  },
+  {
+    "head": "Early Menopause",
+    "head_type": "Condition",
+    "relation": "occurs_before_age",
+    "tail": "45",
+    "tail_type": "Population"
+  },
+  {
+    "head": "Average Age for Menopause in the United States",
+    "head_type": "Population",
+    "relation": "is",
+    "tail": "52",
+    "tail_type": "Population"
+  },
+  {
+    "head": "Smoking",
+    "head_type": "Lifestyle Factor",
+    "relation": "causes",
+    "tail": "Early Menopause",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Smoking",
+    "head_type": "Lifestyle Factor",
+    "relation": "causes",
+    "tail": "Premature Menopause",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Smoking",
+    "head_type": "Lifestyle Factor",
+    "relation": "increases_severity_of",
+    "tail": "Menopause Symptoms",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Chemotherapy",
+    "head_type": "Treatment",
+    "relation": "may_cause",
+    "tail": "Early Menopause",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Pelvic Radiation",
+    "head_type": "Treatment",
+    "relation": "may_cause",
+    "tail": "Early Menopause",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Bilateral Oophorectomy",
+    "head_type": "Surgery",
+    "relation": "causes",
+    "tail": "Menopausal Symptoms",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Hysterectomy",
+    "head_type": "Surgery",
+    "relation": "does_not_cause_immediate",
+    "tail": "Menopause",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Autoimmune Diseases",
+    "head_type": "Condition",
+    "relation": "may_cause",
+    "tail": "Early Menopause",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "HIV",
+    "head_type": "Condition",
+    "relation": "may_cause",
+    "tail": "Early Menopause",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "HIV",
+    "head_type": "Condition",
+    "relation": "increases_severity_of",
+    "tail": "Hot Flashes",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Missing Chromosomes",
+    "head_type": "Condition",
+    "relation": "may_cause",
+    "tail": "Early Menopause",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Family History",
+    "head_type": "Risk Factor",
+    "relation": "increases_likelihood_of",
+    "tail": "Early Menopause",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Family History",
+    "head_type": "Risk Factor",
+    "relation": "increases_likelihood_of",
+    "tail": "Premature Menopause",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Turner syndrome",
+    "head_type": "Condition",
+    "relation": "causes",
+    "tail": "early menopause",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Turner syndrome",
+    "head_type": "Condition",
+    "relation": "causes",
+    "tail": "abnormal ovarian formation",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Turner syndrome",
+    "head_type": "Condition",
+    "relation": "causes",
+    "tail": "abnormal menstrual cycles",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Myalgic encephalomyelitis/chronic fatigue syndrome (ME/CFS)",
+    "head_type": "Condition",
+    "relation": "associated_with",
+    "tail": "early menopause",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "early menopause",
+    "head_type": "Condition",
+    "relation": "increases_risk_of",
+    "tail": "heart disease",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "early menopause",
+    "head_type": "Condition",
+    "relation": "increases_risk_of",
+    "tail": "osteoporosis",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "early menopause",
+    "head_type": "Condition",
+    "relation": "causes",
+    "tail": "more severe menopause symptoms",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "early menopause",
+    "head_type": "Condition",
+    "relation": "causes",
+    "tail": "sadness or depression",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "early menopause",
+    "head_type": "Condition",
+    "relation": "causes",
+    "tail": "loss of fertility",
+    "tail_type": "Outcome"
+  },
+  {
+    "head": "estrogen",
+    "head_type": "Biomarker",
+    "relation": "measured_by",
+    "tail": "blood test",
+    "tail_type": "Intervention"
+  },
+  {
+    "head": "hot flashes",
+    "head_type": "Symptom",
+    "relation": "is_a_symptom_of",
+    "tail": "early menopause",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "irregular periods",
+    "head_type": "Symptom",
+    "relation": "is_a_symptom_of",
+    "tail": "early menopause",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "sleep problems",
+    "head_type": "Symptom",
+    "relation": "is_a_symptom_of",
+    "tail": "early menopause",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "vaginal dryness",
+    "head_type": "Symptom",
+    "relation": "is_a_symptom_of",
+    "tail": "early menopause",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Phytoestrogens",
+    "head_type": "Supplement",
+    "relation": "have_not_been_clearly_shown_to_relieve",
+    "tail": "Menopause Symptoms",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Herbs",
+    "head_type": "Supplement",
+    "relation": "have_not_been_clearly_shown_to_relieve",
+    "tail": "Menopause Symptoms",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Dietary Supplements",
+    "head_type": "Supplement",
+    "relation": "have_not_been_clearly_shown_to_relieve",
+    "tail": "Menopause Symptoms",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Hypnotherapy",
+    "head_type": "Intervention",
+    "relation": "may_mitigate",
+    "tail": "Menopause Symptoms",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Mindfulness Meditation",
+    "head_type": "Intervention",
+    "relation": "may_mitigate",
+    "tail": "Menopause Symptoms",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Acupuncture",
+    "head_type": "Intervention",
+    "relation": "has_not_been_shown_to_be_more_effective_than",
+    "tail": "Simulated Acupuncture",
+    "tail_type": "Intervention"
+  },
+  {
+    "head": "Yoga",
+    "head_type": "Intervention",
+    "relation": "is_as_effective_as",
+    "tail": "Other Types of Exercise",
+    "tail_type": "Intervention"
+  },
+  {
+    "head": "Custom-mixed Bioidentical Hormones",
+    "head_type": "Treatment",
+    "relation": "are_not_more_effective_than",
+    "tail": "Conventional Hormone Therapy",
+    "tail_type": "Treatment"
+  },
+  {
+    "head": "Dietary Supplements",
+    "head_type": "Supplement",
+    "relation": "may_have",
+    "tail": "Side Effects",
+    "tail_type": "Outcome"
+  },
+  {
+    "head": "Dietary Supplements",
+    "head_type": "Supplement",
+    "relation": "may_interact_with",
+    "tail": "Drugs",
+    "tail_type": "Medication"
+  },
+  {
+    "head": "Acupuncture",
+    "head_type": "Intervention",
+    "relation": "generally_have",
+    "tail": "Good Safety Records",
+    "tail_type": "Outcome"
+  },
+  {
+    "head": "Hypnosis",
+    "head_type": "Intervention",
+    "relation": "generally_have",
+    "tail": "Good Safety Records",
+    "tail_type": "Outcome"
+  },
+  {
+    "head": "Meditation",
+    "head_type": "Intervention",
+    "relation": "generally_have",
+    "tail": "Good Safety Records",
+    "tail_type": "Outcome"
+  },
+  {
+    "head": "Yoga",
+    "head_type": "Intervention",
+    "relation": "generally_have",
+    "tail": "Good Safety Records",
+    "tail_type": "Outcome"
+  },
+  {
+    "head": "Custom-mixed Bioidentical Hormones",
+    "head_type": "Treatment",
+    "relation": "have_not_been_shown_to_be_safer_than",
+    "tail": "Other Forms of Hormone Therapy",
+    "tail_type": "Treatment"
+  },
+  {
+    "head": "Menopause",
+    "head_type": "Condition",
+    "relation": "is_the_time_when",
+    "tail": "Menstrual Periods Stop Permanently",
+    "tail_type": "Outcome"
+  },
+  {
+    "head": "Hormone Therapy",
+    "head_type": "Treatment",
+    "relation": "is_the_most_effective_for",
+    "tail": "Menopausal Hot Flashes",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Hormone Therapy",
+    "head_type": "Treatment",
+    "relation": "may_increase_risk_of",
+    "tail": "Breast Cancer",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Hormone Therapy",
+    "head_type": "Treatment",
+    "relation": "may_increase_risk_of",
+    "tail": "Blood Clots",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Women with Breast Cancer",
+    "head_type": "Population",
+    "relation": "should_not_use",
+    "tail": "Hormone Therapy",
+    "tail_type": "Treatment"
+  },
+  {
+    "head": "Women with Liver Disease",
+    "head_type": "Population",
+    "relation": "should_not_use",
+    "tail": "Hormone Therapy",
+    "tail_type": "Treatment"
+  },
+  {
+    "head": "Women with History of Blood Clots",
+    "head_type": "Population",
+    "relation": "should_not_use",
+    "tail": "Hormone Therapy",
+    "tail_type": "Treatment"
+  },
+  {
+    "head": "Non-hormonal Medicines",
+    "head_type": "Medication",
+    "relation": "may_treat",
+    "tail": "Menopause Symptoms",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "FDA",
+    "head_type": "Organization",
+    "relation": "approved",
+    "tail": "Non-hormonal Treatment for Hot Flashes",
+    "tail_type": "Treatment"
+  },
+  {
+    "head": "FDA",
+    "head_type": "Organization",
+    "relation": "approved",
+    "tail": "Treatment for Vaginal Symptoms Associated with Menopause",
+    "tail_type": "Treatment"
+  },
+  {
+    "head": "Vitamin E",
+    "head_type": "Supplement",
+    "relation": "may_increase_risk_of",
+    "tail": "Bleeding",
+    "tail_type": "Risk"
+  },
+  {
+    "head": "Vitamin E",
+    "head_type": "Supplement",
+    "relation": "may_interact_with",
+    "tail": "Anticoagulant medications",
+    "tail_type": "Medication"
+  },
+  {
+    "head": "Vitamin E",
+    "head_type": "Supplement",
+    "relation": "may_interact_with",
+    "tail": "Warfarin (Coumadin)",
+    "tail_type": "Medication"
+  },
+  {
+    "head": "Kava",
+    "head_type": "Supplement",
+    "relation": "linked_to",
+    "tail": "Severe liver disease",
+    "tail_type": "Risk"
+  },
+  {
+    "head": "Acupuncture",
+    "head_type": "Intervention",
+    "relation": "reduces",
+    "tail": "Frequency of hot flashes",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Acupuncture",
+    "head_type": "Intervention",
+    "relation": "reduces",
+    "tail": "Severity of hot flashes",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Acupuncture",
+    "head_type": "Intervention",
+    "relation": "less_effective_than",
+    "tail": "Hormone Replacement Therapy (HRT)",
+    "tail_type": "Treatment"
+  },
+  {
+    "head": "Hypnotherapy",
+    "head_type": "Intervention",
+    "relation": "reduces",
+    "tail": "Frequency of hot flashes",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Hypnotherapy",
+    "head_type": "Intervention",
+    "relation": "improves",
+    "tail": "Sleep quality",
+    "tail_type": "Outcome"
+  },
+  {
+    "head": "Mindfulness Meditation",
+    "head_type": "Intervention",
+    "relation": "reduces",
+    "tail": "Bothersomeness of hot flashes",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Mindfulness Meditation",
+    "head_type": "Intervention",
+    "relation": "improves",
+    "tail": "Anxiety",
+    "tail_type": "Outcome"
+  },
+  {
+    "head": "Mindfulness Meditation",
+    "head_type": "Intervention",
+    "relation": "improves",
+    "tail": "Perceived stress",
+    "tail_type": "Outcome"
+  },
+  {
+    "head": "Mindfulness Meditation",
+    "head_type": "Intervention",
+    "relation": "improves",
+    "tail": "Self-reported sleep quality",
+    "tail_type": "Outcome"
+  },
+  {
+    "head": "Mindfulness Meditation",
+    "head_type": "Intervention",
+    "relation": "improves",
+    "tail": "Quality of life",
+    "tail_type": "Outcome"
+  },
+  {
+    "head": "Yoga",
+    "head_type": "Intervention",
+    "relation": "reduces",
+    "tail": "physical symptoms",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Yoga",
+    "head_type": "Intervention",
+    "relation": "reduces",
+    "tail": "psychological symptoms",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Yoga",
+    "head_type": "Intervention",
+    "relation": "reduces",
+    "tail": "hot flashes",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Yoga",
+    "head_type": "Intervention",
+    "relation": "reduces",
+    "tail": "anxiety",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Yoga",
+    "head_type": "Intervention",
+    "relation": "reduces",
+    "tail": "depression",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Yoga",
+    "head_type": "Intervention",
+    "relation": "is_as_effective_as",
+    "tail": "other types of exercise",
+    "tail_type": "Intervention"
+  },
+  {
+    "head": "Yoga",
+    "head_type": "Intervention",
+    "relation": "has_low_rate_of",
+    "tail": "side effects",
+    "tail_type": "Outcome"
+  },
+  {
+    "head": "Custom-mixed bioidentical hormones",
+    "head_type": "Treatment",
+    "relation": "may_be_riskier_than",
+    "tail": "conventional hormone therapy",
+    "tail_type": "Treatment"
+  },
+  {
+    "head": "Custom-mixed bioidentical hormones",
+    "head_type": "Treatment",
+    "relation": "has_no_regulatory_oversight",
+    "tail": "preparation",
+    "tail_type": "Process"
+  },
+  {
+    "head": "Custom-mixed bioidentical hormones",
+    "head_type": "Treatment",
+    "relation": "has_variable",
+    "tail": "content",
+    "tail_type": "Outcome"
+  },
+  {
+    "head": "North American Menopause Society",
+    "head_type": "Organization",
+    "relation": "recommends",
+    "tail": "hypnotherapy",
+    "tail_type": "Intervention"
+  },
+  {
+    "head": "North American Menopause Society",
+    "head_type": "Organization",
+    "relation": "conditionally_recommends",
+    "tail": "mindfulness-based therapies",
+    "tail_type": "Intervention"
+  },
+  {
+    "head": "North American Menopause Society",
+    "head_type": "Organization",
+    "relation": "does_not_recommend",
+    "tail": "acupuncture",
+    "tail_type": "Intervention"
+  },
+  {
+    "head": "North American Menopause Society",
+    "head_type": "Organization",
+    "relation": "does_not_recommend",
+    "tail": "yoga",
+    "tail_type": "Intervention"
+  },
+  {
+    "head": "North American Menopause Society",
+    "head_type": "Organization",
+    "relation": "does_not_recommend",
+    "tail": "natural products",
+    "tail_type": "Treatment"
+  },
+  {
+    "head": "American College of Obstetricians and Gynecologists",
+    "head_type": "Organization",
+    "relation": "prefers",
+    "tail": "conventional hormone therapy",
+    "tail_type": "Treatment"
+  },
+  {
+    "head": "American College of Obstetricians and Gynecologists",
+    "head_type": "Organization",
+    "relation": "does_not_support",
+    "tail": "custom-mixed bioidentical hormones",
+    "tail_type": "Treatment"
+  },
+  {
+    "head": "American College of Obstetricians and Gynecologists",
+    "head_type": "Organization",
+    "relation": "does_not_support",
+    "tail": "phytoestrogens",
+    "tail_type": "Supplement"
+  },
+  {
+    "head": "American College of Obstetricians and Gynecologists",
+    "head_type": "Organization",
+    "relation": "does_not_support",
+    "tail": "herbal supplements",
+    "tail_type": "Supplement"
+  },
+  {
+    "head": "American Association of Clinical Endocrinologists",
+    "head_type": "Organization",
+    "relation": "recommends_against",
+    "tail": "custom-mixed bioidentical hormones",
+    "tail_type": "Treatment"
+  },
+  {
+    "head": "American Association of Clinical Endocrinologists",
+    "head_type": "Organization",
+    "relation": "advises_caution_with",
+    "tail": "dietary supplements",
+    "tail_type": "Supplement"
+  },
+  {
+    "head": "American Association of Clinical Endocrinologists",
+    "head_type": "Organization",
+    "relation": "states",
+    "tail": "effects of phytoestrogens are inconsistent",
+    "tail_type": "Outcome"
+  },
+  {
+    "head": "American Association of Clinical Endocrinologists",
+    "head_type": "Organization",
+    "relation": "cautions_against",
+    "tail": "soy-based treatments",
+    "tail_type": "Treatment"
+  },
+  {
+    "head": "Task force from several professional societies",
+    "head_type": "Organization",
+    "relation": "recommends_against",
+    "tail": "routine use of DHEA",
+    "tail_type": "Supplement"
+  },
+  {
+    "head": "NCCIH-funded researchers",
+    "head_type": "Organization",
+    "relation": "study",
+    "tail": "effects of acupuncture on hot flashes",
+    "tail_type": "Research"
+  },
+  {
+    "head": "NCCIH-funded researchers",
+    "head_type": "Organization",
+    "relation": "study",
+    "tail": "hypnotherapy for improving sleep",
+    "tail_type": "Research"
+  },
+  {
+    "head": "Women",
+    "head_type": "Population",
+    "relation": "more_likely_to_have",
+    "tail": "Depressed mood",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Women",
+    "head_type": "Population",
+    "relation": "more_likely_to_have",
+    "tail": "Major depression",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Women",
+    "head_type": "Population",
+    "relation": "more_likely_to_have",
+    "tail": "Anxiety",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Perimenopause",
+    "head_type": "Condition",
+    "relation": "associated_with",
+    "tail": "Increased risk of depression",
+    "tail_type": "Risk"
+  },
+  {
+    "head": "Major depression",
+    "head_type": "Condition",
+    "relation": "has_symptom",
+    "tail": "Loss of interest or pleasure",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Major depression",
+    "head_type": "Condition",
+    "relation": "has_symptom",
+    "tail": "Weight loss or gain",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Major depression",
+    "head_type": "Condition",
+    "relation": "has_symptom",
+    "tail": "Trouble sleeping",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Major depression",
+    "head_type": "Condition",
+    "relation": "has_symptom",
+    "tail": "Feeling restless or agitated",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Major depression",
+    "head_type": "Condition",
+    "relation": "has_symptom",
+    "tail": "Feeling sluggish",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Major depression",
+    "head_type": "Condition",
+    "relation": "has_symptom",
+    "tail": "Fatigue",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Major depression",
+    "head_type": "Condition",
+    "relation": "has_symptom",
+    "tail": "Feeling worthless or guilty",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Major depression",
+    "head_type": "Condition",
+    "relation": "has_symptom",
+    "tail": "Trouble concentrating",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Major depression",
+    "head_type": "Condition",
+    "relation": "has_symptom",
+    "tail": "Sense of hopelessness",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Major depression",
+    "head_type": "Condition",
+    "relation": "has_symptom",
+    "tail": "Thoughts of suicide",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Anxiety",
+    "head_type": "Condition",
+    "relation": "has_symptom",
+    "tail": "Excessive worrying",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Anxiety",
+    "head_type": "Condition",
+    "relation": "has_symptom",
+    "tail": "Agitation",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Anxiety",
+    "head_type": "Condition",
+    "relation": "has_symptom",
+    "tail": "Restlessness",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Anxiety",
+    "head_type": "Condition",
+    "relation": "has_symptom",
+    "tail": "Fatigue",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Anxiety",
+    "head_type": "Condition",
+    "relation": "has_symptom",
+    "tail": "Difficulty concentrating",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Anxiety",
+    "head_type": "Condition",
+    "relation": "has_symptom",
+    "tail": "Irritability",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Anxiety",
+    "head_type": "Condition",
+    "relation": "has_symptom",
+    "tail": "Tense muscles",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Anxiety",
+    "head_type": "Condition",
+    "relation": "has_symptom",
+    "tail": "Panic attacks",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Anxiety",
+    "head_type": "Condition",
+    "relation": "has_symptom",
+    "tail": "Trouble sleeping",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Menopause transition",
+    "head_type": "Condition",
+    "relation": "associated_with",
+    "tail": "Increased risk of depression",
+    "tail_type": "Risk"
+  },
+  {
+    "head": "Hormone fluctuations",
+    "head_type": "Biomarker",
+    "relation": "may_contribute_to",
+    "tail": "Mood changes",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Night sweats",
+    "head_type": "Symptom",
+    "relation": "may_contribute_to",
+    "tail": "Mood changes",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Insomnia",
+    "head_type": "Symptom",
+    "relation": "may_contribute_to",
+    "tail": "Mood changes",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "History of depression",
+    "head_type": "Risk",
+    "relation": "increases_risk_of",
+    "tail": "Depression during menopause transition",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Poor sleep",
+    "head_type": "Risk",
+    "relation": "increases_risk_of",
+    "tail": "Depression during menopause transition",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Stress",
+    "head_type": "Risk",
+    "relation": "increases_risk_of",
+    "tail": "Depression during menopause transition",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Negative life events",
+    "head_type": "Risk",
+    "relation": "increases_risk_of",
+    "tail": "Depression during menopause transition",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Higher body mass index",
+    "head_type": "Risk",
+    "relation": "increases_risk_of",
+    "tail": "Depression during menopause transition",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Smoking",
+    "head_type": "Risk",
+    "relation": "increases_risk_of",
+    "tail": "Depression during menopause transition",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Younger age at menopause",
+    "head_type": "Risk",
+    "relation": "increases_risk_of",
+    "tail": "Depression during menopause transition",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "African American race",
+    "head_type": "Risk",
+    "relation": "increases_risk_of",
+    "tail": "Depression during menopause transition",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Antidepressants (SSRIs, SNRIs)",
+    "head_type": "Treatment",
+    "relation": "treats",
+    "tail": "Depression",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Cognitive behavioral therapy",
+    "head_type": "Treatment",
+    "relation": "treats",
+    "tail": "Depression",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Psychotherapy/talk therapy/counseling",
+    "head_type": "Treatment",
+    "relation": "treats",
+    "tail": "Depression",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Hypnosis",
+    "head_type": "Treatment",
+    "relation": "treats",
+    "tail": "Depression",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Estrogen pill, patches and creams",
+    "head_type": "Treatment",
+    "relation": "may_help_with",
+    "tail": "Depression",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Exercise",
+    "head_type": "Lifestyle Factor",
+    "relation": "may_help_with",
+    "tail": "Anxiety",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Exercise",
+    "head_type": "Lifestyle Factor",
+    "relation": "may_help_with",
+    "tail": "Depression",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Mindfulness-based stress reduction",
+    "head_type": "Intervention",
+    "relation": "may_help_with",
+    "tail": "Anxiety",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Mindfulness-based stress reduction",
+    "head_type": "Intervention",
+    "relation": "may_help_with",
+    "tail": "Depression",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Meditation",
+    "head_type": "Intervention",
+    "relation": "may_help_with",
+    "tail": "Anxiety",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Meditation",
+    "head_type": "Intervention",
+    "relation": "may_help_with",
+    "tail": "Depression",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Paced breathing",
+    "head_type": "Intervention",
+    "relation": "may_help_with",
+    "tail": "Anxiety",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Paced breathing",
+    "head_type": "Intervention",
+    "relation": "may_help_with",
+    "tail": "Depression",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Quit smoking",
+    "head_type": "Intervention",
+    "relation": "may_help_with",
+    "tail": "Anxiety",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Quit smoking",
+    "head_type": "Intervention",
+    "relation": "may_help_with",
+    "tail": "Depression",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Yoga",
+    "head_type": "Intervention",
+    "relation": "may_help_with",
+    "tail": "Anxiety",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Yoga",
+    "head_type": "Intervention",
+    "relation": "may_help_with",
+    "tail": "Depression",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Dehydration",
+    "head_type": "Condition",
+    "relation": "affects",
+    "tail": "Mood",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Dehydration",
+    "head_type": "Condition",
+    "relation": "causes",
+    "tail": "Anger",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Dehydration",
+    "head_type": "Condition",
+    "relation": "causes",
+    "tail": "Confusion",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Dehydration",
+    "head_type": "Condition",
+    "relation": "causes",
+    "tail": "Sadness",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Dehydration",
+    "head_type": "Condition",
+    "relation": "causes",
+    "tail": "Tension",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Dehydration",
+    "head_type": "Condition",
+    "relation": "causes",
+    "tail": "Tiredness",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Menopause",
+    "head_type": "Condition",
+    "relation": "is_a_type_of",
+    "tail": "Change of life",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Menopause",
+    "head_type": "Condition",
+    "relation": "is_characterized_by",
+    "tail": "cessation of periods for 12 months",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Menopausal transition",
+    "head_type": "Condition",
+    "relation": "is_a_type_of",
+    "tail": "Perimenopause",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Menopausal transition",
+    "head_type": "Condition",
+    "relation": "precedes",
+    "tail": "Menopause",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Early menopause",
+    "head_type": "Condition",
+    "relation": "occurs_before_age",
+    "tail": "40",
+    "tail_type": "Population"
+  },
+  {
+    "head": "Primary ovarian insufficiency (POI)",
+    "head_type": "Condition",
+    "relation": "is_different_from",
+    "tail": "Early menopause",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Primary ovarian insufficiency (POI)",
+    "head_type": "Condition",
+    "relation": "may_include",
+    "tail": "irregular periods",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Menopause",
+    "head_type": "Condition",
+    "relation": "has_symptom",
+    "tail": "Irregular periods",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Menopause",
+    "head_type": "Condition",
+    "relation": "has_symptom",
+    "tail": "Hot flashes",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Menopause",
+    "head_type": "Condition",
+    "relation": "has_symptom",
+    "tail": "Night sweats",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Menopause",
+    "head_type": "Condition",
+    "relation": "has_symptom",
+    "tail": "Trouble sleeping",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Menopause",
+    "head_type": "Condition",
+    "relation": "has_symptom",
+    "tail": "Vaginal dryness",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Menopause",
+    "head_type": "Condition",
+    "relation": "has_symptom",
+    "tail": "Mood changes",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Menopause",
+    "head_type": "Condition",
+    "relation": "has_symptom",
+    "tail": "Bladder issues",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Loss of estrogen",
+    "head_type": "Biomarker",
+    "relation": "causes",
+    "tail": "Loss of bone density",
+    "tail_type": "Outcome"
+  },
+  {
+    "head": "Loss of bone density",
+    "head_type": "Outcome",
+    "relation": "leads_to",
+    "tail": "Osteoporosis",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Loss of estrogen",
+    "head_type": "Biomarker",
+    "relation": "increases_risk_of",
+    "tail": "Heart disease",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Loss of estrogen",
+    "head_type": "Biomarker",
+    "relation": "increases_risk_of",
+    "tail": "Stroke",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Lifestyle changes",
+    "head_type": "Intervention",
+    "relation": "may_mitigate",
+    "tail": "Menopause symptoms",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Avoiding alcohol",
+    "head_type": "Lifestyle Factor",
+    "relation": "may_mitigate",
+    "tail": "Menopause symptoms",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Avoiding spicy foods",
+    "head_type": "Lifestyle Factor",
+    "relation": "may_mitigate",
+    "tail": "Menopause symptoms",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Avoiding caffeine",
+    "head_type": "Lifestyle Factor",
+    "relation": "may_mitigate",
+    "tail": "Menopause symptoms",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Quitting smoking",
+    "head_type": "Lifestyle Factor",
+    "relation": "may_mitigate",
+    "tail": "Hot flashes",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Caffeine",
+    "head_type": "Lifestyle Factor",
+    "relation": "can_make_worse",
+    "tail": "Menopause Symptoms",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Smoking",
+    "head_type": "Lifestyle Factor",
+    "relation": "can_make_worse",
+    "tail": "Hot Flashes",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Being Overweight",
+    "head_type": "Condition",
+    "relation": "can_make_worse",
+    "tail": "Hot Flashes",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Regular Exercise",
+    "head_type": "Lifestyle Factor",
+    "relation": "can_help",
+    "tail": "Sleep",
+    "tail_type": "Outcome"
+  },
+  {
+    "head": "Regular Exercise",
+    "head_type": "Lifestyle Factor",
+    "relation": "can_improve",
+    "tail": "Mood",
+    "tail_type": "Outcome"
+  },
+  {
+    "head": "Regular Exercise",
+    "head_type": "Lifestyle Factor",
+    "relation": "can_lower_risk_of",
+    "tail": "Age-related Diseases",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Lower Stress",
+    "head_type": "Intervention",
+    "relation": "can_help",
+    "tail": "Menopause Symptoms",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Non-hormone Treatments",
+    "head_type": "Treatment",
+    "relation": "treats",
+    "tail": "Menopause Symptoms",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Antidepressants",
+    "head_type": "Medication",
+    "relation": "may_help_with",
+    "tail": "Sleep Problems",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Menopausal Hormone Therapy (MHT)",
+    "head_type": "Treatment",
+    "relation": "treats",
+    "tail": "Hot Flashes",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Menopausal Hormone Therapy (MHT)",
+    "head_type": "Treatment",
+    "relation": "treats",
+    "tail": "Vaginal Dryness",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Menopausal Hormone Therapy (MHT)",
+    "head_type": "Treatment",
+    "relation": "helps_prevent",
+    "tail": "Osteoporosis",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Supplements",
+    "head_type": "Supplement",
+    "relation": "may_have_harmful_side_effects",
+    "tail": "Medicines",
+    "tail_type": "Medication"
+  },
+  {
+    "head": "Supplements",
+    "head_type": "Supplement",
+    "relation": "interact_with",
+    "tail": "Medicines",
+    "tail_type": "Medication"
+  },
+  {
+    "head": "Low levels of estrogen",
+    "head_type": "Biomarker",
+    "relation": "raise_risk_of",
+    "tail": "Heart disease",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Low levels of estrogen",
+    "head_type": "Biomarker",
+    "relation": "raise_risk_of",
+    "tail": "Stroke",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Low levels of estrogen",
+    "head_type": "Biomarker",
+    "relation": "raise_risk_of",
+    "tail": "Osteoporosis",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Low levels of estrogen",
+    "head_type": "Biomarker",
+    "relation": "may_play_role_in",
+    "tail": "Cholesterol buildup",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Osteoporosis",
+    "head_type": "Condition",
+    "relation": "causes",
+    "tail": "Bones to become brittle and weak",
+    "tail_type": "Outcome"
+  },
+  {
+    "head": "Osteoporosis",
+    "head_type": "Condition",
+    "relation": "increases_risk_of",
+    "tail": "Bone loss in spine",
+    "tail_type": "Outcome"
+  },
+  {
+    "head": "Osteoporosis",
+    "head_type": "Condition",
+    "relation": "increases_risk_of",
+    "tail": "Hip fractures",
+    "tail_type": "Outcome"
+  },
+  {
+    "head": "Urinary incontinence",
+    "head_type": "Condition",
+    "relation": "is_not_related_to",
+    "tail": "Decreasing estrogen levels",
+    "tail_type": "Biomarker"
+  },
+  {
+    "head": "Urinary incontinence",
+    "head_type": "Condition",
+    "relation": "is_not_related_to",
+    "tail": "Menopause",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Overweight",
+    "head_type": "Condition",
+    "relation": "associated_with",
+    "tail": "Urinary incontinence",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Diabetes",
+    "head_type": "Condition",
+    "relation": "associated_with",
+    "tail": "Urinary incontinence",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Increasing age",
+    "head_type": "Population",
+    "relation": "associated_with",
+    "tail": "Urinary incontinence",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Menopausal hormone therapy",
+    "head_type": "Treatment",
+    "relation": "approved_to_relieve",
+    "tail": "Menopause symptoms",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Menopause symptoms",
+    "head_type": "Symptom",
+    "relation": "include",
+    "tail": "Hot flashes",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Menopause symptoms",
+    "head_type": "Symptom",
+    "relation": "include",
+    "tail": "Vaginal dryness",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Regular mammograms",
+    "head_type": "Intervention",
+    "relation": "recommended_for",
+    "tail": "Women after age 40 through age 75",
+    "tail_type": "Population"
+  },
+  {
+    "head": "Regular Pap tests",
+    "head_type": "Intervention",
+    "relation": "recommended_for",
+    "tail": "Women even after menopause",
+    "tail_type": "Population"
+  },
+  {
+    "head": "Regular height measurements",
+    "head_type": "Intervention",
+    "relation": "detect",
+    "tail": "Loss of height due to bone loss",
+    "tail_type": "Outcome"
+  },
+  {
+    "head": "Blood, urine, and other tests",
+    "head_type": "Intervention",
+    "relation": "screen_for",
+    "tail": "Risk of diabetes and heart disease",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Vaccines",
+    "head_type": "Intervention",
+    "relation": "available_for",
+    "tail": "Flu, COVID-19, pneumonia, shingles, RSV",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Quit smoking",
+    "head_type": "Lifestyle Factor",
+    "relation": "recommended_for",
+    "tail": "Health during and after menopause",
+    "tail_type": "Outcome"
+  },
+  {
+    "head": "Quitting smoking",
+    "head_type": "Intervention",
+    "relation": "improves",
+    "tail": "health",
+    "tail_type": "Outcome"
+  },
+  {
+    "head": "Smoking",
+    "head_type": "Lifestyle Factor",
+    "relation": "damages",
+    "tail": "bones",
+    "tail_type": "Outcome"
+  },
+  {
+    "head": "Smoking",
+    "head_type": "Lifestyle Factor",
+    "relation": "causes",
+    "tail": "heart disease",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Smoking",
+    "head_type": "Lifestyle Factor",
+    "relation": "causes",
+    "tail": "cancer",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Physical activity",
+    "head_type": "Intervention",
+    "relation": "improves",
+    "tail": "bones",
+    "tail_type": "Outcome"
+  },
+  {
+    "head": "Physical activity",
+    "head_type": "Intervention",
+    "relation": "improves",
+    "tail": "heart",
+    "tail_type": "Outcome"
+  },
+  {
+    "head": "Physical activity",
+    "head_type": "Intervention",
+    "relation": "improves",
+    "tail": "mood",
+    "tail_type": "Outcome"
+  },
+  {
+    "head": "Calcium",
+    "head_type": "Supplement",
+    "relation": "maintains",
+    "tail": "bone health",
+    "tail_type": "Outcome"
+  },
+  {
+    "head": "Vitamin D",
+    "head_type": "Supplement",
+    "relation": "important_for",
+    "tail": "bone health",
+    "tail_type": "Outcome"
+  },
+  {
+    "head": "Condoms",
+    "head_type": "Intervention",
+    "relation": "prevent",
+    "tail": "sexually transmitted infections (STIs)",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Vaginal cuts or tears",
+    "head_type": "Condition",
+    "relation": "increase_risk_of",
+    "tail": "sexually transmitted infections (STIs)",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Lower estrogen levels",
+    "head_type": "Biomarker",
+    "relation": "may_contribute_to",
+    "tail": "weight gain",
+    "tail_type": "Outcome"
+  },
+  {
+    "head": "Weight gain",
+    "head_type": "Outcome",
+    "relation": "increases_risk_of",
+    "tail": "high blood pressure",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Weight gain",
+    "head_type": "Outcome",
+    "relation": "increases_risk_of",
+    "tail": "high cholesterol",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Weight gain",
+    "head_type": "Outcome",
+    "relation": "increases_risk_of",
+    "tail": "diabetes",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Weight gain",
+    "head_type": "Outcome",
+    "relation": "increases_risk_of",
+    "tail": "heart attack",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Weight gain",
+    "head_type": "Outcome",
+    "relation": "increases_risk_of",
+    "tail": "stroke",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Consuming fewer calories",
+    "head_type": "Intervention",
+    "relation": "may_be_effective_for",
+    "tail": "weight loss",
+    "tail_type": "Outcome"
+  },
+  {
+    "head": "Exercise or physical activity",
+    "head_type": "Intervention",
+    "relation": "important_for",
+    "tail": "good health",
+    "tail_type": "Outcome"
+  },
+  {
+    "head": "Novel menopause hormone therapy (conjugated estrogen/bazedoxifene [CE/BZA])",
+    "head_type": "Treatment",
+    "relation": "affects",
+    "tail": "glucose and lipid homeostasis",
+    "tail_type": "Biomarker"
+  },
+  {
+    "head": "Obese menopausal women veterans with prediabetes and early diabetes",
+    "head_type": "Population",
+    "relation": "receives",
+    "tail": "Novel menopause hormone therapy (conjugated estrogen/bazedoxifene [CE/BZA])",
+    "tail_type": "Treatment"
+  },
+  {
+    "head": "Diminished sex hormone levels",
+    "head_type": "Biomarker",
+    "relation": "stimulates",
+    "tail": "production of inflammatory bone marrow-derived adipocytes",
+    "tail_type": "Outcome"
+  },
+  {
+    "head": "Estrogen and follicle-stimulating hormone",
+    "head_type": "Biomarker",
+    "relation": "regulate",
+    "tail": "production of myeloid adipocyte progenitors (MAPs)",
+    "tail_type": "Biomarker"
+  },
+  {
+    "head": "Progranulin (PGRN)",
+    "head_type": "Biomarker",
+    "relation": "promotes",
+    "tail": "bone loss",
+    "tail_type": "Outcome"
+  },
+  {
+    "head": "Progranulin (PGRN)",
+    "head_type": "Biomarker",
+    "relation": "mediates",
+    "tail": "cytokine production",
+    "tail_type": "Biomarker"
+  },
+  {
+    "head": "Bone disease",
+    "head_type": "Condition",
+    "relation": "associated_with",
+    "tail": "inflammatory disorders such as rheumatoid arthritis and postmenopausal osteoporosis",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Enhanced mitochondrial function in females",
+    "head_type": "Biomarker",
+    "relation": "provides",
+    "tail": "protection against steatosis",
+    "tail_type": "Outcome"
+  },
+  {
+    "head": "Differences in bile acid metabolism",
+    "head_type": "Biomarker",
+    "relation": "provides",
+    "tail": "protection against steatosis in females",
+    "tail_type": "Outcome"
+  },
+  {
+    "head": "Menopause symptoms",
+    "head_type": "Symptom",
+    "relation": "associated_with",
+    "tail": "mental health",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Veteran-focused tool",
+    "head_type": "Intervention",
+    "relation": "activates",
+    "tail": "self-management of menopause symptoms",
+    "tail_type": "Outcome"
+  },
+  {
+    "head": "Menopause-focused mobile app",
+    "head_type": "Intervention",
+    "relation": "provides",
+    "tail": "psychoeducation",
+    "tail_type": "Intervention"
+  },
+  {
+    "head": "Menopause symptoms",
+    "head_type": "Symptom",
+    "relation": "associated_with",
+    "tail": "long-term opioid prescription patterns",
+    "tail_type": "Outcome"
+  },
+  {
+    "head": "Menopause symptoms",
+    "head_type": "Symptom",
+    "relation": "associated_with",
+    "tail": "chronic pain",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Menopause symptoms",
+    "head_type": "Symptom",
+    "relation": "increases_risk_of",
+    "tail": "multiple chronic pain diagnoses",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Estrogen deficiency",
+    "head_type": "Biomarker",
+    "relation": "contributes_to",
+    "tail": "glaucoma",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Estrogen",
+    "head_type": "Treatment",
+    "relation": "may_treat",
+    "tail": "glaucoma",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Hormone Therapy (HT)",
+    "head_type": "Treatment",
+    "relation": "used_by",
+    "tail": "women veterans",
+    "tail_type": "Population"
+  },
+  {
+    "head": "Mental health\u2013related diagnosis",
+    "head_type": "Condition",
+    "relation": "associated_with",
+    "tail": "Hormone Therapy (HT) use",
+    "tail_type": "Outcome"
+  },
+  {
+    "head": "VA women\u2019s clinics",
+    "head_type": "Intervention",
+    "relation": "reduces_risk_of",
+    "tail": "Hormone Therapy (HT) discontinuation",
+    "tail_type": "Outcome"
+  },
+  {
+    "head": "Vasomotor symptoms (VMS)",
+    "head_type": "Symptom",
+    "relation": "associated_with",
+    "tail": "decreased health-related quality of life (HRQOL)",
+    "tail_type": "Outcome"
+  },
+  {
+    "head": "Veteran status",
+    "head_type": "Population",
+    "relation": "affects",
+    "tail": "association of VMS with HRQOL",
+    "tail_type": "Outcome"
+  },
+  {
+    "head": "Premenopausal-aged female veterans",
+    "head_type": "Population",
+    "relation": "have_higher_risk_of",
+    "tail": "hysterectomy",
+    "tail_type": "Intervention"
+  },
+  {
+    "head": "Sexual assault",
+    "head_type": "Condition",
+    "relation": "associated_with",
+    "tail": "hysterectomy",
+    "tail_type": "Intervention"
+  },
+  {
+    "head": "Post-traumatic stress disorder (PTSD)",
+    "head_type": "Condition",
+    "relation": "associated_with",
+    "tail": "hysterectomy",
+    "tail_type": "Intervention"
+  },
+  {
+    "head": "Gynecological symptoms",
+    "head_type": "Symptom",
+    "relation": "associated_with",
+    "tail": "hysterectomy",
+    "tail_type": "Intervention"
+  },
+  {
+    "head": "Hormone Replacement Therapy (HRT)",
+    "head_type": "Treatment",
+    "relation": "supported_by",
+    "tail": "concerns about heart disease, osteoporosis, and symptoms of menopause",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Hormone Replacement Therapy (HRT)",
+    "head_type": "Treatment",
+    "relation": "weighed_against",
+    "tail": "side effects",
+    "tail_type": "Outcome"
+  },
+  {
+    "head": "Hormone Replacement Therapy (HRT)",
+    "head_type": "Treatment",
+    "relation": "weighed_against",
+    "tail": "breast cancer concerns",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Type 2 diabetes",
+    "head_type": "Condition",
+    "relation": "influences",
+    "tail": "severity of menopause symptoms",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Glucose control",
+    "head_type": "Biomarker",
+    "relation": "associated_with",
+    "tail": "severity of menopause symptoms",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Joint pain",
+    "head_type": "Symptom",
+    "relation": "part_of",
+    "tail": "postmenopausal symptom complex",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Menopause",
+    "head_type": "Condition",
+    "relation": "is_a_stage_of",
+    "tail": "woman's life",
+    "tail_type": "Population"
+  },
+  {
+    "head": "Menopause",
+    "head_type": "Condition",
+    "relation": "is_not",
+    "tail": "disease",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Menopause",
+    "head_type": "Condition",
+    "relation": "is_not",
+    "tail": "disorder",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Menopause",
+    "head_type": "Condition",
+    "relation": "is_a_part_of",
+    "tail": "aging",
+    "tail_type": "Process"
+  },
+  {
+    "head": "Menopausal transition",
+    "head_type": "Condition",
+    "relation": "is_a_stage_of",
+    "tail": "menopause",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Menopausal transition",
+    "head_type": "Condition",
+    "relation": "includes_symptom",
+    "tail": "hot flashes",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Menopausal transition",
+    "head_type": "Condition",
+    "relation": "includes_symptom",
+    "tail": "night sweats",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Menopausal transition",
+    "head_type": "Condition",
+    "relation": "includes_symptom",
+    "tail": "trouble sleeping",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Menopausal transition",
+    "head_type": "Condition",
+    "relation": "includes_symptom",
+    "tail": "joint and muscle discomfort",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Menopausal transition",
+    "head_type": "Condition",
+    "relation": "includes_symptom",
+    "tail": "pain during sex",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Menopausal transition",
+    "head_type": "Condition",
+    "relation": "includes_symptom",
+    "tail": "moodiness and irritability",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Menopausal transition",
+    "head_type": "Condition",
+    "relation": "includes_symptom",
+    "tail": "forgetfulness",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Menopausal transition",
+    "head_type": "Condition",
+    "relation": "includes_symptom",
+    "tail": "difficulty concentrating",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Menopausal transition",
+    "head_type": "Condition",
+    "relation": "affects",
+    "tail": "menstrual cycle patterns",
+    "tail_type": "Biomarker"
+  },
+  {
+    "head": "Menopausal transition",
+    "head_type": "Condition",
+    "relation": "affects",
+    "tail": "estrogen production",
+    "tail_type": "Biomarker"
+  },
+  {
+    "head": "Menopausal transition",
+    "head_type": "Condition",
+    "relation": "affects",
+    "tail": "progesterone production",
+    "tail_type": "Biomarker"
+  },
+  {
+    "head": "Smoking",
+    "head_type": "Lifestyle Factor",
+    "relation": "is_associated_with",
+    "tail": "early onset of menopause",
+    "tail_type": "Outcome"
+  },
+  {
+    "head": "Smoking",
+    "head_type": "Lifestyle Factor",
+    "relation": "is_associated_with",
+    "tail": "more severe menopausal symptoms",
+    "tail_type": "Outcome"
+  },
+  {
+    "head": "Black women",
+    "head_type": "Population",
+    "relation": "more_likely_to_experience",
+    "tail": "early onset of menopause",
+    "tail_type": "Outcome"
+  },
+  {
+    "head": "Black women",
+    "head_type": "Population",
+    "relation": "more_likely_to_experience",
+    "tail": "more menopausal symptoms",
+    "tail_type": "Outcome"
+  },
+  {
+    "head": "Black women",
+    "head_type": "Population",
+    "relation": "more_likely_to_experience",
+    "tail": "symptoms for longer",
+    "tail_type": "Outcome"
+  },
+  {
+    "head": "Asian women",
+    "head_type": "Population",
+    "relation": "less_likely_to_experience",
+    "tail": "menopausal symptoms",
+    "tail_type": "Outcome"
+  },
+  {
+    "head": "Menopausal transition",
+    "head_type": "Condition",
+    "relation": "affects",
+    "tail": "energy use",
+    "tail_type": "Biomarker"
+  },
+  {
+    "head": "Menopausal transition",
+    "head_type": "Condition",
+    "relation": "affects",
+    "tail": "fat distribution",
+    "tail_type": "Biomarker"
+  },
+  {
+    "head": "Menopausal transition",
+    "head_type": "Condition",
+    "relation": "may_cause",
+    "tail": "weight gain",
+    "tail_type": "Outcome"
+  },
+  {
+    "head": "Menopausal transition",
+    "head_type": "Condition",
+    "relation": "affects",
+    "tail": "bone density",
+    "tail_type": "Biomarker"
+  },
+  {
+    "head": "Menopausal transition",
+    "head_type": "Condition",
+    "relation": "affects",
+    "tail": "heart health",
+    "tail_type": "Biomarker"
+  },
+  {
+    "head": "Menopausal transition",
+    "head_type": "Condition",
+    "relation": "affects",
+    "tail": "body shape and composition",
+    "tail_type": "Biomarker"
+  },
+  {
+    "head": "Menopausal transition",
+    "head_type": "Condition",
+    "relation": "affects",
+    "tail": "physical function",
+    "tail_type": "Biomarker"
+  },
+  {
+    "head": "Menopausal Transition",
+    "head_type": "Condition",
+    "relation": "is_a_likely_cause_of",
+    "tail": "Symptoms",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Menopausal Transition",
+    "head_type": "Condition",
+    "relation": "may_be_referred_to_as",
+    "tail": "Menopause",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Menopause",
+    "head_type": "Condition",
+    "relation": "is_confirmed_after",
+    "tail": "One Year After Final Menstrual Period",
+    "tail_type": "Outcome"
+  },
+  {
+    "head": "Menopause",
+    "head_type": "Condition",
+    "relation": "is_a_natural_process",
+    "tail": "Aging",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Menopause",
+    "head_type": "Condition",
+    "relation": "can_result_from",
+    "tail": "Surgical Removal of Both Ovaries",
+    "tail_type": "Intervention"
+  },
+  {
+    "head": "Surgical Removal of Both Ovaries",
+    "head_type": "Intervention",
+    "relation": "causes",
+    "tail": "Immediate Menopause Symptoms",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Menopause",
+    "head_type": "Condition",
+    "relation": "increases_risk_of",
+    "tail": "Heart Disease",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Menopause",
+    "head_type": "Condition",
+    "relation": "increases_risk_of",
+    "tail": "Stroke",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Menopause",
+    "head_type": "Condition",
+    "relation": "increases_risk_of",
+    "tail": "Osteoporosis",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Healthy Diet",
+    "head_type": "Lifestyle Factor",
+    "relation": "is_important_during",
+    "tail": "Menopause",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Staying Active",
+    "head_type": "Lifestyle Factor",
+    "relation": "is_important_during",
+    "tail": "Menopause",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Calcium",
+    "head_type": "Supplement",
+    "relation": "is_important_for",
+    "tail": "Bone Health",
+    "tail_type": "Outcome"
+  },
+  {
+    "head": "Vitamin D",
+    "head_type": "Supplement",
+    "relation": "is_important_for",
+    "tail": "Bone Health",
+    "tail_type": "Outcome"
+  },
+  {
+    "head": "Study of Women\u2019s Health Across the Nation (SWAN)",
+    "head_type": "Research Study",
+    "relation": "aims_to_understand",
+    "tail": "Menopausal Transition",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Hot Flashes",
+    "head_type": "Symptom",
+    "relation": "are_common_during",
+    "tail": "Menopausal Transition",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Night Sweats",
+    "head_type": "Symptom",
+    "relation": "are_common_during",
+    "tail": "Menopausal Transition",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Hot Flashes",
+    "head_type": "Symptom",
+    "relation": "are_related_to",
+    "tail": "Changing Hormone Levels",
+    "tail_type": "Biomarker"
+  },
+  {
+    "head": "Hot Flashes",
+    "head_type": "Symptom",
+    "relation": "can_last_for",
+    "tail": "Many Years After Menopause",
+    "tail_type": "Outcome"
+  },
+  {
+    "head": "Lifestyle Changes",
+    "head_type": "Intervention",
+    "relation": "may_manage",
+    "tail": "Mild Menopause Symptoms",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Avoiding Caffeine",
+    "head_type": "Lifestyle Factor",
+    "relation": "is_a_type_of",
+    "tail": "Lifestyle Changes",
+    "tail_type": "Intervention"
+  },
+  {
+    "head": "Dressing in Layers",
+    "head_type": "Lifestyle Factor",
+    "relation": "is_a_type_of",
+    "tail": "Lifestyle Changes",
+    "tail_type": "Intervention"
+  },
+  {
+    "head": "Carrying a Portable Fan",
+    "head_type": "Lifestyle Factor",
+    "relation": "is_a_type_of",
+    "tail": "Lifestyle Changes",
+    "tail_type": "Intervention"
+  },
+  {
+    "head": "Menopause",
+    "head_type": "Condition",
+    "relation": "related_to",
+    "tail": "changing hormone levels",
+    "tail_type": "Biomarker"
+  },
+  {
+    "head": "Hot flashes",
+    "head_type": "Symptom",
+    "relation": "lasts_after",
+    "tail": "Menopause",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Loss of bladder control",
+    "head_type": "Symptom",
+    "relation": "is_a_type_of",
+    "tail": "Incontinence",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Menopause",
+    "head_type": "Condition",
+    "relation": "increases_risk_of",
+    "tail": "Urinary tract infections",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Urinary problems",
+    "head_type": "Symptom",
+    "relation": "may_be_treated_with",
+    "tail": "medications, exercises, and other strategies",
+    "tail_type": "Treatment"
+  },
+  {
+    "head": "Sleep problems",
+    "head_type": "Symptom",
+    "relation": "associated_with",
+    "tail": "Menopause",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Vaginal dryness",
+    "head_type": "Symptom",
+    "relation": "occurs_during",
+    "tail": "Menopause",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Vaginal dryness",
+    "head_type": "Symptom",
+    "relation": "makes",
+    "tail": "sexual intercourse uncomfortable",
+    "tail_type": "Outcome"
+  },
+  {
+    "head": "Menopause",
+    "head_type": "Condition",
+    "relation": "does_not_prevent",
+    "tail": "sexually transmitted infections",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Mood changes",
+    "head_type": "Symptom",
+    "relation": "associated_with",
+    "tail": "Menopause",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Menopause",
+    "head_type": "Condition",
+    "relation": "associated_with",
+    "tail": "body changes",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "My Menoplan",
+    "head_type": "Intervention",
+    "relation": "helps_with",
+    "tail": "symptoms and treatments of menopause",
+    "tail_type": "Outcome"
+  },
+  {
+    "head": "Menopause symptoms",
+    "head_type": "Symptom",
+    "relation": "may_be_treated_with",
+    "tail": "lifestyle changes, nonhormonal medications, and hormones",
+    "tail_type": "Treatment"
+  },
+  {
+    "head": "Perimenopause",
+    "head_type": "Condition",
+    "relation": "begins_with",
+    "tail": "Change in menstrual cycle",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Change in menstrual cycle",
+    "head_type": "Symptom",
+    "relation": "includes",
+    "tail": "Irregular periods",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Irregular periods",
+    "head_type": "Symptom",
+    "relation": "includes",
+    "tail": "Heavy bleeding",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Irregular periods",
+    "head_type": "Symptom",
+    "relation": "includes",
+    "tail": "Periods that occur very close together",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Irregular periods",
+    "head_type": "Symptom",
+    "relation": "includes",
+    "tail": "Spotting",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Irregular periods",
+    "head_type": "Symptom",
+    "relation": "includes",
+    "tail": "Periods that last longer than a week",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Menopause",
+    "head_type": "Condition",
+    "relation": "has_symptom",
+    "tail": "Hot flashes",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Hot flashes",
+    "head_type": "Symptom",
+    "relation": "caused_by",
+    "tail": "Changing estrogen levels",
+    "tail_type": "Biomarker"
+  },
+  {
+    "head": "Hot flashes",
+    "head_type": "Symptom",
+    "relation": "includes",
+    "tail": "Sudden feeling of heat",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Hot flashes",
+    "head_type": "Symptom",
+    "relation": "includes",
+    "tail": "Flushing of the face and neck",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Hot flashes",
+    "head_type": "Symptom",
+    "relation": "includes",
+    "tail": "Red blotches on the chest and arms",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Hot flashes",
+    "head_type": "Symptom",
+    "relation": "includes",
+    "tail": "Sweating followed by shivering",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Menopause",
+    "head_type": "Condition",
+    "relation": "has_symptom",
+    "tail": "Vaginal dryness",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Vaginal dryness",
+    "head_type": "Symptom",
+    "relation": "can_lead_to",
+    "tail": "Vaginal infections",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Vaginal dryness",
+    "head_type": "Symptom",
+    "relation": "can_lead_to",
+    "tail": "Urinary tract infections",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Menopause",
+    "head_type": "Condition",
+    "relation": "has_symptom",
+    "tail": "Urinary incontinence",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Urinary incontinence",
+    "head_type": "Condition",
+    "relation": "caused_by",
+    "tail": "Weakened bladder muscles",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Menopause",
+    "head_type": "Condition",
+    "relation": "has_symptom",
+    "tail": "Decreased interest in sex",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Menopause",
+    "head_type": "Condition",
+    "relation": "has_symptom",
+    "tail": "Increased enjoyment of sex",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Menopause",
+    "head_type": "Condition",
+    "relation": "has_symptom",
+    "tail": "Sleep difficulties",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Sleep difficulties",
+    "head_type": "Symptom",
+    "relation": "can_lead_to",
+    "tail": "Fatigue",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Sleep difficulties",
+    "head_type": "Symptom",
+    "relation": "can_lead_to",
+    "tail": "Lack of energy",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Sleep difficulties",
+    "head_type": "Symptom",
+    "relation": "can_lead_to",
+    "tail": "Memory problems",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Menopause",
+    "head_type": "Condition",
+    "relation": "has_symptom",
+    "tail": "Mood changes",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Mood changes",
+    "head_type": "Symptom",
+    "relation": "includes",
+    "tail": "Irritability",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Mood changes",
+    "head_type": "Symptom",
+    "relation": "includes",
+    "tail": "Anxiety",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Mood changes",
+    "head_type": "Symptom",
+    "relation": "caused_by",
+    "tail": "Shifts in hormones",
+    "tail_type": "Biomarker"
+  },
+  {
+    "head": "Menopause",
+    "head_type": "Condition",
+    "relation": "increases_risk_of",
+    "tail": "Osteoporosis",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Osteoporosis",
+    "head_type": "Condition",
+    "relation": "caused_by",
+    "tail": "Loss of estrogen",
+    "tail_type": "Biomarker"
+  },
+  {
+    "head": "Menopause",
+    "head_type": "Condition",
+    "relation": "increases_risk_of",
+    "tail": "Heart disease",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Heart disease",
+    "head_type": "Condition",
+    "relation": "caused_by",
+    "tail": "Loss of estrogen",
+    "tail_type": "Biomarker"
+  },
+  {
+    "head": "Heart disease",
+    "head_type": "Condition",
+    "relation": "increased_by",
+    "tail": "Weight gain",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Heart disease",
+    "head_type": "Condition",
+    "relation": "increased_by",
+    "tail": "High blood pressure",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Heart disease",
+    "head_type": "Condition",
+    "relation": "increased_by",
+    "tail": "Diabetes",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Menopause",
+    "head_type": "Condition",
+    "relation": "is_a_type_of",
+    "tail": "Natural body change",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Menopause",
+    "head_type": "Condition",
+    "relation": "occurs_in",
+    "tail": "Women aged 45 to 55",
+    "tail_type": "Population"
+  },
+  {
+    "head": "Menopause",
+    "head_type": "Condition",
+    "relation": "causes",
+    "tail": "Periods stop",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Menopause",
+    "head_type": "Condition",
+    "relation": "causes",
+    "tail": "No longer become pregnant",
+    "tail_type": "Outcome"
+  },
+  {
+    "head": "Ovaries stop releasing eggs",
+    "head_type": "Biomarker",
+    "relation": "causes",
+    "tail": "Menopause",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Lower levels of estrogen and progesterone",
+    "head_type": "Biomarker",
+    "relation": "causes",
+    "tail": "Menopause symptoms",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Surgical menopause",
+    "head_type": "Condition",
+    "relation": "is_a_type_of",
+    "tail": "Menopause",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Surgical menopause",
+    "head_type": "Condition",
+    "relation": "caused_by",
+    "tail": "Surgical treatments",
+    "tail_type": "Intervention"
+  },
+  {
+    "head": "Surgical menopause",
+    "head_type": "Condition",
+    "relation": "caused_by",
+    "tail": "Ovaries removed",
+    "tail_type": "Intervention"
+  },
+  {
+    "head": "Menopause",
+    "head_type": "Condition",
+    "relation": "caused_by",
+    "tail": "Chemotherapy",
+    "tail_type": "Treatment"
+  },
+  {
+    "head": "Menopause",
+    "head_type": "Condition",
+    "relation": "caused_by",
+    "tail": "Hormone therapy for breast cancer",
+    "tail_type": "Treatment"
+  },
+  {
+    "head": "Menopause symptoms",
+    "head_type": "Symptom",
+    "relation": "include",
+    "tail": "Menstrual periods that occur less often and eventually stop",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Menopause symptoms",
+    "head_type": "Symptom",
+    "relation": "include",
+    "tail": "Heart pounding or racing",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Menopause symptoms",
+    "head_type": "Symptom",
+    "relation": "include",
+    "tail": "Hot flashes",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Menopause symptoms",
+    "head_type": "Symptom",
+    "relation": "include",
+    "tail": "Night sweats",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Menopause symptoms",
+    "head_type": "Symptom",
+    "relation": "include",
+    "tail": "Skin flushing",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Menopause symptoms",
+    "head_type": "Symptom",
+    "relation": "include",
+    "tail": "Sleeping problems (insomnia)",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Menopause symptoms",
+    "head_type": "Symptom",
+    "relation": "include",
+    "tail": "Decreased interest in sex",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Menopause symptoms",
+    "head_type": "Symptom",
+    "relation": "include",
+    "tail": "Forgetfulness",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Menopause symptoms",
+    "head_type": "Symptom",
+    "relation": "include",
+    "tail": "Headaches",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Menopause symptoms",
+    "head_type": "Symptom",
+    "relation": "include",
+    "tail": "Mood swings",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Menopause symptoms",
+    "head_type": "Symptom",
+    "relation": "include",
+    "tail": "Urine leakage",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Menopause symptoms",
+    "head_type": "Symptom",
+    "relation": "include",
+    "tail": "Vaginal dryness and painful sexual intercourse",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Menopause symptoms",
+    "head_type": "Symptom",
+    "relation": "include",
+    "tail": "Vaginal infections",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Menopause symptoms",
+    "head_type": "Symptom",
+    "relation": "include",
+    "tail": "Joint aches and pains",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Menopause symptoms",
+    "head_type": "Symptom",
+    "relation": "include",
+    "tail": "Irregular heartbeat (palpitations)",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Blood and urine tests",
+    "head_type": "Intervention",
+    "relation": "used_for",
+    "tail": "Look for changes in hormone levels",
+    "tail_type": "Outcome"
+  },
+  {
+    "head": "Estradiol",
+    "head_type": "Biomarker",
+    "relation": "measured_by",
+    "tail": "Blood and urine tests",
+    "tail_type": "Intervention"
+  },
+  {
+    "head": "Follicle-stimulating hormone (FSH)",
+    "head_type": "Biomarker",
+    "relation": "measured_by",
+    "tail": "Blood and urine tests",
+    "tail_type": "Intervention"
+  },
+  {
+    "head": "Luteinizing hormone (LH)",
+    "head_type": "Biomarker",
+    "relation": "measured_by",
+    "tail": "Blood and urine tests",
+    "tail_type": "Intervention"
+  },
+  {
+    "head": "Decreased estrogen",
+    "head_type": "Biomarker",
+    "relation": "causes",
+    "tail": "Changes in the lining of the vagina",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Bone loss",
+    "head_type": "Outcome",
+    "relation": "increases_during",
+    "tail": "First few years after last period",
+    "tail_type": "Time Period"
+  },
+  {
+    "head": "Bone density test",
+    "head_type": "Intervention",
+    "relation": "used_for",
+    "tail": "Look for bone loss related to osteoporosis",
+    "tail_type": "Outcome"
+  },
+  {
+    "head": "Hormone Therapy (HT)",
+    "head_type": "Treatment",
+    "relation": "may_help",
+    "tail": "Severe hot flashes",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Hormone Therapy (HT)",
+    "head_type": "Treatment",
+    "relation": "may_help",
+    "tail": "Night sweats",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Hormone Therapy (HT)",
+    "head_type": "Treatment",
+    "relation": "may_help",
+    "tail": "Mood issues",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Hormone Therapy (HT)",
+    "head_type": "Treatment",
+    "relation": "may_help",
+    "tail": "Vaginal dryness",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Hormone Therapy (HT)",
+    "head_type": "Treatment",
+    "relation": "consists_of",
+    "tail": "Estrogen and sometimes progesterone",
+    "tail_type": "Medication"
+  },
+  {
+    "head": "Hormone Replacement Therapy (HRT)",
+    "head_type": "Treatment",
+    "relation": "may_increase_risk_of",
+    "tail": "breast cancer",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Hormone Replacement Therapy (HRT)",
+    "head_type": "Treatment",
+    "relation": "may_increase_risk_of",
+    "tail": "heart attacks",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Hormone Replacement Therapy (HRT)",
+    "head_type": "Treatment",
+    "relation": "may_increase_risk_of",
+    "tail": "strokes",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Hormone Replacement Therapy (HRT)",
+    "head_type": "Treatment",
+    "relation": "may_increase_risk_of",
+    "tail": "blood clots",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Hormone Replacement Therapy (HRT)",
+    "head_type": "Treatment",
+    "relation": "associated_with",
+    "tail": "lower chance of death",
+    "tail_type": "Outcome"
+  },
+  {
+    "head": "Hormone Replacement Therapy (HRT)",
+    "head_type": "Treatment",
+    "relation": "treats",
+    "tail": "hot flashes",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Hormone Replacement Therapy (HRT)",
+    "head_type": "Treatment",
+    "relation": "may_be_started_in",
+    "tail": "women who have recently entered menopause",
+    "tail_type": "Population"
+  },
+  {
+    "head": "Hormone Replacement Therapy (HRT)",
+    "head_type": "Treatment",
+    "relation": "should_not_be_used_in",
+    "tail": "women who started menopause many years ago",
+    "tail_type": "Population"
+  },
+  {
+    "head": "Vaginal estrogen treatments",
+    "head_type": "Treatment",
+    "relation": "may_be_used_in",
+    "tail": "women who started menopause many years ago",
+    "tail_type": "Population"
+  },
+  {
+    "head": "Hormone Replacement Therapy (HRT)",
+    "head_type": "Treatment",
+    "relation": "should_not_be_used_for",
+    "tail": "longer than necessary",
+    "tail_type": "Outcome"
+  },
+  {
+    "head": "Prolonged estrogen use",
+    "head_type": "Treatment",
+    "relation": "is_safe_in",
+    "tail": "healthy women",
+    "tail_type": "Population"
+  },
+  {
+    "head": "Women taking Hormone Replacement Therapy (HRT)",
+    "head_type": "Population",
+    "relation": "should_have",
+    "tail": "low risk for stroke, heart disease, blood clots, or breast cancer",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Lower dose of estrogen",
+    "head_type": "Treatment",
+    "relation": "may_reduce_risk_of",
+    "tail": "estrogen therapy risks",
+    "tail_type": "Outcome"
+  },
+  {
+    "head": "Different estrogen preparation",
+    "head_type": "Treatment",
+    "relation": "may_reduce_risk_of",
+    "tail": "estrogen therapy risks",
+    "tail_type": "Outcome"
+  },
+  {
+    "head": "Using patches",
+    "head_type": "Treatment",
+    "relation": "is_safer_than",
+    "tail": "oral estrogen",
+    "tail_type": "Treatment"
+  },
+  {
+    "head": "Oral estrogen",
+    "head_type": "Treatment",
+    "relation": "increases_risk_of",
+    "tail": "blood clots",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Women with a uterus",
+    "head_type": "Population",
+    "relation": "should_take",
+    "tail": "estrogen combined with progesterone",
+    "tail_type": "Treatment"
+  },
+  {
+    "head": "Estrogen combined with progesterone",
+    "head_type": "Treatment",
+    "relation": "prevents",
+    "tail": "endometrial cancer",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Antidepressants",
+    "head_type": "Medication",
+    "relation": "can_help_with",
+    "tail": "mood swings, hot flashes, and other symptoms",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Clonidine",
+    "head_type": "Medication",
+    "relation": "can_help_with",
+    "tail": "menopause symptoms",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Gabapentin",
+    "head_type": "Medication",
+    "relation": "helps_reduce",
+    "tail": "hot flashes",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Diet changes",
+    "head_type": "Lifestyle Factor",
+    "relation": "can_reduce",
+    "tail": "menopause symptoms",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Soy containing foods",
+    "head_type": "Food",
+    "relation": "contains",
+    "tail": "estrogen",
+    "tail_type": "Biomarker"
+  },
+  {
+    "head": "Calcium and vitamin D",
+    "head_type": "Supplement",
+    "relation": "should_be_included_in",
+    "tail": "diet",
+    "tail_type": "Lifestyle Factor"
+  },
+  {
+    "head": "Exercise and relaxation techniques",
+    "head_type": "Lifestyle Factor",
+    "relation": "can_reduce",
+    "tail": "menopause symptoms",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Kegel exercises",
+    "head_type": "Intervention",
+    "relation": "strengthen",
+    "tail": "muscles of vagina and pelvis",
+    "tail_type": "Outcome"
+  },
+  {
+    "head": "Slow, deep breathing",
+    "head_type": "Intervention",
+    "relation": "can_help_with",
+    "tail": "hot flashes",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Yoga, tai chi, or meditation",
+    "head_type": "Intervention",
+    "relation": "can_help_with",
+    "tail": "menopause symptoms",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Vaginal bleeding after menopause",
+    "head_type": "Symptom",
+    "relation": "may_be_sign_of",
+    "tail": "cancer",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Decreased estrogen level",
+    "head_type": "Biomarker",
+    "relation": "linked_to",
+    "tail": "bone loss and osteoporosis",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Decreased estrogen level",
+    "head_type": "Biomarker",
+    "relation": "linked_to",
+    "tail": "changes in cholesterol levels",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Decreased estrogen level",
+    "head_type": "Biomarker",
+    "relation": "linked_to",
+    "tail": "greater risk for heart disease",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Menopause",
+    "head_type": "Condition",
+    "relation": "is_a_part_of",
+    "tail": "a woman's life",
+    "tail_type": "Population"
+  },
+  {
+    "head": "Menopausal transition",
+    "head_type": "Condition",
+    "relation": "causes",
+    "tail": "Vaginal dryness",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Menopausal transition",
+    "head_type": "Condition",
+    "relation": "causes",
+    "tail": "Dyspareunia",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Vaginal atrophy",
+    "head_type": "Condition",
+    "relation": "is_a_symptom_of",
+    "tail": "Menopausal transition",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Dyspareunia",
+    "head_type": "Symptom",
+    "relation": "affects",
+    "tail": "Quality of life",
+    "tail_type": "Outcome"
+  },
+  {
+    "head": "Nonprescription, water-based lubricant",
+    "head_type": "Treatment",
+    "relation": "treats",
+    "tail": "Vaginal dryness",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Over-the-counter vaginal moisturizers",
+    "head_type": "Treatment",
+    "relation": "treats",
+    "tail": "Vaginal dryness",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Prescription hormones",
+    "head_type": "Treatment",
+    "relation": "treats",
+    "tail": "Vaginal dryness",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Local vaginal treatments",
+    "head_type": "Treatment",
+    "relation": "treats",
+    "tail": "Vaginal dryness",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Estrogen creams",
+    "head_type": "Treatment",
+    "relation": "is_a_type_of",
+    "tail": "Local vaginal treatments",
+    "tail_type": "Treatment"
+  },
+  {
+    "head": "Estrogen rings",
+    "head_type": "Treatment",
+    "relation": "is_a_type_of",
+    "tail": "Local vaginal treatments",
+    "tail_type": "Treatment"
+  },
+  {
+    "head": "Estrogen tablets",
+    "head_type": "Treatment",
+    "relation": "is_a_type_of",
+    "tail": "Local vaginal treatments",
+    "tail_type": "Treatment"
+  },
+  {
+    "head": "Ospemifene",
+    "head_type": "Medication",
+    "relation": "treats",
+    "tail": "Dyspareunia",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Prasterone",
+    "head_type": "Medication",
+    "relation": "treats",
+    "tail": "Dyspareunia",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Dyspareunia",
+    "head_type": "Symptom",
+    "relation": "is_caused_by",
+    "tail": "Vaginal changes",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Vaginal changes",
+    "head_type": "Condition",
+    "relation": "is_a_symptom_of",
+    "tail": "Menopause",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Menopause",
+    "head_type": "Condition",
+    "relation": "is_a_type_of",
+    "tail": "Natural part of aging",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Menopause",
+    "head_type": "Condition",
+    "relation": "occurs_at_average_age",
+    "tail": "52",
+    "tail_type": "Population"
+  },
+  {
+    "head": "Menopause",
+    "head_type": "Condition",
+    "relation": "is_a_type_of",
+    "tail": "End of reproductive years",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Menopause",
+    "head_type": "Condition",
+    "relation": "is_diagnosed_after",
+    "tail": "12 consecutive months without a menstrual period",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Induced Menopause",
+    "head_type": "Condition",
+    "relation": "is_a_type_of",
+    "tail": "Menopause",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Induced Menopause",
+    "head_type": "Condition",
+    "relation": "caused_by",
+    "tail": "Surgery or medical treatment",
+    "tail_type": "Intervention"
+  },
+  {
+    "head": "Hormonal changes due to menopause",
+    "head_type": "Condition",
+    "relation": "causes",
+    "tail": "Uncomfortable physical and emotional symptoms",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Hormone Therapy",
+    "head_type": "Treatment",
+    "relation": "treats",
+    "tail": "Symptoms of menopause",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Medication",
+    "head_type": "Treatment",
+    "relation": "treats",
+    "tail": "Symptoms of menopause",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Lifestyle adjustments",
+    "head_type": "Intervention",
+    "relation": "treats",
+    "tail": "Symptoms of menopause",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Perimenopause",
+    "head_type": "Condition",
+    "relation": "is_a_stage_of",
+    "tail": "Menopause",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Perimenopause",
+    "head_type": "Condition",
+    "relation": "begins_before",
+    "tail": "Menopause",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Perimenopause",
+    "head_type": "Condition",
+    "relation": "causes",
+    "tail": "Irregular periods",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Perimenopause",
+    "head_type": "Condition",
+    "relation": "causes",
+    "tail": "Hot flashes",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Perimenopause",
+    "head_type": "Condition",
+    "relation": "causes",
+    "tail": "Mood swings",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Postmenopause",
+    "head_type": "Condition",
+    "relation": "is_a_stage_of",
+    "tail": "Menopause",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Postmenopause",
+    "head_type": "Condition",
+    "relation": "increases_risk_of",
+    "tail": "Osteoporosis",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Postmenopause",
+    "head_type": "Condition",
+    "relation": "increases_risk_of",
+    "tail": "Heart disease",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Early Menopause",
+    "head_type": "Condition",
+    "relation": "occurs_before_age",
+    "tail": "45",
+    "tail_type": "Population"
+  },
+  {
+    "head": "Premature Menopause",
+    "head_type": "Condition",
+    "relation": "occurs_at_or_before_age",
+    "tail": "40",
+    "tail_type": "Population"
+  },
+  {
+    "head": "Primary Ovarian Insufficiency",
+    "head_type": "Condition",
+    "relation": "is_a_type_of",
+    "tail": "Premature Menopause",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Menopause",
+    "head_type": "Condition",
+    "relation": "average_age",
+    "tail": "52 years old",
+    "tail_type": "Outcome"
+  },
+  {
+    "head": "Menopause",
+    "head_type": "Condition",
+    "relation": "transition_begins",
+    "tail": "mid-40s",
+    "tail_type": "Outcome"
+  },
+  {
+    "head": "Menopause",
+    "head_type": "Condition",
+    "relation": "symptom",
+    "tail": "Irregular periods",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Menopause",
+    "head_type": "Condition",
+    "relation": "symptom",
+    "tail": "Hot flashes",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Menopause",
+    "head_type": "Condition",
+    "relation": "symptom",
+    "tail": "Night sweats",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Menopause",
+    "head_type": "Condition",
+    "relation": "symptom",
+    "tail": "Cold flashes",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Menopause",
+    "head_type": "Condition",
+    "relation": "symptom",
+    "tail": "Vaginal dryness",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Menopause",
+    "head_type": "Condition",
+    "relation": "symptom",
+    "tail": "Urinary urgency",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Menopause",
+    "head_type": "Condition",
+    "relation": "symptom",
+    "tail": "Difficulty sleeping",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Menopause",
+    "head_type": "Condition",
+    "relation": "symptom",
+    "tail": "Emotional changes",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Menopause",
+    "head_type": "Condition",
+    "relation": "symptom",
+    "tail": "Dry skin",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Menopause",
+    "head_type": "Condition",
+    "relation": "symptom",
+    "tail": "Dry eyes",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Menopause",
+    "head_type": "Condition",
+    "relation": "symptom",
+    "tail": "Dry mouth",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Menopause",
+    "head_type": "Condition",
+    "relation": "symptom",
+    "tail": "Worsening premenstrual syndrome",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Menopause",
+    "head_type": "Condition",
+    "relation": "symptom",
+    "tail": "Breast tenderness",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Menopause",
+    "head_type": "Condition",
+    "relation": "symptom",
+    "tail": "Racing heart",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Menopause",
+    "head_type": "Condition",
+    "relation": "symptom",
+    "tail": "Headaches",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Menopause",
+    "head_type": "Condition",
+    "relation": "symptom",
+    "tail": "Joint and muscle aches",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Menopause",
+    "head_type": "Condition",
+    "relation": "symptom",
+    "tail": "Changes in libido",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Menopause",
+    "head_type": "Condition",
+    "relation": "symptom",
+    "tail": "Difficulty concentrating",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Menopause",
+    "head_type": "Condition",
+    "relation": "symptom",
+    "tail": "Memory lapses",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Menopause",
+    "head_type": "Condition",
+    "relation": "symptom",
+    "tail": "Weight gain",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Menopause",
+    "head_type": "Condition",
+    "relation": "symptom",
+    "tail": "Hair loss",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Menopause",
+    "head_type": "Condition",
+    "relation": "symptom",
+    "tail": "Hair thinning",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Menopause",
+    "head_type": "Condition",
+    "relation": "caused_by",
+    "tail": "Changes in hormone levels",
+    "tail_type": "Biomarker"
+  },
+  {
+    "head": "Menopause",
+    "head_type": "Condition",
+    "relation": "duration",
+    "tail": "up to 10 years",
+    "tail_type": "Outcome"
+  },
+  {
+    "head": "Menopause",
+    "head_type": "Condition",
+    "relation": "average_symptom_duration",
+    "tail": "seven years",
+    "tail_type": "Outcome"
+  },
+  {
+    "head": "Postmenopause",
+    "head_type": "Condition",
+    "relation": "follows",
+    "tail": "Menopause",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Postmenopause",
+    "head_type": "Condition",
+    "relation": "symptom_outcome",
+    "tail": "symptoms ease up or disappear",
+    "tail_type": "Outcome"
+  },
+  {
+    "head": "Menopause",
+    "head_type": "Condition",
+    "relation": "natural_cause",
+    "tail": "Aging",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Menopause",
+    "head_type": "Condition",
+    "relation": "induced_by",
+    "tail": "Surgical removal of ovaries",
+    "tail_type": "Intervention"
+  },
+  {
+    "head": "Menopause",
+    "head_type": "Condition",
+    "relation": "defined_by",
+    "tail": "12 consecutive months without a menstrual period",
+    "tail_type": "Outcome"
+  },
+  {
+    "head": "Vaginal bleeding after menopause",
+    "head_type": "Symptom",
+    "relation": "may_indicate",
+    "tail": "more serious health issue",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Aging",
+    "head_type": "Condition",
+    "relation": "causes",
+    "tail": "Reproductive cycle slowing",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Menopause",
+    "head_type": "Condition",
+    "relation": "is_a_stage_of",
+    "tail": "Reproductive cycle slowing",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Ovaries",
+    "head_type": "Anatomical Structure",
+    "relation": "produce",
+    "tail": "Estrogen",
+    "tail_type": "Biomarker"
+  },
+  {
+    "head": "Ovaries",
+    "head_type": "Anatomical Structure",
+    "relation": "produce",
+    "tail": "Progesterone",
+    "tail_type": "Biomarker"
+  },
+  {
+    "head": "Estrogen",
+    "head_type": "Biomarker",
+    "relation": "influences",
+    "tail": "Calcium usage",
+    "tail_type": "Biological Process"
+  },
+  {
+    "head": "Estrogen",
+    "head_type": "Biomarker",
+    "relation": "maintains",
+    "tail": "Cholesterol levels",
+    "tail_type": "Biological Process"
+  },
+  {
+    "head": "Menopause",
+    "head_type": "Condition",
+    "relation": "is_diagnosed_by",
+    "tail": "12 months without a period",
+    "tail_type": "Diagnostic Criterion"
+  },
+  {
+    "head": "Hormone Replacement Therapy (HRT)",
+    "head_type": "Treatment",
+    "relation": "treats",
+    "tail": "Menopause symptoms",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Hormone Therapy (HT)",
+    "head_type": "Treatment",
+    "relation": "treats",
+    "tail": "Menopause symptoms",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Estrogen Therapy (ET)",
+    "head_type": "Treatment",
+    "relation": "is_a_type_of",
+    "tail": "Hormone Therapy (HT)",
+    "tail_type": "Treatment"
+  },
+  {
+    "head": "Estrogen Therapy (ET)",
+    "head_type": "Treatment",
+    "relation": "treats",
+    "tail": "Hot flashes",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Estrogen Therapy (ET)",
+    "head_type": "Treatment",
+    "relation": "treats",
+    "tail": "Vaginal dryness",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Estrogen Therapy (ET)",
+    "head_type": "Treatment",
+    "relation": "prevents",
+    "tail": "Osteoporosis",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Menopause",
+    "head_type": "Condition",
+    "relation": "is_a_natural_process",
+    "tail": "Body adaptation",
+    "tail_type": "Biological Process"
+  },
+  {
+    "head": "Menopause",
+    "head_type": "Condition",
+    "relation": "is_diagnosed_by",
+    "tail": "Hormone level blood tests",
+    "tail_type": "Diagnostic Test"
+  },
+  {
+    "head": "Hormone Replacement Therapy (HRT)",
+    "head_type": "Treatment",
+    "relation": "is_offered_to",
+    "tail": "People experiencing menopause before age 40",
+    "tail_type": "Population"
+  },
+  {
+    "head": "Hormone Therapy (HT)",
+    "head_type": "Treatment",
+    "relation": "boosts",
+    "tail": "Hormone levels",
+    "tail_type": "Biological Process"
+  },
+  {
+    "head": "Estrogen therapy",
+    "head_type": "Treatment",
+    "relation": "cannot_be_used_alone",
+    "tail": "Progestogen",
+    "tail_type": "Treatment"
+  },
+  {
+    "head": "Estrogen progestogen therapy (EPT)",
+    "head_type": "Treatment",
+    "relation": "is_a_type_of",
+    "tail": "Combination therapy",
+    "tail_type": "Treatment"
+  },
+  {
+    "head": "Progesterone",
+    "head_type": "Treatment",
+    "relation": "is_available_as",
+    "tail": "Progestin",
+    "tail_type": "Treatment"
+  },
+  {
+    "head": "Hormone therapy",
+    "head_type": "Treatment",
+    "relation": "has_risk",
+    "tail": "Health history, age and other factors",
+    "tail_type": "Risk"
+  },
+  {
+    "head": "Nonhormonal treatments",
+    "head_type": "Treatment",
+    "relation": "include",
+    "tail": "Lifestyle changes",
+    "tail_type": "Intervention"
+  },
+  {
+    "head": "Nonhormonal treatments",
+    "head_type": "Treatment",
+    "relation": "include",
+    "tail": "Nonhormonal medications",
+    "tail_type": "Medication"
+  },
+  {
+    "head": "Nonhormonal treatments",
+    "head_type": "Treatment",
+    "relation": "are_good_options_for",
+    "tail": "Women with medical reasons to avoid estrogen",
+    "tail_type": "Population"
+  },
+  {
+    "head": "Changing what you eat",
+    "head_type": "Intervention",
+    "relation": "may_mitigate",
+    "tail": "Menopause symptoms",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Limiting caffeine",
+    "head_type": "Intervention",
+    "relation": "may_mitigate",
+    "tail": "Hot flashes",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Cutting back on spicy foods",
+    "head_type": "Intervention",
+    "relation": "may_mitigate",
+    "tail": "Hot flashes",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Phytoestrogens",
+    "head_type": "Supplement",
+    "relation": "are_found_in",
+    "tail": "Soybeans, Chickpeas, Lentils, Flaxseed, Grains, Beans, Fruits, Vegetables",
+    "tail_type": "Food"
+  },
+  {
+    "head": "Avoiding triggers",
+    "head_type": "Intervention",
+    "relation": "may_mitigate",
+    "tail": "Hot flashes",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Maintaining a healthy weight",
+    "head_type": "Intervention",
+    "relation": "may_mitigate",
+    "tail": "Hot flashes",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Exercising",
+    "head_type": "Intervention",
+    "relation": "may_mitigate",
+    "tail": "Menopause symptoms",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Yoga",
+    "head_type": "Intervention",
+    "relation": "may_mitigate",
+    "tail": "Mood and anxiety",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Joining support groups",
+    "head_type": "Intervention",
+    "relation": "may_mitigate",
+    "tail": "Emotional symptoms",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Prescription medications",
+    "head_type": "Medication",
+    "relation": "include",
+    "tail": "Birth control pills, Antidepressants (SSRIs and SNRIs), Gabapentin, Fezolinetant, Oxybutynin",
+    "tail_type": "Medication"
+  },
+  {
+    "head": "Antidepressants (SSRIs and SNRIs)",
+    "head_type": "Medication",
+    "relation": "may_mitigate",
+    "tail": "Mood swings and hot flashes",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Gabapentin",
+    "head_type": "Medication",
+    "relation": "may_mitigate",
+    "tail": "Hot flashes",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Fezolinetant",
+    "head_type": "Medication",
+    "relation": "may_mitigate",
+    "tail": "Hot flashes",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Gabapentin",
+    "head_type": "Medication",
+    "relation": "treats",
+    "tail": "hot flashes",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Fezolinetant",
+    "head_type": "Medication",
+    "relation": "treats",
+    "tail": "hot flashes",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Oxybutynin",
+    "head_type": "Medication",
+    "relation": "treats",
+    "tail": "hot flashes",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Oxybutynin",
+    "head_type": "Medication",
+    "relation": "treats",
+    "tail": "overactive bladder",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Vaginal creams and lubricants",
+    "head_type": "Treatment",
+    "relation": "help_with",
+    "tail": "vaginal dryness",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Menopause",
+    "head_type": "Condition",
+    "relation": "increases_risk_of",
+    "tail": "osteoporosis",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Menopause",
+    "head_type": "Condition",
+    "relation": "increases_risk_of",
+    "tail": "cardiovascular diseases",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Low estrogen levels",
+    "head_type": "Biomarker",
+    "relation": "causes",
+    "tail": "osteoporosis",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Low estrogen levels",
+    "head_type": "Biomarker",
+    "relation": "causes",
+    "tail": "increased risk of cardiovascular diseases",
+    "tail_type": "Outcome"
+  },
+  {
+    "head": "Bone mineral density testing",
+    "head_type": "Intervention",
+    "relation": "tests",
+    "tail": "bone strength",
+    "tail_type": "Outcome"
+  },
+  {
+    "head": "Irregular periods",
+    "head_type": "Symptom",
+    "relation": "is_a_symptom_of",
+    "tail": "menopause",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Heavy periods",
+    "head_type": "Symptom",
+    "relation": "may_indicate",
+    "tail": "other health conditions",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Large blood clots",
+    "head_type": "Symptom",
+    "relation": "may_indicate",
+    "tail": "other health conditions",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Bleeding after sex",
+    "head_type": "Symptom",
+    "relation": "may_indicate",
+    "tail": "other health conditions",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Smoking cigarettes",
+    "head_type": "Lifestyle Factor",
+    "relation": "increases_risk_of",
+    "tail": "cardiovascular diseases",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Drinking alcohol",
+    "head_type": "Lifestyle Factor",
+    "relation": "increases_risk_of",
+    "tail": "cardiovascular diseases",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Eating unhealthy foods",
+    "head_type": "Lifestyle Factor",
+    "relation": "increases_risk_of",
+    "tail": "cardiovascular diseases",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Decrease in physical activity",
+    "head_type": "Lifestyle Factor",
+    "relation": "increases_risk_of",
+    "tail": "high cholesterol",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Menopause",
+    "head_type": "Condition",
+    "relation": "causes",
+    "tail": "Trouble sleeping",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Menopause",
+    "head_type": "Condition",
+    "relation": "causes",
+    "tail": "Hot flashes",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Menopause",
+    "head_type": "Condition",
+    "relation": "causes",
+    "tail": "Vaginal dryness",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Menopause",
+    "head_type": "Condition",
+    "relation": "causes",
+    "tail": "Weight gain",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Menopause",
+    "head_type": "Condition",
+    "relation": "causes",
+    "tail": "Lack of motivation",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Menopause",
+    "head_type": "Condition",
+    "relation": "causes",
+    "tail": "Difficulty concentrating",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Menopause",
+    "head_type": "Condition",
+    "relation": "causes",
+    "tail": "Anxiety",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Menopause",
+    "head_type": "Condition",
+    "relation": "causes",
+    "tail": "Depression",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Menopause",
+    "head_type": "Condition",
+    "relation": "causes",
+    "tail": "Mood changes",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Menopause",
+    "head_type": "Condition",
+    "relation": "causes",
+    "tail": "Tension",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Menopause",
+    "head_type": "Condition",
+    "relation": "causes",
+    "tail": "Aggressiveness",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Menopause",
+    "head_type": "Condition",
+    "relation": "causes",
+    "tail": "Irritability",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Hormone Replacement Therapy (HRT)",
+    "head_type": "Treatment",
+    "relation": "is_an_option_for",
+    "tail": "Menopause",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Lifestyle changes",
+    "head_type": "Intervention",
+    "relation": "may_mitigate",
+    "tail": "Menopause symptoms",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Support groups",
+    "head_type": "Intervention",
+    "relation": "are_useful_for",
+    "tail": "Emotional changes during menopause",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Counseling",
+    "head_type": "Intervention",
+    "relation": "is_useful_for",
+    "tail": "Emotional changes during menopause",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Menopause",
+    "head_type": "Condition",
+    "relation": "is_a_part_of",
+    "tail": "Aging process",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Andropause",
+    "head_type": "Condition",
+    "relation": "is_a_type_of",
+    "tail": "Male menopause",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Testosterone production",
+    "head_type": "Biomarker",
+    "relation": "declines",
+    "tail": "1% per year",
+    "tail_type": "Measurement"
+  },
+  {
+    "head": "Testosterone production",
+    "head_type": "Biomarker",
+    "relation": "is_slower_than",
+    "tail": "Estrogen production decline",
+    "tail_type": "Biomarker"
+  },
+  {
+    "head": "Menopause",
+    "head_type": "Condition",
+    "relation": "may_cause",
+    "tail": "Changes in sex life",
+    "tail_type": "Outcome"
+  },
+  {
+    "head": "Low hormone levels",
+    "head_type": "Biomarker",
+    "relation": "cause",
+    "tail": "Vaginal tissues to be thinner or drier",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Vaginal atrophy",
+    "head_type": "Condition",
+    "relation": "is_a_symptom_of",
+    "tail": "Menopause",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Vaginal atrophy",
+    "head_type": "Condition",
+    "relation": "can_make",
+    "tail": "Sex uncomfortable or painful",
+    "tail_type": "Outcome"
+  },
+  {
+    "head": "Low hormone levels",
+    "head_type": "Biomarker",
+    "relation": "may_lower",
+    "tail": "Sex drive",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Night sweats",
+    "head_type": "Symptom",
+    "relation": "can_disturb",
+    "tail": "Sleep",
+    "tail_type": "Outcome"
+  },
+  {
+    "head": "Emotional changes",
+    "head_type": "Symptom",
+    "relation": "can_make",
+    "tail": "Feel stressed or irritable",
+    "tail_type": "Outcome"
+  },
+  {
+    "head": "Physical activity",
+    "head_type": "Lifestyle Factor",
+    "relation": "can_boost",
+    "tail": "Energy levels",
+    "tail_type": "Outcome"
+  },
+  {
+    "head": "Physical activity",
+    "head_type": "Lifestyle Factor",
+    "relation": "can_lift",
+    "tail": "Mood",
+    "tail_type": "Outcome"
+  },
+  {
+    "head": "Physical activity",
+    "head_type": "Lifestyle Factor",
+    "relation": "can_improve",
+    "tail": "Body image",
+    "tail_type": "Outcome"
+  },
+  {
+    "head": "Cigarette smoking",
+    "head_type": "Lifestyle Factor",
+    "relation": "can_reduce",
+    "tail": "Blood flow to the vagina",
+    "tail_type": "Outcome"
+  },
+  {
+    "head": "Cigarette smoking",
+    "head_type": "Lifestyle Factor",
+    "relation": "can_lower",
+    "tail": "Effects of estrogen",
+    "tail_type": "Outcome"
+  },
+  {
+    "head": "Alcohol and other drugs",
+    "head_type": "Lifestyle Factor",
+    "relation": "can_slow_down",
+    "tail": "Body response",
+    "tail_type": "Outcome"
+  },
+  {
+    "head": "Having sex more often",
+    "head_type": "Intervention",
+    "relation": "can_increase",
+    "tail": "Blood flow to the vagina",
+    "tail_type": "Outcome"
+  },
+  {
+    "head": "Pelvic floor exercises",
+    "head_type": "Intervention",
+    "relation": "can_increase",
+    "tail": "Blood flow to the vagina",
+    "tail_type": "Outcome"
+  },
+  {
+    "head": "Pelvic floor exercises",
+    "head_type": "Intervention",
+    "relation": "can_strengthen",
+    "tail": "Muscles involved in orgasm",
+    "tail_type": "Outcome"
+  },
+  {
+    "head": "Flibanserin",
+    "head_type": "Medication",
+    "relation": "treats",
+    "tail": "Acquired generalized hypoactive sexual desire disorder (HSDD)",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Bremelanotide",
+    "head_type": "Medication",
+    "relation": "treats",
+    "tail": "Acquired generalized hypoactive sexual desire disorder (HSDD)",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Vaginal estrogen creams",
+    "head_type": "Treatment",
+    "relation": "may_treat",
+    "tail": "Severe vaginal dryness",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Estrogen tablets",
+    "head_type": "Treatment",
+    "relation": "may_treat",
+    "tail": "Severe vaginal dryness",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Over-the-counter, water-based vaginal lubricant",
+    "head_type": "Treatment",
+    "relation": "may_treat",
+    "tail": "Mild discomfort during sex",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Over-the-counter vaginal moisturizer",
+    "head_type": "Treatment",
+    "relation": "may_increase",
+    "tail": "Moisture",
+    "tail_type": "Outcome"
+  },
+  {
+    "head": "Vaginal estrogen creams",
+    "head_type": "Treatment",
+    "relation": "may_increase",
+    "tail": "moisture",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Vaginal estrogen creams",
+    "head_type": "Treatment",
+    "relation": "may_increase",
+    "tail": "sensation",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Estrogen tablets",
+    "head_type": "Treatment",
+    "relation": "may_increase",
+    "tail": "moisture",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Estrogen tablets",
+    "head_type": "Treatment",
+    "relation": "may_increase",
+    "tail": "sensation",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Estrogen rings",
+    "head_type": "Treatment",
+    "relation": "may_increase",
+    "tail": "moisture",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Estrogen rings",
+    "head_type": "Treatment",
+    "relation": "may_increase",
+    "tail": "sensation",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Ospemifene",
+    "head_type": "Treatment",
+    "relation": "is_a_type_of",
+    "tail": "non-hormonal medicine",
+    "tail_type": "Medication"
+  },
+  {
+    "head": "Heart disease",
+    "head_type": "Condition",
+    "relation": "affects",
+    "tail": "sexual health",
+    "tail_type": "Outcome"
+  },
+  {
+    "head": "Diabetes",
+    "head_type": "Condition",
+    "relation": "affects",
+    "tail": "sexual health",
+    "tail_type": "Outcome"
+  },
+  {
+    "head": "Vaginal dryness",
+    "head_type": "Symptom",
+    "relation": "is_more_common_after",
+    "tail": "menopause",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Vaginal dryness",
+    "head_type": "Symptom",
+    "relation": "increases_risk_of",
+    "tail": "STI",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Irritation",
+    "head_type": "Symptom",
+    "relation": "is_more_common_after",
+    "tail": "menopause",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Irritation",
+    "head_type": "Symptom",
+    "relation": "increases_risk_of",
+    "tail": "STI",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Condoms",
+    "head_type": "Intervention",
+    "relation": "prevent",
+    "tail": "STI",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Condoms",
+    "head_type": "Intervention",
+    "relation": "are_needed_after",
+    "tail": "menopause",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Menopause",
+    "head_type": "Condition",
+    "relation": "is_a_type_of",
+    "tail": "Natural biological occurrence",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Menopause",
+    "head_type": "Condition",
+    "relation": "is_a_symptom_of",
+    "tail": "Last period",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Menopausal transition",
+    "head_type": "Condition",
+    "relation": "is_a_type_of",
+    "tail": "Perimenopause",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Menopausal transition",
+    "head_type": "Condition",
+    "relation": "causes",
+    "tail": "Hormone level variation",
+    "tail_type": "Biomarker"
+  },
+  {
+    "head": "Menopausal transition",
+    "head_type": "Condition",
+    "relation": "causes",
+    "tail": "Hot flashes",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Menopausal transition",
+    "head_type": "Condition",
+    "relation": "causes",
+    "tail": "Sleep problems",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Hormone Replacement Therapy (HRT)",
+    "head_type": "Treatment",
+    "relation": "may_mitigate",
+    "tail": "Menopause symptoms",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "SWAN",
+    "head_type": "Study",
+    "relation": "studies",
+    "tail": "Menopause",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "SWAN",
+    "head_type": "Study",
+    "relation": "studies",
+    "tail": "Midlife changes",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "SWAN",
+    "head_type": "Study",
+    "relation": "studies",
+    "tail": "Racial and ethnic differences",
+    "tail_type": "Outcome"
+  },
+  {
+    "head": "NIA",
+    "head_type": "Organization",
+    "relation": "funds",
+    "tail": "Menopause research",
+    "tail_type": "Research"
+  },
+  {
+    "head": "NIA",
+    "head_type": "Organization",
+    "relation": "promotes",
+    "tail": "Healthy aging",
+    "tail_type": "Outcome"
+  },
+  {
+    "head": "Menopausal transition",
+    "head_type": "Condition",
+    "relation": "influences",
+    "tail": "cardiovascular health",
+    "tail_type": "Outcome"
+  },
+  {
+    "head": "Chronological aging",
+    "head_type": "Condition",
+    "relation": "influences",
+    "tail": "high blood pressure",
+    "tail_type": "Outcome"
+  },
+  {
+    "head": "Chronological aging",
+    "head_type": "Condition",
+    "relation": "influences",
+    "tail": "Body Mass Index (BMI)",
+    "tail_type": "Biomarker"
+  },
+  {
+    "head": "Vascular risk factors",
+    "head_type": "Risk",
+    "relation": "related_to",
+    "tail": "decline in cognitive processing",
+    "tail_type": "Outcome"
+  },
+  {
+    "head": "Vascular risk factors",
+    "head_type": "Risk",
+    "relation": "includes",
+    "tail": "diabetes",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Vascular risk factors",
+    "head_type": "Risk",
+    "relation": "includes",
+    "tail": "high blood sugar",
+    "tail_type": "Biomarker"
+  },
+  {
+    "head": "Vascular risk factors",
+    "head_type": "Risk",
+    "relation": "includes",
+    "tail": "excess belly fat",
+    "tail_type": "Biomarker"
+  },
+  {
+    "head": "Vascular risk factors",
+    "head_type": "Risk",
+    "relation": "includes",
+    "tail": "high blood pressure",
+    "tail_type": "Biomarker"
+  },
+  {
+    "head": "Vascular risk factors",
+    "head_type": "Risk",
+    "relation": "includes",
+    "tail": "high cholesterol",
+    "tail_type": "Biomarker"
+  },
+  {
+    "head": "Menstrual cycle length",
+    "head_type": "Biomarker",
+    "relation": "tied_to",
+    "tail": "vascular health",
+    "tail_type": "Outcome"
+  },
+  {
+    "head": "Increased cycle length",
+    "head_type": "Biomarker",
+    "relation": "associated_with",
+    "tail": "thicker arterial walls",
+    "tail_type": "Outcome"
+  },
+  {
+    "head": "Menopause",
+    "head_type": "Condition",
+    "relation": "contributes_to",
+    "tail": "structural and functional vascular changes",
+    "tail_type": "Outcome"
+  },
+  {
+    "head": "Final menstrual period",
+    "head_type": "Event",
+    "relation": "followed_by",
+    "tail": "increased arterial stiffness",
+    "tail_type": "Outcome"
+  },
+  {
+    "head": "Hormone Replacement Therapy (HRT)",
+    "head_type": "Treatment",
+    "relation": "may_have",
+    "tail": "more benefit and less risk during menopausal transition",
+    "tail_type": "Outcome"
+  },
+  {
+    "head": "Kronos Early Estrogen Prevention Study (KEEPS)",
+    "head_type": "Study",
+    "relation": "designed_to_understand",
+    "tail": "effects of timely menopausal hormone therapy (MHT)",
+    "tail_type": "Intervention"
+  },
+  {
+    "head": "Menopausal Hormone Therapy (MHT)",
+    "head_type": "Treatment",
+    "relation": "reduces",
+    "tail": "menopausal symptoms",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Menopausal Hormone Therapy (MHT)",
+    "head_type": "Treatment",
+    "relation": "reduces",
+    "tail": "hot flashes",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Menopausal Hormone Therapy (MHT)",
+    "head_type": "Treatment",
+    "relation": "reduces",
+    "tail": "night sweats",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Menopausal Hormone Therapy (MHT)",
+    "head_type": "Treatment",
+    "relation": "reduces",
+    "tail": "poor sleep",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Conjugated Estrogen",
+    "head_type": "Treatment",
+    "relation": "is_a_form_of",
+    "tail": "Menopausal Hormone Therapy (MHT)",
+    "tail_type": "Treatment"
+  },
+  {
+    "head": "Estradiol",
+    "head_type": "Treatment",
+    "relation": "is_a_form_of",
+    "tail": "Menopausal Hormone Therapy (MHT)",
+    "tail_type": "Treatment"
+  },
+  {
+    "head": "Estradiol",
+    "head_type": "Treatment",
+    "relation": "improves",
+    "tail": "sexual function",
+    "tail_type": "Outcome"
+  },
+  {
+    "head": "Estrogen Treatment",
+    "head_type": "Treatment",
+    "relation": "improves",
+    "tail": "mood",
+    "tail_type": "Outcome"
+  },
+  {
+    "head": "Menopausal Hormone Therapy (MHT)",
+    "head_type": "Treatment",
+    "relation": "maintains",
+    "tail": "bone density",
+    "tail_type": "Outcome"
+  },
+  {
+    "head": "Menopausal Hormone Therapy (MHT)",
+    "head_type": "Treatment",
+    "relation": "decreases",
+    "tail": "insulin resistance",
+    "tail_type": "Outcome"
+  },
+  {
+    "head": "Menopausal Hormone Therapy (MHT)",
+    "head_type": "Treatment",
+    "relation": "does_not_increase_risk",
+    "tail": "cardiovascular events",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Menopausal Hormone Therapy (MHT)",
+    "head_type": "Treatment",
+    "relation": "does_not_increase_risk",
+    "tail": "cognitive events",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Menopausal Hormone Therapy (MHT)",
+    "head_type": "Treatment",
+    "relation": "does_not_increase_risk",
+    "tail": "breast cancer",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Cognitive Behavioral Therapy for Insomnia",
+    "head_type": "Treatment",
+    "relation": "improves",
+    "tail": "sleep",
+    "tail_type": "Outcome"
+  },
+  {
+    "head": "Escitalopram",
+    "head_type": "Medication",
+    "relation": "improves",
+    "tail": "menopausal symptoms",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Venlafaxine",
+    "head_type": "Medication",
+    "relation": "improves",
+    "tail": "menopausal symptoms",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Venlafaxine",
+    "head_type": "Medication",
+    "relation": "has_similar_effects_to",
+    "tail": "low-dose estradiol MHT",
+    "tail_type": "Treatment"
+  },
+  {
+    "head": "U.S. Preventive Services Task Force",
+    "head_type": "Organization",
+    "relation": "does_not_recommend",
+    "tail": "hormone therapy for prevention of chronic conditions",
+    "tail_type": "Intervention"
+  },
+  {
+    "head": "American College of Obstetricians and Gynecologists",
+    "head_type": "Organization",
+    "relation": "provides_guidance_on",
+    "tail": "hormone therapy",
+    "tail_type": "Treatment"
+  },
+  {
+    "head": "North American Menopause Society",
+    "head_type": "Organization",
+    "relation": "provides_guidance_on",
+    "tail": "hormone therapy",
+    "tail_type": "Treatment"
+  },
+  {
+    "head": "SNRI",
+    "head_type": "Treatment",
+    "relation": "showed_similar_effects_to",
+    "tail": "low-dose estradiol MHT",
+    "tail_type": "Treatment"
+  },
+  {
+    "head": "low-dose estradiol MHT",
+    "head_type": "Treatment",
+    "relation": "treats",
+    "tail": "hot flashes",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "My Menoplan website",
+    "head_type": "Intervention",
+    "relation": "developed_by",
+    "tail": "MsFLASH network",
+    "tail_type": "Intervention"
+  },
+  {
+    "head": "menopause",
+    "head_type": "Condition",
+    "relation": "may_have_connection_to",
+    "tail": "brain health",
+    "tail_type": "Outcome"
+  },
+  {
+    "head": "menopausal transition",
+    "head_type": "Condition",
+    "relation": "affects",
+    "tail": "brain structure, connectivity, and energy process",
+    "tail_type": "Outcome"
+  },
+  {
+    "head": "menopausal ovarian aging",
+    "head_type": "Condition",
+    "relation": "is_specific_to",
+    "tail": "brain changes",
+    "tail_type": "Outcome"
+  },
+  {
+    "head": "amyloid plaques",
+    "head_type": "Biomarker",
+    "relation": "is_a_hallmark_of",
+    "tail": "Alzheimer\u2019s disease",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "APOE \u03b5 4",
+    "head_type": "Biomarker",
+    "relation": "associated_with",
+    "tail": "increased risk for Alzheimer\u2019s disease",
+    "tail_type": "Risk"
+  },
+  {
+    "head": "perimenopausal and postmenopausal women",
+    "head_type": "Population",
+    "relation": "have_more_buildup_of",
+    "tail": "amyloid plaques",
+    "tail_type": "Biomarker"
+  },
+  {
+    "head": "menopausal symptoms",
+    "head_type": "Symptom",
+    "relation": "may_be_key_factors_for",
+    "tail": "menopause-related changes in brain health",
+    "tail_type": "Outcome"
+  },
+  {
+    "head": "vasomotor symptoms",
+    "head_type": "Symptom",
+    "relation": "associated_with",
+    "tail": "poorer verbal memory",
+    "tail_type": "Outcome"
+  },
+  {
+    "head": "night sweats",
+    "head_type": "Symptom",
+    "relation": "associated_with",
+    "tail": "white matter hyperintensities",
+    "tail_type": "Biomarker"
+  },
+  {
+    "head": "menopausal symptoms",
+    "head_type": "Symptom",
+    "relation": "tied_to",
+    "tail": "nervous system",
+    "tail_type": "Outcome"
+  },
+  {
+    "head": "vasomotor symptoms",
+    "head_type": "Symptom",
+    "relation": "linked_to",
+    "tail": "greater risk of cardiovascular disease",
+    "tail_type": "Risk"
+  },
+  {
+    "head": "poor sleep",
+    "head_type": "Symptom",
+    "relation": "linked_to",
+    "tail": "greater risk of cardiovascular disease",
+    "tail_type": "Risk"
+  },
+  {
+    "head": "cardiovascular disease",
+    "head_type": "Condition",
+    "relation": "is_a_risk_factor_for",
+    "tail": "Alzheimer\u2019s disease",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "cardiovascular disease",
+    "head_type": "Condition",
+    "relation": "is_a_risk_factor_for",
+    "tail": "vascular dementia",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "white matter hyperintensities",
+    "head_type": "Biomarker",
+    "relation": "is_a_risk_factor_for",
+    "tail": "Alzheimer\u2019s disease",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "white matter hyperintensities",
+    "head_type": "Biomarker",
+    "relation": "is_a_risk_factor_for",
+    "tail": "vascular dementia",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "women",
+    "head_type": "Population",
+    "relation": "face_disproportionate_burden_of",
+    "tail": "Alzheimer\u2019s disease",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "MsBrain",
+    "head_type": "Study",
+    "relation": "assesses",
+    "tail": "vasomotor symptoms, cardiovascular health, sleep, cognition, brain function and structure",
+    "tail_type": "Outcome"
+  },
+  {
+    "head": "MsBrain I",
+    "head_type": "Study",
+    "relation": "is_part_of",
+    "tail": "MsBrain",
+    "tail_type": "Study"
+  },
+  {
+    "head": "MsBrain II",
+    "head_type": "Study",
+    "relation": "will_invite_back",
+    "tail": "160 of the 230 participants from MsBrain I",
+    "tail_type": "Population"
+  },
+  {
+    "head": "Women's Health Initiative (WHI)",
+    "head_type": "Intervention",
+    "relation": "focuses_on",
+    "tail": "preventing heart disease",
+    "tail_type": "Outcome"
+  },
+  {
+    "head": "Women's Health Initiative (WHI)",
+    "head_type": "Intervention",
+    "relation": "focuses_on",
+    "tail": "preventing breast cancer",
+    "tail_type": "Outcome"
+  },
+  {
+    "head": "Women's Health Initiative (WHI)",
+    "head_type": "Intervention",
+    "relation": "focuses_on",
+    "tail": "preventing colorectal cancer",
+    "tail_type": "Outcome"
+  },
+  {
+    "head": "Women's Health Initiative (WHI)",
+    "head_type": "Intervention",
+    "relation": "focuses_on",
+    "tail": "preventing osteoporosis",
+    "tail_type": "Outcome"
+  },
+  {
+    "head": "Women's Health Initiative (WHI)",
+    "head_type": "Intervention",
+    "relation": "targets_population",
+    "tail": "postmenopausal women",
+    "tail_type": "Population"
+  },
+  {
+    "head": "Women's Health Initiative (WHI)",
+    "head_type": "Intervention",
+    "relation": "includes",
+    "tail": "clinical trial",
+    "tail_type": "Study Type"
+  },
+  {
+    "head": "Women's Health Initiative (WHI)",
+    "head_type": "Intervention",
+    "relation": "includes",
+    "tail": "observational study",
+    "tail_type": "Study Type"
+  },
+  {
+    "head": "Women's Health Initiative (WHI)",
+    "head_type": "Intervention",
+    "relation": "includes",
+    "tail": "community prevention study",
+    "tail_type": "Study Type"
+  },
+  {
+    "head": "Women's Health Initiative (WHI)",
+    "head_type": "Intervention",
+    "relation": "found",
+    "tail": "hormone replacement therapy did not prevent heart disease",
+    "tail_type": "Finding"
+  },
+  {
+    "head": "Women's Health Initiative (WHI)",
+    "head_type": "Intervention",
+    "relation": "contributes_to",
+    "tail": "scientific discoveries",
+    "tail_type": "Outcome"
+  },
+  {
+    "head": "Women's Health Initiative (WHI)",
+    "head_type": "Intervention",
+    "relation": "helps",
+    "tail": "women and healthcare providers make informed decisions",
+    "tail_type": "Outcome"
+  },
+  {
+    "head": "Women's Health Initiative (WHI)",
+    "head_type": "Intervention",
+    "relation": "includes",
+    "tail": "Long Life Study (LLS)",
+    "tail_type": "Study Type"
+  },
+  {
+    "head": "Women's Health Initiative (WHI)",
+    "head_type": "Intervention",
+    "relation": "includes",
+    "tail": "Women's Health Initiative Strong and Healthy Study (WHISH)",
+    "tail_type": "Study Type"
+  },
+  {
+    "head": "Women's Health Initiative (WHI)",
+    "head_type": "Intervention",
+    "relation": "includes",
+    "tail": "Objective Physical Activity and Cardiovascular Health Study (OPACH)",
+    "tail_type": "Study Type"
+  },
+  {
+    "head": "Women's Health Initiative (WHI)",
+    "head_type": "Intervention",
+    "relation": "includes",
+    "tail": "Women's Health Initiative Sleep Hypoxia Effects on Resilience (WHISPER)",
+    "tail_type": "Study Type"
+  },
+  {
+    "head": "Women's Health Initiative Sleep Hypoxia Effects on Resilience (WHISPER)",
+    "head_type": "Study Type",
+    "relation": "studies",
+    "tail": "sleep-disordered breathing",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Women's Health Initiative Sleep Hypoxia Effects on Resilience (WHISPER)",
+    "head_type": "Study Type",
+    "relation": "studies",
+    "tail": "risk of heart attack",
+    "tail_type": "Outcome"
+  },
+  {
+    "head": "Women's Health Initiative Sleep Hypoxia Effects on Resilience (WHISPER)",
+    "head_type": "Study Type",
+    "relation": "studies",
+    "tail": "risk of stroke",
+    "tail_type": "Outcome"
+  },
+  {
+    "head": "Women's Health Initiative Sleep Hypoxia Effects on Resilience (WHISPER)",
+    "head_type": "Study Type",
+    "relation": "studies",
+    "tail": "risk of heart failure",
+    "tail_type": "Outcome"
+  },
+  {
+    "head": "Women's Health Initiative Sleep Hypoxia Effects on Resilience (WHISPER)",
+    "head_type": "Study Type",
+    "relation": "studies",
+    "tail": "risk of cancer",
+    "tail_type": "Outcome"
+  },
+  {
+    "head": "Women's Health Initiative Sleep Hypoxia Effects on Resilience (WHISPER)",
+    "head_type": "Study Type",
+    "relation": "studies",
+    "tail": "risk of cognitive decline",
+    "tail_type": "Outcome"
+  },
+  {
+    "head": "Women's Health Initiative (WHI)",
+    "head_type": "Intervention",
+    "relation": "sponsored_by",
+    "tail": "National Heart, Lung, and Blood Institute (NHLBI)",
+    "tail_type": "Organization"
+  },
+  {
+    "head": "Estrogen plus progestin hormone therapy",
+    "head_type": "Treatment",
+    "relation": "increases_risk_of",
+    "tail": "Heart disease",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Estrogen plus progestin hormone therapy",
+    "head_type": "Treatment",
+    "relation": "increases_risk_of",
+    "tail": "Stroke",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Estrogen plus progestin hormone therapy",
+    "head_type": "Treatment",
+    "relation": "increases_risk_of",
+    "tail": "Blood clots",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Estrogen plus progestin hormone therapy",
+    "head_type": "Treatment",
+    "relation": "increases_risk_of",
+    "tail": "Breast cancer",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Estrogen plus progestin hormone therapy",
+    "head_type": "Treatment",
+    "relation": "increases_risk_of",
+    "tail": "Dementia",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Estrogen alone hormone therapy",
+    "head_type": "Treatment",
+    "relation": "may_benefit",
+    "tail": "Younger women with prior hysterectomy",
+    "tail_type": "Population"
+  },
+  {
+    "head": "Estrogen alone hormone therapy",
+    "head_type": "Treatment",
+    "relation": "increases_risk_of",
+    "tail": "Stroke",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Estrogen alone hormone therapy",
+    "head_type": "Treatment",
+    "relation": "increases_risk_of",
+    "tail": "Blood clots",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Hormone therapy",
+    "head_type": "Treatment",
+    "relation": "should_not_be_used_to_prevent",
+    "tail": "Heart disease",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Hormone therapy",
+    "head_type": "Treatment",
+    "relation": "should_not_be_used_to_lower",
+    "tail": "Cholesterol levels",
+    "tail_type": "Biomarker"
+  },
+  {
+    "head": "Hormone therapy",
+    "head_type": "Treatment",
+    "relation": "is_an_option_for",
+    "tail": "Relieving moderate to severe symptoms early in menopause",
+    "tail_type": "Outcome"
+  },
+  {
+    "head": "Low-fat diet",
+    "head_type": "Lifestyle Factor",
+    "relation": "does_not_reduce_risk_of",
+    "tail": "Breast cancer",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Low-fat diet",
+    "head_type": "Lifestyle Factor",
+    "relation": "does_not_reduce_risk_of",
+    "tail": "Heart disease",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Low-fat diet",
+    "head_type": "Lifestyle Factor",
+    "relation": "does_not_reduce_risk_of",
+    "tail": "Stroke",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Low-fat diet",
+    "head_type": "Lifestyle Factor",
+    "relation": "does_not_reduce_risk_of",
+    "tail": "Colorectal cancer",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Low-fat diet",
+    "head_type": "Lifestyle Factor",
+    "relation": "reduces_risk_of",
+    "tail": "Ovarian cancer",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Calcium and vitamin D supplements",
+    "head_type": "Supplement",
+    "relation": "provide_modest_benefit_for",
+    "tail": "Preserving bone mass",
+    "tail_type": "Outcome"
+  },
+  {
+    "head": "Calcium and vitamin D supplements",
+    "head_type": "Supplement",
+    "relation": "prevent",
+    "tail": "Hip fractures",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Calcium and vitamin D supplements",
+    "head_type": "Supplement",
+    "relation": "do_not_prevent",
+    "tail": "Other types of fractures",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Calcium and vitamin D supplements",
+    "head_type": "Supplement",
+    "relation": "do_not_prevent",
+    "tail": "Colorectal cancer",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Women's Health Initiative (WHI)",
+    "head_type": "Intervention",
+    "relation": "enrolled",
+    "tail": "postmenopausal women",
+    "tail_type": "Population"
+  },
+  {
+    "head": "postmenopausal women",
+    "head_type": "Population",
+    "relation": "age_range",
+    "tail": "50 to 79",
+    "tail_type": "Population"
+  },
+  {
+    "head": "hormone therapy",
+    "head_type": "Treatment",
+    "relation": "studied_for",
+    "tail": "prevention of heart disease",
+    "tail_type": "Outcome"
+  },
+  {
+    "head": "hormone therapy",
+    "head_type": "Treatment",
+    "relation": "studied_for",
+    "tail": "prevention of osteoporosis",
+    "tail_type": "Outcome"
+  },
+  {
+    "head": "hormone therapy",
+    "head_type": "Treatment",
+    "relation": "associated_risk_of",
+    "tail": "breast cancer",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "diet low in fat and high in fruits, vegetables, and grains",
+    "head_type": "Lifestyle Factor",
+    "relation": "studied_for",
+    "tail": "effect on breast cancer",
+    "tail_type": "Outcome"
+  },
+  {
+    "head": "diet low in fat and high in fruits, vegetables, and grains",
+    "head_type": "Lifestyle Factor",
+    "relation": "studied_for",
+    "tail": "effect on colorectal cancer",
+    "tail_type": "Outcome"
+  },
+  {
+    "head": "diet low in fat and high in fruits, vegetables, and grains",
+    "head_type": "Lifestyle Factor",
+    "relation": "studied_for",
+    "tail": "effect on heart disease",
+    "tail_type": "Outcome"
+  },
+  {
+    "head": "calcium and vitamin D supplements",
+    "head_type": "Supplement",
+    "relation": "studied_for",
+    "tail": "prevention of osteoporosis-related fractures",
+    "tail_type": "Outcome"
+  },
+  {
+    "head": "calcium and vitamin D supplements",
+    "head_type": "Supplement",
+    "relation": "studied_for",
+    "tail": "prevention of colorectal cancer",
+    "tail_type": "Outcome"
+  },
+  {
+    "head": "WHI observational study",
+    "head_type": "Study",
+    "relation": "tracked",
+    "tail": "medical histories and health habits",
+    "tail_type": "Outcome"
+  },
+  {
+    "head": "WHI community prevention study",
+    "head_type": "Study",
+    "relation": "aimed_to_develop",
+    "tail": "model programs",
+    "tail_type": "Intervention"
+  },
+  {
+    "head": "model programs",
+    "head_type": "Intervention",
+    "relation": "encourage",
+    "tail": "healthy behaviors",
+    "tail_type": "Lifestyle Factor"
+  },
+  {
+    "head": "healthy behaviors",
+    "head_type": "Lifestyle Factor",
+    "relation": "includes",
+    "tail": "improving diet",
+    "tail_type": "Lifestyle Factor"
+  },
+  {
+    "head": "healthy behaviors",
+    "head_type": "Lifestyle Factor",
+    "relation": "includes",
+    "tail": "quitting smoking",
+    "tail_type": "Lifestyle Factor"
+  },
+  {
+    "head": "healthy behaviors",
+    "head_type": "Lifestyle Factor",
+    "relation": "includes",
+    "tail": "increasing physical activity",
+    "tail_type": "Lifestyle Factor"
+  },
+  {
+    "head": "Menopause",
+    "head_type": "Condition",
+    "relation": "is_a_part_of",
+    "tail": "woman's life",
+    "tail_type": "Population"
+  },
+  {
+    "head": "Menopause",
+    "head_type": "Condition",
+    "relation": "is_a_type_of",
+    "tail": "the change of life",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Menopause",
+    "head_type": "Condition",
+    "relation": "occurs_at_average_age",
+    "tail": "52",
+    "tail_type": "Outcome"
+  },
+  {
+    "head": "Menopause",
+    "head_type": "Condition",
+    "relation": "is_characterized_by",
+    "tail": "periods stop permanently",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Menopause",
+    "head_type": "Condition",
+    "relation": "is_characterized_by",
+    "tail": "no longer get pregnant",
+    "tail_type": "Outcome"
+  },
+  {
+    "head": "Menopause",
+    "head_type": "Condition",
+    "relation": "is_confirmed_after",
+    "tail": "12 months without bleeding",
+    "tail_type": "Outcome"
+  },
+  {
+    "head": "Menopause",
+    "head_type": "Condition",
+    "relation": "causes",
+    "tail": "low levels of estrogen and progesterone",
+    "tail_type": "Biomarker"
+  },
+  {
+    "head": "Low levels of estrogen and progesterone",
+    "head_type": "Biomarker",
+    "relation": "increases_risk_of",
+    "tail": "certain health problems",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Perimenopause",
+    "head_type": "Condition",
+    "relation": "is_a_transition_to",
+    "tail": "Menopause",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Perimenopause",
+    "head_type": "Condition",
+    "relation": "is_characterized_by",
+    "tail": "irregular periods",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Perimenopause",
+    "head_type": "Condition",
+    "relation": "is_characterized_by",
+    "tail": "hormone levels change randomly",
+    "tail_type": "Biomarker"
+  },
+  {
+    "head": "Perimenopause",
+    "head_type": "Condition",
+    "relation": "is_characterized_by",
+    "tail": "hot flashes",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Perimenopause",
+    "head_type": "Condition",
+    "relation": "starts_in",
+    "tail": "mid- to late 40s",
+    "tail_type": "Outcome"
+  },
+  {
+    "head": "Perimenopause",
+    "head_type": "Condition",
+    "relation": "lasts_for_average",
+    "tail": "four years",
+    "tail_type": "Outcome"
+  },
+  {
+    "head": "Irregular periods",
+    "head_type": "Symptom",
+    "relation": "may_be_a_sign_of",
+    "tail": "Menopause",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Hot flashes",
+    "head_type": "Symptom",
+    "relation": "may_occur_during",
+    "tail": "Perimenopause",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Hot flashes",
+    "head_type": "Symptom",
+    "relation": "may_occur_during",
+    "tail": "Menopause",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Moodiness",
+    "head_type": "Symptom",
+    "relation": "is_similar_to",
+    "tail": "premenstrual syndrome (PMS)",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Menstrual periods",
+    "head_type": "Symptom",
+    "relation": "may become",
+    "tail": "irregular",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Menstrual periods",
+    "head_type": "Symptom",
+    "relation": "may last",
+    "tail": "longer",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Menstrual periods",
+    "head_type": "Symptom",
+    "relation": "may last",
+    "tail": "shorter",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Menstrual periods",
+    "head_type": "Symptom",
+    "relation": "may be",
+    "tail": "heavier",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Menstrual periods",
+    "head_type": "Symptom",
+    "relation": "may be",
+    "tail": "lighter",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Menopause",
+    "head_type": "Condition",
+    "relation": "is_a_symptom_of",
+    "tail": "Hot flashes",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Menopause",
+    "head_type": "Condition",
+    "relation": "is_a_symptom_of",
+    "tail": "Problems sleeping",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Menopause",
+    "head_type": "Condition",
+    "relation": "is_a_symptom_of",
+    "tail": "Mood swings",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Menopause",
+    "head_type": "Condition",
+    "relation": "is_a_symptom_of",
+    "tail": "Irritability",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Menopause",
+    "head_type": "Condition",
+    "relation": "is_a_symptom_of",
+    "tail": "Vaginal dryness",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Menopause",
+    "head_type": "Condition",
+    "relation": "is_a_symptom_of",
+    "tail": "Uncomfortable or painful sex",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Menopause",
+    "head_type": "Condition",
+    "relation": "is_a_symptom_of",
+    "tail": "Less interest in sex",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Menopause",
+    "head_type": "Condition",
+    "relation": "is_a_symptom_of",
+    "tail": "Longer arousal time",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Less estrogen",
+    "head_type": "Biomarker",
+    "relation": "can lead to",
+    "tail": "Osteoporosis",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Changing estrogen levels",
+    "head_type": "Biomarker",
+    "relation": "can raise",
+    "tail": "Cholesterol levels",
+    "tail_type": "Biomarker"
+  },
+  {
+    "head": "Changing estrogen levels",
+    "head_type": "Biomarker",
+    "relation": "increase_risk_of",
+    "tail": "Heart disease",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Changing estrogen levels",
+    "head_type": "Biomarker",
+    "relation": "increase_risk_of",
+    "tail": "Stroke",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Perimenopause",
+    "head_type": "Condition",
+    "relation": "can last",
+    "tail": "two to eight years",
+    "tail_type": "Outcome"
+  },
+  {
+    "head": "Menopause",
+    "head_type": "Condition",
+    "relation": "is_reached_after",
+    "tail": "12 months without a period",
+    "tail_type": "Outcome"
+  },
+  {
+    "head": "Perimenopause",
+    "head_type": "Condition",
+    "relation": "requires",
+    "tail": "Birth control",
+    "tail_type": "Intervention"
+  },
+  {
+    "head": "Smoking",
+    "head_type": "Lifestyle Factor",
+    "relation": "can cause",
+    "tail": "Earlier menopause",
+    "tail_type": "Outcome"
+  },
+  {
+    "head": "Chemotherapy",
+    "head_type": "Intervention",
+    "relation": "can cause",
+    "tail": "Earlier menopause",
+    "tail_type": "Outcome"
+  },
+  {
+    "head": "Surgery to remove both ovaries",
+    "head_type": "Intervention",
+    "relation": "can cause",
+    "tail": "Earlier menopause",
+    "tail_type": "Outcome"
+  },
+  {
+    "head": "Vaginal dryness or irritation",
+    "head_type": "Symptom",
+    "relation": "can cause",
+    "tail": "Small cuts or tears during sex",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Small cuts or tears during sex",
+    "head_type": "Symptom",
+    "relation": "increase_risk_of",
+    "tail": "STIs",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Menopause symptoms",
+    "head_type": "Symptom",
+    "relation": "may_go_away_without",
+    "tail": "Treatment",
+    "tail_type": "Intervention"
+  },
+  {
+    "head": "Menopause symptoms",
+    "head_type": "Symptom",
+    "relation": "may_not_be",
+    "tail": "Uncomfortable",
+    "tail_type": "Outcome"
+  },
+  {
+    "head": "Low-dose hormonal birth control",
+    "head_type": "Treatment",
+    "relation": "may_help_with",
+    "tail": "Hot flashes",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Low-dose hormonal birth control",
+    "head_type": "Treatment",
+    "relation": "may_help_with",
+    "tail": "Vaginal dryness",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Low-dose hormonal birth control",
+    "head_type": "Treatment",
+    "relation": "may_help_with",
+    "tail": "Mood swings",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Low-dose hormonal birth control",
+    "head_type": "Treatment",
+    "relation": "may_help_with",
+    "tail": "Heavy or irregular periods",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Hormonal birth control",
+    "head_type": "Treatment",
+    "relation": "raises_risk_of",
+    "tail": "Blood clots",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Hormonal birth control",
+    "head_type": "Treatment",
+    "relation": "raises_risk_of",
+    "tail": "High blood pressure",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Menopausal hormone therapy",
+    "head_type": "Treatment",
+    "relation": "treats",
+    "tail": "Menopause symptoms",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Menopausal hormone therapy",
+    "head_type": "Treatment",
+    "relation": "raises_risk_of",
+    "tail": "Blood clots",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Menopausal hormone therapy",
+    "head_type": "Treatment",
+    "relation": "raises_risk_of",
+    "tail": "Stroke",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Menopausal hormone therapy",
+    "head_type": "Treatment",
+    "relation": "raises_risk_of",
+    "tail": "Some cancers",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Fluoxetine",
+    "head_type": "Medication",
+    "relation": "treats",
+    "tail": "Hot flashes",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Ospemifene",
+    "head_type": "Medication",
+    "relation": "treats",
+    "tail": "Vaginal dryness",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Ospemifene",
+    "head_type": "Medication",
+    "relation": "treats",
+    "tail": "Painful sex",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Fezolinetant",
+    "head_type": "Medication",
+    "relation": "treats",
+    "tail": "Hot flashes",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Fezolinetant",
+    "head_type": "Medication",
+    "relation": "may_cause",
+    "tail": "Severe liver injury",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Prasterone",
+    "head_type": "Medication",
+    "relation": "treats",
+    "tail": "Pain during sex",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Prasterone",
+    "head_type": "Medication",
+    "relation": "treats",
+    "tail": "Vaginal dryness",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Over-the-counter products",
+    "head_type": "Treatment",
+    "relation": "treat",
+    "tail": "Vaginal discomfort",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Over-the-counter products",
+    "head_type": "Treatment",
+    "relation": "treat",
+    "tail": "Vaginal dryness",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Over-the-counter products",
+    "head_type": "Treatment",
+    "relation": "treat",
+    "tail": "Pain",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Water-based vaginal lubricant",
+    "head_type": "Treatment",
+    "relation": "helps_with",
+    "tail": "Comfortable sex",
+    "tail_type": "Outcome"
+  },
+  {
+    "head": "Vaginal moisturizer",
+    "head_type": "Treatment",
+    "relation": "helps_with",
+    "tail": "Moisture in vaginal tissues",
+    "tail_type": "Outcome"
+  },
+  {
+    "head": "Vaginal moisturizer",
+    "head_type": "Treatment",
+    "relation": "helps_with",
+    "tail": "Comfortable sex",
+    "tail_type": "Outcome"
+  },
+  {
+    "head": "Estrogen creams, tablets, or rings",
+    "head_type": "Treatment",
+    "relation": "treat",
+    "tail": "Vaginal discomfort",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Estrogen creams, tablets, or rings",
+    "head_type": "Treatment",
+    "relation": "treat",
+    "tail": "Vaginal dryness",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Estrogen creams, tablets, or rings",
+    "head_type": "Treatment",
+    "relation": "treat",
+    "tail": "Pain",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Menopausal hormone therapy",
+    "head_type": "Treatment",
+    "relation": "may_help_with",
+    "tail": "Severe vaginal dryness",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Menopausal hormone therapy",
+    "head_type": "Treatment",
+    "relation": "relieves",
+    "tail": "Menopause symptoms",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Menopausal hormone therapy",
+    "head_type": "Treatment",
+    "relation": "relieves",
+    "tail": "Hot flashes",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Menopausal hormone therapy",
+    "head_type": "Treatment",
+    "relation": "relieves",
+    "tail": "Vaginal dryness",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Perimenopause",
+    "head_type": "Condition",
+    "relation": "associated_with",
+    "tail": "Low levels of estrogen and progesterone",
+    "tail_type": "Biomarker"
+  },
+  {
+    "head": "Menopause",
+    "head_type": "Condition",
+    "relation": "associated_with",
+    "tail": "Low levels of estrogen and progesterone",
+    "tail_type": "Biomarker"
+  },
+  {
+    "head": "Menopausal hormone therapy",
+    "head_type": "Treatment",
+    "relation": "replaces",
+    "tail": "Estrogen and progesterone",
+    "tail_type": "Biomarker"
+  },
+  {
+    "head": "Menopausal hormone therapy",
+    "head_type": "Treatment",
+    "relation": "treats",
+    "tail": "Hot flashes",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Menopausal hormone therapy",
+    "head_type": "Treatment",
+    "relation": "treats",
+    "tail": "Menopause symptoms",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Menopausal hormone therapy",
+    "head_type": "Treatment",
+    "relation": "administered_as",
+    "tail": "Pill",
+    "tail_type": "Intervention"
+  },
+  {
+    "head": "Menopausal hormone therapy",
+    "head_type": "Treatment",
+    "relation": "administered_as",
+    "tail": "Skin patch",
+    "tail_type": "Intervention"
+  },
+  {
+    "head": "Topical hormone therapy",
+    "head_type": "Treatment",
+    "relation": "does_not_treat",
+    "tail": "Hot flashes",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Topical hormone therapy",
+    "head_type": "Treatment",
+    "relation": "treats",
+    "tail": "Vaginal dryness",
+    "tail_type": "Symptom"
+  },
+  {
+    "head": "Topical hormone therapy",
+    "head_type": "Treatment",
+    "relation": "administered_as",
+    "tail": "Estrogen cream",
+    "tail_type": "Intervention"
+  },
+  {
+    "head": "Topical hormone therapy",
+    "head_type": "Treatment",
+    "relation": "administered_as",
+    "tail": "Vaginal ring",
+    "tail_type": "Intervention"
+  },
+  {
+    "head": "Topical hormone therapy",
+    "head_type": "Treatment",
+    "relation": "administered_as",
+    "tail": "Insert",
+    "tail_type": "Intervention"
+  },
+  {
+    "head": "Topical hormone therapy",
+    "head_type": "Treatment",
+    "relation": "administered_as",
+    "tail": "Gel",
+    "tail_type": "Intervention"
+  },
+  {
+    "head": "Menopausal hormone therapy",
+    "head_type": "Treatment",
+    "relation": "may_increase_risk_of",
+    "tail": "Stroke",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Menopausal hormone therapy",
+    "head_type": "Treatment",
+    "relation": "may_increase_risk_of",
+    "tail": "Blood clots",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Menopausal hormone therapy",
+    "head_type": "Treatment",
+    "relation": "may_increase_risk_of",
+    "tail": "Breast cancer",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Menopausal hormone therapy",
+    "head_type": "Treatment",
+    "relation": "may_increase_risk_of",
+    "tail": "Gallbladder disease",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Menopausal hormone therapy",
+    "head_type": "Treatment",
+    "relation": "may_increase_risk_of",
+    "tail": "Liver disease",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Menopausal hormone therapy",
+    "head_type": "Treatment",
+    "relation": "may_increase_risk_of",
+    "tail": "Heart disease",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Menopausal hormone therapy",
+    "head_type": "Treatment",
+    "relation": "recommended_for",
+    "tail": "Women up to age 59",
+    "tail_type": "Population"
+  },
+  {
+    "head": "Menopausal hormone therapy",
+    "head_type": "Treatment",
+    "relation": "recommended_for",
+    "tail": "Within 10 years of menopause",
+    "tail_type": "Condition"
+  },
+  {
+    "head": "Bioidentical hormone therapy",
+    "head_type": "Treatment",
+    "relation": "claimed_to_be",
+    "tail": "Same as natural hormones",
+    "tail_type": "Outcome"
+  },
+  {
+    "head": "Bioidentical hormone therapy",
+    "head_type": "Treatment",
+    "relation": "not_FDA_approved",
+    "tail": "Compounded drugs",
+    "tail_type": "Medication"
+  }
+]
